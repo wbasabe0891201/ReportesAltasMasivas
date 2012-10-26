@@ -1,0 +1,802 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="BGPR54" language="groovy" pageWidth="612" pageHeight="792" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20">
+	<property name="ireport.zoom" value="2.3579476910000117"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="537"/>
+	<queryString language="xPath">
+		<![CDATA[/Cuentas/Documento]]>
+	</queryString>
+	<field name="longitudReg" class="java.lang.String">
+		<fieldDescription><![CDATA[pagina/longitudReg]]></fieldDescription>
+	</field>
+	<field name="destinatario" class="java.lang.String">
+		<fieldDescription><![CDATA[pagina/destinatario]]></fieldDescription>
+	</field>
+	<field name="codForm" class="java.lang.String">
+		<fieldDescription><![CDATA[pagina/codForm]]></fieldDescription>
+	</field>
+	<field name="codEmpresa" class="java.lang.String">
+		<fieldDescription><![CDATA[pagina/codEmpresa]]></fieldDescription>
+	</field>
+	<field name="codProducto" class="java.lang.String">
+		<fieldDescription><![CDATA[pagina/codProducto]]></fieldDescription>
+	</field>
+	<field name="codSubProducto" class="java.lang.String">
+		<fieldDescription><![CDATA[pagina/codSubProducto]]></fieldDescription>
+	</field>
+	<field name="codEmpresa2" class="java.lang.String">
+		<fieldDescription><![CDATA[pagina/codEmpresa]]></fieldDescription>
+	</field>
+	<field name="nombreEmpresa" class="java.lang.String">
+		<fieldDescription><![CDATA[pagina/nombreEmpresa]]></fieldDescription>
+	</field>
+	<field name="nacionalidad" class="java.lang.String">
+		<fieldDescription><![CDATA[pagina/nacionalidad]]></fieldDescription>
+	</field>
+	<field name="cedIdentidad" class="java.lang.String">
+		<fieldDescription><![CDATA[pagina/cedIdentidad]]></fieldDescription>
+	</field>
+	<field name="nombreCliente" class="java.lang.String">
+		<fieldDescription><![CDATA[pagina/nombreCliente]]></fieldDescription>
+	</field>
+	<field name="dirCliente1" class="java.lang.String">
+		<fieldDescription><![CDATA[pagina/dirCliente1]]></fieldDescription>
+	</field>
+	<field name="dirCliente2" class="java.lang.String">
+		<fieldDescription><![CDATA[pagina/dirCliente2]]></fieldDescription>
+	</field>
+	<field name="dirCliente3" class="java.lang.String">
+		<fieldDescription><![CDATA[pagina/dirCliente3]]></fieldDescription>
+	</field>
+	<field name="dirCliente4" class="java.lang.String">
+		<fieldDescription><![CDATA[pagina/dirCliente4]]></fieldDescription>
+	</field>
+	<field name="codEmpresa3" class="java.lang.String">
+		<fieldDescription><![CDATA[pagina/codEmpresa]]></fieldDescription>
+	</field>
+	<field name="nombreOficina" class="java.lang.String">
+		<fieldDescription><![CDATA[pagina/nombreOficina]]></fieldDescription>
+	</field>
+	<field name="numCta" class="java.lang.String">
+		<fieldDescription><![CDATA[pagina/numCta]]></fieldDescription>
+	</field>
+	<field name="tipoCta" class="java.lang.String">
+		<fieldDescription><![CDATA[pagina/tipoCta]]></fieldDescription>
+	</field>
+	<field name="fechaApertura" class="java.lang.String">
+		<fieldDescription><![CDATA[pagina/fechaApertura]]></fieldDescription>
+	</field>
+	<field name="numCliente" class="java.lang.String">
+		<fieldDescription><![CDATA[pagina/numCliente]]></fieldDescription>
+	</field>
+	<field name="nombreCliente2" class="java.lang.String">
+		<fieldDescription><![CDATA[pagina/nombreCliente]]></fieldDescription>
+	</field>
+	<field name="codIdentificacion" class="java.lang.String">
+		<fieldDescription><![CDATA[pagina/codIdentificacion]]></fieldDescription>
+	</field>
+	<field name="cedRif" class="java.lang.String">
+		<fieldDescription><![CDATA[pagina/cedRif]]></fieldDescription>
+	</field>
+	<field name="nacionalidadAbrev" class="java.lang.String">
+		<fieldDescription><![CDATA[pagina/nacionalidadAbrev]]></fieldDescription>
+	</field>
+	<field name="edoCivil" class="java.lang.String">
+		<fieldDescription><![CDATA[pagina/edoCivil]]></fieldDescription>
+	</field>
+	<field name="codDivisa" class="java.lang.String">
+		<fieldDescription><![CDATA[pagina/codDivisa]]></fieldDescription>
+	</field>
+	<field name="codProducto2" class="java.lang.String">
+		<fieldDescription><![CDATA[pagina/codProducto]]></fieldDescription>
+	</field>
+	<field name="descripcionProducto" class="java.lang.String">
+		<fieldDescription><![CDATA[pagina/descripcionProducto]]></fieldDescription>
+	</field>
+	<field name="codSubProducto2" class="java.lang.String">
+		<fieldDescription><![CDATA[pagina/codSubProducto]]></fieldDescription>
+	</field>
+	<field name="sucursal" class="java.lang.String">
+		<fieldDescription><![CDATA[pagina/sucursal]]></fieldDescription>
+	</field>
+	<field name="fechaDB2" class="java.lang.String">
+		<fieldDescription><![CDATA[pagina/fechaDB2]]></fieldDescription>
+	</field>
+	<field name="tipoFirma" class="java.lang.String">
+		<fieldDescription><![CDATA[pagina/tipoFirma]]></fieldDescription>
+	</field>
+	<field name="descripcionTipoFirma" class="java.lang.String">
+		<fieldDescription><![CDATA[pagina/descripcionTipoFirma]]></fieldDescription>
+	</field>
+	<field name="fechaApertura2" class="java.lang.String">
+		<fieldDescription><![CDATA[pagina/fechaApertura]]></fieldDescription>
+	</field>
+	<field name="fechaModificacion" class="java.lang.String">
+		<fieldDescription><![CDATA[pagina/fechaModificacion]]></fieldDescription>
+	</field>
+	<field name="nombreFamiliar" class="java.lang.String">
+		<fieldDescription><![CDATA[pagina/nombreFamiliar]]></fieldDescription>
+	</field>
+	<field name="tipoParticipacion" class="java.lang.String">
+		<fieldDescription><![CDATA[pagina/tipoParticipacion]]></fieldDescription>
+	</field>
+	<field name="corasu" class="java.lang.String">
+		<fieldDescription><![CDATA[pagina/corasu]]></fieldDescription>
+	</field>
+	<field name="numCliente2" class="java.lang.String">
+		<fieldDescription><![CDATA[pagina/numCliente]]></fieldDescription>
+	</field>
+	<field name="nombreCliente3" class="java.lang.String">
+		<fieldDescription><![CDATA[pagina/nombreCliente]]></fieldDescription>
+	</field>
+	<field name="docIdentidad" class="java.lang.String">
+		<fieldDescription><![CDATA[pagina/docIdentidad]]></fieldDescription>
+	</field>
+	<field name="numContratoTarjeta" class="java.lang.String">
+		<fieldDescription><![CDATA[pagina/numContratoTarjeta]]></fieldDescription>
+	</field>
+	<field name="numTarjetaElect" class="java.lang.String">
+		<fieldDescription><![CDATA[pagina/numTarjetaElect]]></fieldDescription>
+	</field>
+	<field name="fechaEntrega" class="java.lang.String">
+		<fieldDescription><![CDATA[pagina/fechaEntrega]]></fieldDescription>
+	</field>
+	<field name="nombreCiudad" class="java.lang.String">
+		<fieldDescription><![CDATA[pagina/nombreCiudad]]></fieldDescription>
+	</field>
+	<field name="nombreOficina2" class="java.lang.String">
+		<fieldDescription><![CDATA[pagina/nombreOficina]]></fieldDescription>
+	</field>
+	<field name="tipoUsoCta" class="java.lang.String">
+		<fieldDescription><![CDATA[pagina/tipoUsoCta]]></fieldDescription>
+	</field>
+	<field name="nombreCliente4" class="java.lang.String">
+		<fieldDescription><![CDATA[pagina/nombreCliente]]></fieldDescription>
+	</field>
+	<field name="docIdentidad2" class="java.lang.String">
+		<fieldDescription><![CDATA[pagina/docIdentidad]]></fieldDescription>
+	</field>
+	<field name="descripcionTarjeta" class="java.lang.String">
+		<fieldDescription><![CDATA[pagina/descripcionTarjeta]]></fieldDescription>
+	</field>
+	<field name="ciudadFecha" class="java.lang.String">
+		<fieldDescription><![CDATA[pagina/ciudadFecha]]></fieldDescription>
+	</field>
+	<field name="fechaDiasLetras" class="java.lang.String">
+		<fieldDescription><![CDATA[pagina/fechaDiasLetras]]></fieldDescription>
+	</field>
+	<field name="nombreMes" class="java.lang.String">
+		<fieldDescription><![CDATA[pagina/nombreMes]]></fieldDescription>
+	</field>
+	<field name="anio" class="java.lang.String">
+		<fieldDescription><![CDATA[pagina/anio]]></fieldDescription>
+	</field>
+	<field name="numCtaTarjPopular" class="java.lang.String">
+		<fieldDescription><![CDATA[pagina/numCtaTarjPopular]]></fieldDescription>
+	</field>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<detail>
+		<band height="752" splitType="Stretch">
+			<image>
+				<reportElement x="0" y="0" width="124" height="18"/>
+				<imageExpression class="java.lang.String"><![CDATA["C:\\Users\\wbasabe\\TRABAJO\\BASABE CONSULTORES\\JMC\\solicitudes\\02_PROYECTO NOMINA PROVINCIAL\\MUESTRAS DIGITALES\\logo-Provincial-500.jpg"]]></imageExpression>
+			</image>
+			<textField>
+				<reportElement x="227" y="0" width="244" height="18"/>
+				<textElement textAlignment="Center">
+					<font fontName="SansSerif" size="10" isBold="true"/>
+				</textElement>
+				<textFieldExpression class="java.lang.String"><![CDATA["TARJETA DE REGISTRO DE FIRMAS"]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="445" y="27" width="76" height="12"/>
+				<textElement textAlignment="Right" verticalAlignment="Bottom">
+					<font fontName="SansSerif" size="7"/>
+				</textElement>
+				<text><![CDATA[R.I.F.: J-00002967-9]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement x="51" y="39" width="470" height="300"/>
+				<graphicElement>
+					<pen lineWidth="0.75"/>
+				</graphicElement>
+			</rectangle>
+			<rectangle>
+				<reportElement x="51" y="39" width="470" height="15" backcolor="#999999"/>
+				<graphicElement>
+					<pen lineWidth="0.75"/>
+				</graphicElement>
+			</rectangle>
+			<rectangle>
+				<reportElement x="51" y="77" width="470" height="15" backcolor="#999999"/>
+				<graphicElement>
+					<pen lineWidth="0.75"/>
+				</graphicElement>
+			</rectangle>
+			<rectangle>
+				<reportElement x="51" y="115" width="470" height="15" backcolor="#999999"/>
+				<graphicElement>
+					<pen lineWidth="0.75"/>
+				</graphicElement>
+			</rectangle>
+			<rectangle>
+				<reportElement x="51" y="203" width="470" height="15" backcolor="#999999"/>
+				<graphicElement>
+					<pen lineWidth="0.75"/>
+				</graphicElement>
+			</rectangle>
+			<rectangle>
+				<reportElement x="51" y="242" width="470" height="15" backcolor="#999999"/>
+				<graphicElement>
+					<pen lineWidth="0.75"/>
+				</graphicElement>
+			</rectangle>
+			<line>
+				<reportElement x="342" y="39" width="1" height="38"/>
+				<graphicElement>
+					<pen lineWidth="0.75"/>
+				</graphicElement>
+			</line>
+			<line>
+				<reportElement x="226" y="77" width="1" height="38"/>
+				<graphicElement>
+					<pen lineWidth="0.75"/>
+				</graphicElement>
+			</line>
+			<line>
+				<reportElement x="387" y="77" width="1" height="38"/>
+				<graphicElement>
+					<pen lineWidth="0.75"/>
+				</graphicElement>
+			</line>
+			<line>
+				<reportElement x="194" y="204" width="1" height="38"/>
+				<graphicElement>
+					<pen lineWidth="0.75"/>
+				</graphicElement>
+			</line>
+			<line>
+				<reportElement x="364" y="204" width="1" height="38"/>
+				<graphicElement>
+					<pen lineWidth="0.75"/>
+				</graphicElement>
+			</line>
+			<rectangle>
+				<reportElement x="51" y="280" width="470" height="15" backcolor="#999999"/>
+				<graphicElement>
+					<pen lineWidth="0.75"/>
+				</graphicElement>
+			</rectangle>
+			<line>
+				<reportElement x="287" y="242" width="1" height="38"/>
+				<graphicElement>
+					<pen lineWidth="0.75"/>
+				</graphicElement>
+			</line>
+			<staticText>
+				<reportElement x="51" y="39" width="292" height="15"/>
+				<box topPadding="2" leftPadding="4"/>
+				<textElement textAlignment="Center">
+					<font fontName="SansSerif" size="8" isBold="true"/>
+				</textElement>
+				<text><![CDATA[APELLIDOS Y NOMBRES / RAZON SOCIAL]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="343" y="39" width="178" height="15"/>
+				<box topPadding="2" leftPadding="4"/>
+				<textElement textAlignment="Center">
+					<font fontName="SansSerif" size="8" isBold="true"/>
+				</textElement>
+				<text><![CDATA[No DE CUENTA]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="51" y="77" width="175" height="15"/>
+				<box topPadding="2" leftPadding="4"/>
+				<textElement textAlignment="Center">
+					<font fontName="SansSerif" size="8" isBold="true"/>
+				</textElement>
+				<text><![CDATA[PRODUCTO]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="226" y="77" width="161" height="15"/>
+				<box topPadding="2" leftPadding="4"/>
+				<textElement textAlignment="Center">
+					<font fontName="SansSerif" size="8" isBold="true"/>
+				</textElement>
+				<text><![CDATA[CODIGO DE SECTORIZACION]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="388" y="77" width="133" height="15"/>
+				<box topPadding="2" leftPadding="4"/>
+				<textElement textAlignment="Center">
+					<font fontName="SansSerif" size="8" isBold="true"/>
+				</textElement>
+				<text><![CDATA[JACKET]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="51" y="115" width="470" height="15"/>
+				<box topPadding="2" leftPadding="4"/>
+				<textElement textAlignment="Center">
+					<font fontName="SansSerif" size="8" isBold="true"/>
+				</textElement>
+				<text><![CDATA[DIRECCION]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="51" y="204" width="143" height="15"/>
+				<box topPadding="2" leftPadding="4"/>
+				<textElement textAlignment="Center">
+					<font fontName="SansSerif" size="8" isBold="true"/>
+				</textElement>
+				<text><![CDATA[FECHA ELABORACION]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="194" y="204" width="170" height="15"/>
+				<box topPadding="2" leftPadding="4"/>
+				<textElement textAlignment="Center">
+					<font fontName="SansSerif" size="8" isBold="true"/>
+				</textElement>
+				<text><![CDATA[FECHA APERTURA]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="365" y="204" width="156" height="15"/>
+				<box topPadding="2" leftPadding="4"/>
+				<textElement textAlignment="Center">
+					<font fontName="SansSerif" size="8" isBold="true"/>
+				</textElement>
+				<text><![CDATA[FECHA DE MODIFICACION]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="52" y="242" width="234" height="15"/>
+				<box topPadding="2" leftPadding="4"/>
+				<textElement textAlignment="Center">
+					<font fontName="SansSerif" size="8" isBold="true"/>
+				</textElement>
+				<text><![CDATA[NOMBRE DE LA OFICINA]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="288" y="242" width="234" height="15"/>
+				<box topPadding="2" leftPadding="4"/>
+				<textElement textAlignment="Center">
+					<font fontName="SansSerif" size="8" isBold="true"/>
+				</textElement>
+				<text><![CDATA[MONEDA]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="53" y="280" width="233" height="15"/>
+				<box topPadding="2" leftPadding="4"/>
+				<textElement textAlignment="Center">
+					<font fontName="SansSerif" size="8" isBold="true"/>
+				</textElement>
+				<text><![CDATA[FUNCIONARIO QUE AUTORIZA]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="288" y="280" width="234" height="15"/>
+				<box topPadding="2" leftPadding="4"/>
+				<textElement textAlignment="Center">
+					<font fontName="SansSerif" size="8" isBold="true"/>
+				</textElement>
+				<text><![CDATA[FIRMA DEL FUNCIONARIO]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="52" y="218" width="142" height="24"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<textFieldExpression class="java.lang.String"><![CDATA[$F{fechaDB2}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="194" y="218" width="170" height="24"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<textFieldExpression class="java.lang.String"><![CDATA[$F{fechaApertura2}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="365" y="218" width="156" height="24"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<textFieldExpression class="java.lang.String"><![CDATA[$F{fechaModificacion}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="51" y="54" width="291" height="23"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<textFieldExpression class="java.lang.String"><![CDATA[$F{nombreCliente}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="342" y="54" width="179" height="23"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<textFieldExpression class="java.lang.String"><![CDATA[$F{numCta}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="52" y="257" width="234" height="23"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<textFieldExpression class="java.lang.String"><![CDATA[$F{nombreOficina}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="288" y="257" width="234" height="23"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<textFieldExpression class="java.lang.String"><![CDATA[$F{codDivisa}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="51" y="130" width="470" height="73"/>
+				<box topPadding="5" leftPadding="4" rightPadding="4"/>
+				<textElement textAlignment="Justified" verticalAlignment="Top"/>
+				<textFieldExpression class="java.lang.String"><![CDATA[$F{dirCliente1} + " " + $F{dirCliente2} + " " + $F{dirCliente3} + " " + $F{dirCliente4}]]></textFieldExpression>
+			</textField>
+			<rectangle>
+				<reportElement x="0" y="342" width="572" height="66"/>
+				<graphicElement>
+					<pen lineWidth="0.75"/>
+				</graphicElement>
+			</rectangle>
+			<rectangle>
+				<reportElement x="0" y="342" width="572" height="13" backcolor="#999999"/>
+				<graphicElement>
+					<pen lineWidth="0.75"/>
+				</graphicElement>
+			</rectangle>
+			<rectangle>
+				<reportElement x="0" y="377" width="572" height="13" backcolor="#999999"/>
+				<graphicElement>
+					<pen lineWidth="0.75"/>
+				</graphicElement>
+			</rectangle>
+			<line>
+				<reportElement x="286" y="377" width="1" height="31"/>
+				<graphicElement>
+					<pen lineWidth="0.75"/>
+				</graphicElement>
+			</line>
+			<staticText>
+				<reportElement x="0" y="342" width="572" height="13"/>
+				<box topPadding="2" leftPadding="4"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="SansSerif" size="8" isBold="true"/>
+				</textElement>
+				<text><![CDATA[	CONDICIONES DE MOVILIZACION DE LA CUENTA:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="377" width="286" height="13"/>
+				<box topPadding="2" leftPadding="4"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="SansSerif" size="8" isBold="true"/>
+				</textElement>
+				<text><![CDATA[TIPO DE FIRMA:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="287" y="377" width="285" height="13"/>
+				<box topPadding="2" leftPadding="4"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="SansSerif" size="8" isBold="true"/>
+				</textElement>
+				<text><![CDATA[NUMERO DE CUENTA]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="0" y="390" width="286" height="18"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<textFieldExpression class="java.lang.String"><![CDATA[$F{descripcionTipoFirma}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="51" y="92" width="175" height="23"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<textFieldExpression class="java.lang.String"><![CDATA[$F{descripcionProducto}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="287" y="390" width="285" height="18"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<textFieldExpression class="java.lang.String"><![CDATA[$F{numCta}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="0" y="355" width="572" height="22"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<textFieldExpression class="java.lang.String"><![CDATA[$F{tipoUsoCta}]]></textFieldExpression>
+			</textField>
+			<line>
+				<reportElement x="287" y="280" width="1" height="59"/>
+				<graphicElement>
+					<pen lineWidth="0.75"/>
+				</graphicElement>
+			</line>
+			<rectangle>
+				<reportElement x="0" y="415" width="270" height="34"/>
+				<graphicElement>
+					<pen lineWidth="0.75"/>
+				</graphicElement>
+			</rectangle>
+			<rectangle>
+				<reportElement x="0" y="452" width="270" height="18"/>
+				<graphicElement>
+					<pen lineWidth="0.75"/>
+				</graphicElement>
+			</rectangle>
+			<rectangle>
+				<reportElement x="0" y="473" width="270" height="100"/>
+				<graphicElement>
+					<pen lineWidth="0.75"/>
+				</graphicElement>
+			</rectangle>
+			<line>
+				<reportElement x="0" y="432" width="270" height="1"/>
+				<graphicElement>
+					<pen lineWidth="0.75"/>
+				</graphicElement>
+			</line>
+			<line>
+				<reportElement x="136" y="432" width="1" height="17"/>
+				<graphicElement>
+					<pen lineWidth="0.75"/>
+				</graphicElement>
+			</line>
+			<line>
+				<reportElement x="202" y="452" width="1" height="18"/>
+				<graphicElement>
+					<pen lineWidth="0.75"/>
+				</graphicElement>
+			</line>
+			<staticText>
+				<reportElement x="0" y="415" width="47" height="17"/>
+				<box topPadding="0" leftPadding="5"/>
+				<textElement>
+					<font size="7"/>
+				</textElement>
+				<text><![CDATA[Nombre:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="433" width="47" height="17"/>
+				<box topPadding="0" leftPadding="5"/>
+				<textElement>
+					<font size="7"/>
+				</textElement>
+				<text><![CDATA[Ced:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="137" y="432" width="47" height="17"/>
+				<box topPadding="0" leftPadding="5"/>
+				<textElement>
+					<font size="7"/>
+				</textElement>
+				<text><![CDATA[C.C:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="203" y="452" width="47" height="17"/>
+				<box topPadding="0" leftPadding="3"/>
+				<textElement>
+					<font size="7"/>
+				</textElement>
+				<text><![CDATA[Categoria:]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement x="0" y="620" width="270" height="18"/>
+				<graphicElement>
+					<pen lineWidth="0.75"/>
+				</graphicElement>
+			</rectangle>
+			<rectangle>
+				<reportElement x="0" y="583" width="270" height="34"/>
+				<graphicElement>
+					<pen lineWidth="0.75"/>
+				</graphicElement>
+			</rectangle>
+			<line>
+				<reportElement x="136" y="600" width="1" height="17"/>
+				<graphicElement>
+					<pen lineWidth="0.75"/>
+				</graphicElement>
+			</line>
+			<staticText>
+				<reportElement x="0" y="601" width="47" height="17"/>
+				<box topPadding="0" leftPadding="5"/>
+				<textElement>
+					<font size="7"/>
+				</textElement>
+				<text><![CDATA[Ced:]]></text>
+			</staticText>
+			<line>
+				<reportElement x="202" y="620" width="1" height="18"/>
+				<graphicElement>
+					<pen lineWidth="0.75"/>
+				</graphicElement>
+			</line>
+			<line>
+				<reportElement x="0" y="600" width="270" height="1"/>
+				<graphicElement>
+					<pen lineWidth="0.75"/>
+				</graphicElement>
+			</line>
+			<rectangle>
+				<reportElement x="0" y="641" width="270" height="100"/>
+				<graphicElement>
+					<pen lineWidth="0.75"/>
+				</graphicElement>
+			</rectangle>
+			<staticText>
+				<reportElement x="0" y="583" width="47" height="17"/>
+				<box topPadding="0" leftPadding="5"/>
+				<textElement>
+					<font size="7"/>
+				</textElement>
+				<text><![CDATA[Nombre:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="203" y="620" width="47" height="17"/>
+				<box topPadding="0" leftPadding="3"/>
+				<textElement>
+					<font size="7"/>
+				</textElement>
+				<text><![CDATA[Categoria:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="137" y="600" width="47" height="17"/>
+				<box topPadding="0" leftPadding="5"/>
+				<textElement>
+					<font size="7"/>
+				</textElement>
+				<text><![CDATA[C.C:]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement x="302" y="452" width="270" height="18"/>
+				<graphicElement>
+					<pen lineWidth="0.75"/>
+				</graphicElement>
+			</rectangle>
+			<rectangle>
+				<reportElement x="302" y="415" width="270" height="34"/>
+				<graphicElement>
+					<pen lineWidth="0.75"/>
+				</graphicElement>
+			</rectangle>
+			<line>
+				<reportElement x="438" y="432" width="1" height="17"/>
+				<graphicElement>
+					<pen lineWidth="0.75"/>
+				</graphicElement>
+			</line>
+			<staticText>
+				<reportElement x="302" y="433" width="47" height="17"/>
+				<box topPadding="0" leftPadding="5"/>
+				<textElement>
+					<font size="7"/>
+				</textElement>
+				<text><![CDATA[Ced:]]></text>
+			</staticText>
+			<line>
+				<reportElement x="504" y="452" width="1" height="18"/>
+				<graphicElement>
+					<pen lineWidth="0.75"/>
+				</graphicElement>
+			</line>
+			<line>
+				<reportElement x="302" y="432" width="270" height="1"/>
+				<graphicElement>
+					<pen lineWidth="0.75"/>
+				</graphicElement>
+			</line>
+			<rectangle>
+				<reportElement x="302" y="473" width="270" height="100"/>
+				<graphicElement>
+					<pen lineWidth="0.75"/>
+				</graphicElement>
+			</rectangle>
+			<staticText>
+				<reportElement x="302" y="415" width="47" height="17"/>
+				<box topPadding="0" leftPadding="5"/>
+				<textElement>
+					<font size="7"/>
+				</textElement>
+				<text><![CDATA[Nombre:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="505" y="452" width="47" height="17"/>
+				<box topPadding="0" leftPadding="3"/>
+				<textElement>
+					<font size="7"/>
+				</textElement>
+				<text><![CDATA[Categoria:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="439" y="432" width="47" height="17"/>
+				<box topPadding="0" leftPadding="5"/>
+				<textElement>
+					<font size="7"/>
+				</textElement>
+				<text><![CDATA[C.C:]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement x="302" y="620" width="270" height="18"/>
+				<graphicElement>
+					<pen lineWidth="0.75"/>
+				</graphicElement>
+			</rectangle>
+			<rectangle>
+				<reportElement x="302" y="583" width="270" height="34"/>
+				<graphicElement>
+					<pen lineWidth="0.75"/>
+				</graphicElement>
+			</rectangle>
+			<line>
+				<reportElement x="438" y="600" width="1" height="17"/>
+				<graphicElement>
+					<pen lineWidth="0.75"/>
+				</graphicElement>
+			</line>
+			<staticText>
+				<reportElement x="302" y="601" width="47" height="17"/>
+				<box topPadding="0" leftPadding="5"/>
+				<textElement>
+					<font size="7"/>
+				</textElement>
+				<text><![CDATA[Ced:]]></text>
+			</staticText>
+			<line>
+				<reportElement x="504" y="620" width="1" height="18"/>
+				<graphicElement>
+					<pen lineWidth="0.75"/>
+				</graphicElement>
+			</line>
+			<line>
+				<reportElement x="302" y="600" width="270" height="1"/>
+				<graphicElement>
+					<pen lineWidth="0.75"/>
+				</graphicElement>
+			</line>
+			<rectangle>
+				<reportElement x="302" y="641" width="270" height="100"/>
+				<graphicElement>
+					<pen lineWidth="0.75"/>
+				</graphicElement>
+			</rectangle>
+			<staticText>
+				<reportElement x="302" y="583" width="47" height="17"/>
+				<box topPadding="0" leftPadding="5"/>
+				<textElement>
+					<font size="7"/>
+				</textElement>
+				<text><![CDATA[Nombre:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="505" y="620" width="47" height="17"/>
+				<box topPadding="0" leftPadding="3"/>
+				<textElement>
+					<font size="7"/>
+				</textElement>
+				<text><![CDATA[Categoria:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="439" y="600" width="47" height="17"/>
+				<box topPadding="0" leftPadding="5"/>
+				<textElement>
+					<font size="7"/>
+				</textElement>
+				<text><![CDATA[C.C:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="32" y="301" width="17" height="38"/>
+				<textElement verticalAlignment="Bottom" rotation="Left">
+					<font size="7" isBold="true"/>
+				</textElement>
+				<text><![CDATA[BGPR60]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="302" y="473" width="270" height="100"/>
+				<box topPadding="2" leftPadding="4"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="SansSerif" size="8" isBold="true"/>
+				</textElement>
+				<text><![CDATA[INUTILIZADO]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="302" y="641" width="270" height="100"/>
+				<box topPadding="2" leftPadding="4"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="SansSerif" size="8" isBold="true"/>
+				</textElement>
+				<text><![CDATA[INUTILIZADO]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="641" width="270" height="100"/>
+				<box topPadding="2" leftPadding="4"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="SansSerif" size="8" isBold="true"/>
+				</textElement>
+				<text><![CDATA[INUTILIZADO]]></text>
+			</staticText>
+		</band>
+	</detail>
+</jasperReport>

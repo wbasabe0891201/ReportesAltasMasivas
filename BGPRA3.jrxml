@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="BGPRA3" language="groovy" pageWidth="612" pageHeight="792" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20">
+	<property name="ireport.zoom" value="1.771561000000003"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="616"/>
+	<parameter name="P_TEXTO_ORIGINAL" class="java.lang.String" isForPrompting="false">
+		<defaultValueExpression><![CDATA["ORIGINAL"]]></defaultValueExpression>
+	</parameter>
+	<queryString language="xPath">
+		<![CDATA[/Cuentas/Documento]]>
+	</queryString>
+	<field name="longitudReg" class="java.lang.String">
+		<fieldDescription><![CDATA[pagina/longitudReg]]></fieldDescription>
+	</field>
+	<field name="destinatario" class="java.lang.String">
+		<fieldDescription><![CDATA[pagina/destinatario]]></fieldDescription>
+	</field>
+	<field name="codForm" class="java.lang.String">
+		<fieldDescription><![CDATA[pagina/codForm]]></fieldDescription>
+	</field>
+	<field name="codEmpresa" class="java.lang.String">
+		<fieldDescription><![CDATA[pagina/codEmpresa]]></fieldDescription>
+	</field>
+	<field name="codProducto" class="java.lang.String">
+		<fieldDescription><![CDATA[pagina/codProducto]]></fieldDescription>
+	</field>
+	<field name="codSubProducto" class="java.lang.String">
+		<fieldDescription><![CDATA[pagina/codSubProducto]]></fieldDescription>
+	</field>
+	<field name="codEmpresa2" class="java.lang.String">
+		<fieldDescription><![CDATA[pagina/codEmpresa]]></fieldDescription>
+	</field>
+	<field name="nombreEmpresa" class="java.lang.String">
+		<fieldDescription><![CDATA[pagina/nombreEmpresa]]></fieldDescription>
+	</field>
+	<field name="nacionalidad" class="java.lang.String">
+		<fieldDescription><![CDATA[pagina/nacionalidad]]></fieldDescription>
+	</field>
+	<field name="cedIdentidad" class="java.lang.String">
+		<fieldDescription><![CDATA[pagina/cedIdentidad]]></fieldDescription>
+	</field>
+	<field name="nombreCliente" class="java.lang.String">
+		<fieldDescription><![CDATA[pagina/nombreCliente]]></fieldDescription>
+	</field>
+	<field name="dirCliente1" class="java.lang.String">
+		<fieldDescription><![CDATA[pagina/dirCliente1]]></fieldDescription>
+	</field>
+	<field name="dirCliente2" class="java.lang.String">
+		<fieldDescription><![CDATA[pagina/dirCliente2]]></fieldDescription>
+	</field>
+	<field name="dirCliente3" class="java.lang.String">
+		<fieldDescription><![CDATA[pagina/dirCliente3]]></fieldDescription>
+	</field>
+	<field name="dirCliente4" class="java.lang.String">
+		<fieldDescription><![CDATA[pagina/dirCliente4]]></fieldDescription>
+	</field>
+	<field name="codEmpresa3" class="java.lang.String">
+		<fieldDescription><![CDATA[pagina/codEmpresa]]></fieldDescription>
+	</field>
+	<field name="nombreOficina" class="java.lang.String">
+		<fieldDescription><![CDATA[pagina/nombreOficina]]></fieldDescription>
+	</field>
+	<field name="numCta" class="java.lang.String">
+		<fieldDescription><![CDATA[pagina/numCta]]></fieldDescription>
+	</field>
+	<field name="tipoCta" class="java.lang.String">
+		<fieldDescription><![CDATA[pagina/tipoCta]]></fieldDescription>
+	</field>
+	<field name="fechaApertura" class="java.lang.String">
+		<fieldDescription><![CDATA[pagina/fechaApertura]]></fieldDescription>
+	</field>
+	<field name="numCliente" class="java.lang.String">
+		<fieldDescription><![CDATA[pagina/numCliente]]></fieldDescription>
+	</field>
+	<field name="nombreCliente2" class="java.lang.String">
+		<fieldDescription><![CDATA[pagina/nombreCliente]]></fieldDescription>
+	</field>
+	<field name="codIdentificacion" class="java.lang.String">
+		<fieldDescription><![CDATA[pagina/codIdentificacion]]></fieldDescription>
+	</field>
+	<field name="cedRif" class="java.lang.String">
+		<fieldDescription><![CDATA[pagina/cedRif]]></fieldDescription>
+	</field>
+	<field name="nacionalidadAbrev" class="java.lang.String">
+		<fieldDescription><![CDATA[pagina/nacionalidadAbrev]]></fieldDescription>
+	</field>
+	<field name="edoCivil" class="java.lang.String">
+		<fieldDescription><![CDATA[pagina/edoCivil]]></fieldDescription>
+	</field>
+	<field name="codDivisa" class="java.lang.String">
+		<fieldDescription><![CDATA[pagina/codDivisa]]></fieldDescription>
+	</field>
+	<field name="codProducto2" class="java.lang.String">
+		<fieldDescription><![CDATA[pagina/codProducto]]></fieldDescription>
+	</field>
+	<field name="descripcionProducto" class="java.lang.String">
+		<fieldDescription><![CDATA[pagina/descripcionProducto]]></fieldDescription>
+	</field>
+	<field name="codSubProducto2" class="java.lang.String">
+		<fieldDescription><![CDATA[pagina/codSubProducto]]></fieldDescription>
+	</field>
+	<field name="sucursal" class="java.lang.String">
+		<fieldDescription><![CDATA[pagina/sucursal]]></fieldDescription>
+	</field>
+	<field name="fechaDB2" class="java.lang.String">
+		<fieldDescription><![CDATA[pagina/fechaDB2]]></fieldDescription>
+	</field>
+	<field name="tipoFirma" class="java.lang.String">
+		<fieldDescription><![CDATA[pagina/tipoFirma]]></fieldDescription>
+	</field>
+	<field name="descripcionTipoFirma" class="java.lang.String">
+		<fieldDescription><![CDATA[pagina/descripcionTipoFirma]]></fieldDescription>
+	</field>
+	<field name="fechaApertura2" class="java.lang.String">
+		<fieldDescription><![CDATA[pagina/fechaApertura]]></fieldDescription>
+	</field>
+	<field name="fechaModificacion" class="java.lang.String">
+		<fieldDescription><![CDATA[pagina/fechaModificacion]]></fieldDescription>
+	</field>
+	<field name="nombreFamiliar" class="java.lang.String">
+		<fieldDescription><![CDATA[pagina/nombreFamiliar]]></fieldDescription>
+	</field>
+	<field name="tipoParticipacion" class="java.lang.String">
+		<fieldDescription><![CDATA[pagina/tipoParticipacion]]></fieldDescription>
+	</field>
+	<field name="corasu" class="java.lang.String">
+		<fieldDescription><![CDATA[pagina/corasu]]></fieldDescription>
+	</field>
+	<field name="numCliente2" class="java.lang.String">
+		<fieldDescription><![CDATA[pagina/numCliente]]></fieldDescription>
+	</field>
+	<field name="nombreCliente3" class="java.lang.String">
+		<fieldDescription><![CDATA[pagina/nombreCliente]]></fieldDescription>
+	</field>
+	<field name="docIdentidad" class="java.lang.String">
+		<fieldDescription><![CDATA[pagina/docIdentidad]]></fieldDescription>
+	</field>
+	<field name="numContratoTarjeta" class="java.lang.String">
+		<fieldDescription><![CDATA[pagina/numContratoTarjeta]]></fieldDescription>
+	</field>
+	<field name="numTarjetaElect" class="java.lang.String">
+		<fieldDescription><![CDATA[pagina/numTarjetaElect]]></fieldDescription>
+	</field>
+	<field name="fechaEntrega" class="java.lang.String">
+		<fieldDescription><![CDATA[pagina/fechaEntrega]]></fieldDescription>
+	</field>
+	<field name="nombreCiudad" class="java.lang.String">
+		<fieldDescription><![CDATA[pagina/nombreCiudad]]></fieldDescription>
+	</field>
+	<field name="nombreOficina2" class="java.lang.String">
+		<fieldDescription><![CDATA[pagina/nombreOficina]]></fieldDescription>
+	</field>
+	<field name="tipoUsoCta" class="java.lang.String">
+		<fieldDescription><![CDATA[pagina/tipoUsoCta]]></fieldDescription>
+	</field>
+	<field name="nombreCliente4" class="java.lang.String">
+		<fieldDescription><![CDATA[pagina/nombreCliente]]></fieldDescription>
+	</field>
+	<field name="docIdentidad2" class="java.lang.String">
+		<fieldDescription><![CDATA[pagina/docIdentidad]]></fieldDescription>
+	</field>
+	<field name="descripcionTarjeta" class="java.lang.String">
+		<fieldDescription><![CDATA[pagina/descripcionTarjeta]]></fieldDescription>
+	</field>
+	<field name="ciudadFecha" class="java.lang.String">
+		<fieldDescription><![CDATA[pagina/ciudadFecha]]></fieldDescription>
+	</field>
+	<field name="fechaDiasLetras" class="java.lang.String">
+		<fieldDescription><![CDATA[pagina/fechaDiasLetras]]></fieldDescription>
+	</field>
+	<field name="nombreMes" class="java.lang.String">
+		<fieldDescription><![CDATA[pagina/nombreMes]]></fieldDescription>
+	</field>
+	<field name="anio" class="java.lang.String">
+		<fieldDescription><![CDATA[pagina/anio]]></fieldDescription>
+	</field>
+	<field name="numCtaTarjPopular" class="java.lang.String">
+		<fieldDescription><![CDATA[pagina/numCtaTarjPopular]]></fieldDescription>
+	</field>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<detail>
+		<band height="752" splitType="Stretch">
+			<textField>
+				<reportElement x="0" y="21" width="252" height="69"/>
+				<textElement lineSpacing="Double">
+					<font size="10" isBold="true"/>
+				</textElement>
+				<textFieldExpression class="java.lang.String"><![CDATA["Señores\n"
++ "BANCO PROVINCIAL, S.A. - BANCO UNIVERSAL\n"
++ "Presente.-"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="0" y="130" width="572" height="265"/>
+				<textElement textAlignment="Justified" lineSpacing="Double">
+					<font size="10" isBold="true"/>
+				</textElement>
+				<textFieldExpression class="java.lang.String"><![CDATA["Quien(es) suscrebe(n) la presente, identificado() en lo sucesivo como \"El Cliente\", deja(n) constar dela forma expresa "
++ "que el Banco Provincial S.A., Banco Universal, le ha hecho entrega oportuna, y previa a su firma, del contrato de "
++ "____________________________________________________, mendiente el cual se formalizará, entre \"El Cliente\" y el Banco "
++ "Provincial S.A., Banco Universal, la negociación que dicho contratante conlleva. "
++ "\n\n\n"
++ "\"El Cliente\", expresamente declara haber leido dicho contrato y estar en un todo conforme no sólo con su contenido "
++ "sino también con la condiciones particulares que regirán la negociación objeto de dicho contrato, las cuales "
++ "le fueron oportunamente informadas por el Banco Provincial S.A., Banco Universal, a \"El Cliente\", y acepatas por "
++ "éste, razón por la cual, \"El Cliente\", ha decidido, en señal deconformidad, celebrar la negociación objeto del contratro y "
++ "a tales fines, firmar el mismo."]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="0" y="453" width="572" height="29"/>
+				<textElement lineSpacing="Double">
+					<font size="10" isBold="true"/>
+				</textElement>
+				<textFieldExpression class="java.lang.String"><![CDATA["_________________________________, a los _____________________ dias del mes de _________________ de ______ ."]]></textFieldExpression>
+			</textField>
+			<rectangle>
+				<reportElement x="0" y="566" width="572" height="72"/>
+				<graphicElement>
+					<pen lineWidth="0.75"/>
+				</graphicElement>
+			</rectangle>
+			<staticText>
+				<reportElement x="0" y="566" width="572" height="20"/>
+				<box topPadding="1" leftPadding="6"/>
+				<textElement/>
+				<text><![CDATA[Nombre y Apellido                                                                 Cédula de Identidad                              Firma de "El Cliente"]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="638" width="377" height="20"/>
+				<textElement>
+					<font size="8"/>
+				</textElement>
+				<text><![CDATA[Declaracion Precontractual Persona Natural Apertura de Cuentas y Colocaciones]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="236" y="711" width="100" height="12"/>
+				<textElement textAlignment="Center">
+					<font fontName="Arial" isBold="true"/>
+				</textElement>
+				<textFieldExpression class="java.lang.String"><![CDATA[$P{P_TEXTO_ORIGINAL}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="0" y="723" width="100" height="20"/>
+				<textElement>
+					<font size="6" isBold="true"/>
+				</textElement>
+				<text><![CDATA[BGPRA3]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="13" y="462" width="170" height="20"/>
+				<textElement textAlignment="Center"/>
+				<textFieldExpression class="java.lang.String"><![CDATA[$F{ciudadFecha}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="221" y="462" width="111" height="20"/>
+				<textElement textAlignment="Center"/>
+				<textFieldExpression class="java.lang.String"><![CDATA[$F{fechaDiasLetras}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="410" y="462" width="91" height="20"/>
+				<textElement textAlignment="Center"/>
+				<textFieldExpression class="java.lang.String"><![CDATA[$F{nombreMes}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="521" y="462" width="37" height="20"/>
+				<textElement textAlignment="Center"/>
+				<textFieldExpression class="java.lang.String"><![CDATA[$F{anio}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="3" y="186" width="285" height="20"/>
+				<textElement textAlignment="Center">
+					<font isBold="true"/>
+				</textElement>
+				<textFieldExpression class="java.lang.String"><![CDATA[$F{descripcionTarjeta}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="6" y="599" width="261" height="20"/>
+				<textElement/>
+				<textFieldExpression class="java.lang.String"><![CDATA[$F{nombreCliente4}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="279" y="599" width="100" height="20"/>
+				<textElement/>
+				<textFieldExpression class="java.lang.String"><![CDATA[$F{nacionalidad} + "-" + $F{cedIdentidad}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+</jasperReport>

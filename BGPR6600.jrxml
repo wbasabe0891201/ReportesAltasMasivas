@@ -1,0 +1,401 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="BGPR6600" language="groovy" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20">
+	<property name="ireport.zoom" value="1.6105100000000148"/>
+	<property name="ireport.x" value="41"/>
+	<property name="ireport.y" value="24"/>
+	<parameter name="P_TEXTO_ORIGINAL" class="java.lang.String"/>
+	<queryString language="xPath">
+		<![CDATA[/Cuentas/Documento]]>
+	</queryString>
+	<field name="nombreOficina" class="java.lang.String">
+		<fieldDescription><![CDATA[pagina/nombreOficina]]></fieldDescription>
+	</field>
+	<field name="numCliente" class="java.lang.String">
+		<fieldDescription><![CDATA[pagina/numCliente]]></fieldDescription>
+	</field>
+	<field name="nombreCliente" class="java.lang.String">
+		<fieldDescription><![CDATA[pagina/nombreCliente]]></fieldDescription>
+	</field>
+	<field name="cedIdentidad" class="java.lang.String">
+		<fieldDescription><![CDATA[pagina/cedIdentidad]]></fieldDescription>
+	</field>
+	<field name="nacionalidad" class="java.lang.String">
+		<fieldDescription><![CDATA[pagina/nacionalidad]]></fieldDescription>
+	</field>
+	<field name="edoCivil" class="java.lang.String">
+		<fieldDescription><![CDATA[pagina/edoCivil]]></fieldDescription>
+	</field>
+	<field name="dirCliente1" class="java.lang.String">
+		<fieldDescription><![CDATA[pagina/dirCliente1]]></fieldDescription>
+	</field>
+	<field name="dirCliente2" class="java.lang.String">
+		<fieldDescription><![CDATA[pagina/dirCliente2]]></fieldDescription>
+	</field>
+	<field name="dirCliente3" class="java.lang.String">
+		<fieldDescription><![CDATA[pagina/dirCliente3]]></fieldDescription>
+	</field>
+	<field name="dirCliente4" class="java.lang.String">
+		<fieldDescription><![CDATA[pagina/dirCliente4]]></fieldDescription>
+	</field>
+	<field name="field1" class="java.lang.String"/>
+	<field name="cedRif" class="java.lang.String">
+		<fieldDescription><![CDATA[pagina/cedRif]]></fieldDescription>
+	</field>
+	<field name="numCta" class="java.lang.String">
+		<fieldDescription><![CDATA[pagina/numCta]]></fieldDescription>
+	</field>
+	<field name="codDivisa" class="java.lang.String">
+		<fieldDescription><![CDATA[pagina/codDivisa]]></fieldDescription>
+	</field>
+	<field name="descripcionTipoFirma" class="java.lang.String">
+		<fieldDescription><![CDATA[pagina/descripcionTipoFirma]]></fieldDescription>
+	</field>
+	<field name="fechaApertura" class="java.lang.String">
+		<fieldDescription><![CDATA[pagina/fechaApertura]]></fieldDescription>
+	</field>
+	<detail>
+		<band height="802" splitType="Stretch">
+			<textField>
+				<reportElement x="139" y="0" width="317" height="27"/>
+				<textElement textAlignment="Center">
+					<font fontName="Arial" isBold="true"/>
+				</textElement>
+				<textFieldExpression class="java.lang.String"><![CDATA["CONTRATO DE CUENTA CORRIENTE BANCARIA REMUNERADA BANCA PERSONAL"]]></textFieldExpression>
+			</textField>
+			<rectangle>
+				<reportElement x="430" y="14" width="125" height="21"/>
+			</rectangle>
+			<staticText>
+				<reportElement x="430" y="14" width="125" height="10"/>
+				<textElement>
+					<font fontName="Arial" size="6" isBold="true"/>
+				</textElement>
+				<text><![CDATA[  (1) OFICINA ]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="430" y="22" width="125" height="11"/>
+				<textElement textAlignment="Center">
+					<font fontName="Arial" size="7"/>
+				</textElement>
+				<textFieldExpression class="java.lang.String"><![CDATA[$F{nombreOficina}]]></textFieldExpression>
+			</textField>
+			<rectangle>
+				<reportElement x="0" y="35" width="555" height="14" backcolor="#CCCCCC"/>
+			</rectangle>
+			<staticText>
+				<reportElement x="0" y="34" width="555" height="14"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Arial" size="9" isBold="true"/>
+				</textElement>
+				<text><![CDATA[(2) DATOS DE IDENTIFICACION DEL CLIENTE]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="18" width="125" height="16"/>
+				<textElement verticalAlignment="Bottom">
+					<font fontName="Arial" size="6" isBold="false"/>
+				</textElement>
+				<text><![CDATA[R.I.F.: J-00002967-9  NIT: 0052524237]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement x="0" y="49" width="555" height="74"/>
+			</rectangle>
+			<textField>
+				<reportElement x="0" y="49" width="555" height="10"/>
+				<textElement>
+					<font fontName="Arial" size="7" isBold="true"/>
+				</textElement>
+				<textFieldExpression class="java.lang.String"><![CDATA["  Nro DE CLIENTE: " + $F{numCliente}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="0" y="60" width="555" height="10"/>
+				<textElement>
+					<font fontName="Arial" size="7" isBold="true"/>
+				</textElement>
+				<textFieldExpression class="java.lang.String"><![CDATA["  NOMBRE Y APELLIDOS: " + $F{nombreCliente}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="0" y="70" width="555" height="10"/>
+				<textElement>
+					<font fontName="Arial" size="7" isBold="true"/>
+				</textElement>
+				<textFieldExpression class="java.lang.String"><![CDATA["  CED. IDEN./RIF.: " + $F{cedIdentidad}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="0" y="80" width="555" height="10"/>
+				<textElement>
+					<font fontName="Arial" size="7" isBold="true"/>
+				</textElement>
+				<textFieldExpression class="java.lang.String"><![CDATA["  NACIONALIDAD: " + $F{nacionalidad}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="0" y="90" width="555" height="10"/>
+				<textElement>
+					<font fontName="Arial" size="7" isBold="true"/>
+				</textElement>
+				<textFieldExpression class="java.lang.String"><![CDATA["  ESTADO CIVIL: " + $F{edoCivil}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="0" y="100" width="555" height="10"/>
+				<textElement>
+					<font fontName="Arial" size="7" isBold="true"/>
+				</textElement>
+				<textFieldExpression class="java.lang.String"><![CDATA["  DOMICILIO: " + $F{dirCliente1}.trim() + " " + $F{dirCliente2}.trim() + " " + $F{dirCliente3}.trim() + " " + $F{dirCliente4}.trim()]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="0" y="110" width="555" height="10"/>
+				<textElement>
+					<font fontName="Arial" size="7" isBold="true"/>
+				</textElement>
+				<textFieldExpression class="java.lang.String"><![CDATA["  Nº RIF: " + $F{cedRif}]]></textFieldExpression>
+			</textField>
+			<rectangle>
+				<reportElement x="0" y="120" width="555" height="28"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="0" y="143" width="555" height="36"/>
+			</rectangle>
+			<staticText>
+				<reportElement x="-1" y="121" width="95" height="11"/>
+				<textElement>
+					<font fontName="Arial" size="6" isBold="true"/>
+				</textElement>
+				<text><![CDATA[  (3) Nro. DE CUENTA]]></text>
+			</staticText>
+			<line>
+				<reportElement x="93" y="120" width="1" height="23"/>
+			</line>
+			<textField>
+				<reportElement x="-1" y="132" width="94" height="11"/>
+				<textElement textAlignment="Center">
+					<font fontName="Arial" size="7"/>
+				</textElement>
+				<textFieldExpression class="java.lang.String"><![CDATA[$F{numCta}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="93" y="121" width="70" height="11"/>
+				<textElement>
+					<font fontName="Arial" size="6" isBold="true"/>
+				</textElement>
+				<text><![CDATA[  (4) MONEDA:]]></text>
+			</staticText>
+			<line>
+				<reportElement x="162" y="120" width="1" height="23"/>
+			</line>
+			<textField>
+				<reportElement x="94" y="132" width="68" height="11"/>
+				<textElement textAlignment="Center">
+					<font fontName="Arial" size="7"/>
+				</textElement>
+				<textFieldExpression class="java.lang.String"><![CDATA[$F{codDivisa}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="162" y="121" width="89" height="11"/>
+				<textElement>
+					<font fontName="Arial" size="6" isBold="true"/>
+				</textElement>
+				<text><![CDATA[  (5) TIPO DE FIRMA:]]></text>
+			</staticText>
+			<line>
+				<reportElement x="250" y="120" width="1" height="23"/>
+			</line>
+			<textField>
+				<reportElement x="163" y="132" width="87" height="11"/>
+				<textElement textAlignment="Center">
+					<font fontName="Arial" size="7"/>
+				</textElement>
+				<textFieldExpression class="java.lang.String"><![CDATA[$F{descripcionTipoFirma}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="250" y="121" width="109" height="11"/>
+				<textElement>
+					<font fontName="Arial" size="6" isBold="true"/>
+				</textElement>
+				<text><![CDATA[  (6) FECHA DE APERTURA:]]></text>
+			</staticText>
+			<line>
+				<reportElement x="358" y="120" width="1" height="23"/>
+			</line>
+			<textField>
+				<reportElement x="251" y="132" width="107" height="11"/>
+				<textElement textAlignment="Center">
+					<font fontName="Arial" size="7"/>
+				</textElement>
+				<textFieldExpression class="java.lang.String"><![CDATA[$F{fechaApertura}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="358" y="121" width="197" height="11"/>
+				<textElement>
+					<font fontName="Arial" size="6" isBold="true"/>
+				</textElement>
+				<text><![CDATA[  (7) SALDO PROMEDIO MÍNIMO MENSUAL REMUNERABLE BS.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="144" width="174" height="21"/>
+				<textElement textAlignment="Center">
+					<font fontName="Arial" size="6" isBold="true"/>
+				</textElement>
+				<text><![CDATA[  (8)   DIRECCIÓN DE CORREO ELECTRÓNICO DE EL CLIENTE]]></text>
+			</staticText>
+			<line>
+				<reportElement x="173" y="143" width="1" height="36"/>
+			</line>
+			<staticText>
+				<reportElement x="174" y="144" width="197" height="11"/>
+				<textElement>
+					<font fontName="Arial" size="6" isBold="true"/>
+				</textElement>
+				<text><![CDATA[  (9) DIRECCIÓN POSTAL DE EL CLIENTE]]></text>
+			</staticText>
+			<line>
+				<reportElement x="371" y="142" width="1" height="36"/>
+			</line>
+			<staticText>
+				<reportElement x="372" y="144" width="183" height="11"/>
+				<textElement>
+					<font fontName="Arial" size="6" isBold="true"/>
+				</textElement>
+				<text><![CDATA[  (10) ENVÍO DE ESTADOS DE CUENTA:]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="411" y="153" width="144" height="11"/>
+				<textElement textAlignment="Left">
+					<font fontName="Arial" size="7"/>
+				</textElement>
+				<textFieldExpression class="java.lang.String"><![CDATA["DIRECCIÓN DE CORREO ELECTRÓNICO"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="411" y="167" width="144" height="11"/>
+				<textElement textAlignment="Left">
+					<font fontName="Arial" size="7"/>
+				</textElement>
+				<textFieldExpression class="java.lang.String"><![CDATA["DIRECCIÓN DE CORREO POSTAL"]]></textFieldExpression>
+			</textField>
+			<rectangle>
+				<reportElement x="390" y="153" width="11" height="10"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="390" y="167" width="11" height="10"/>
+			</rectangle>
+			<textField>
+				<reportElement x="0" y="179" width="555" height="32"/>
+				<textElement textAlignment="Justified">
+					<font size="6" isBold="true"/>
+				</textElement>
+				<textFieldExpression class="java.lang.String"><![CDATA["Entre la(s) persona(s) identificada(s) en la casilla (2), quien(es) suscribe(n) el presente documento como consta de su(s) firma(s) estampada(s) en la casilla (11), al final del"+
+"presente documento, (en lo sucesivo el Cliente), por una parte, y por la otra, el Banco Provincial S.A., Banco Universal, entidad bancaria con domicilio en la Ciudad de Caracas,"+
+"República Bolivariana de Venezuela, (en lo sucesivo el Banco), representado en este acto por los apoderados que se identifican al final del presente documento, en la casilla"+
+"(12), se ha convenido en celebrar el presente Contrato de Cuenta Corriente Bancaria, el cual se regirá por las estipulaciones siguientes:"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="0" y="208" width="555" height="12"/>
+				<textElement textAlignment="Center">
+					<font size="9" isBold="true"/>
+				</textElement>
+				<textFieldExpression class="java.lang.String"><![CDATA["DE LAS ESTIPULACIONES DEL CONTRATO"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="0" y="219" width="555" height="571"/>
+				<textElement textAlignment="Justified" markup="styled">
+					<font size="6" isBold="true" isPdfEmbedded="false"/>
+				</textElement>
+				<textFieldExpression class="java.lang.String"><![CDATA["<u>Primera:</u> En virtud del presente Contrato, el Banco, conviene en recibir y acreditar al Cliente en la cuenta identificada en la  casilla (3), (en lo sucesivo la Cuenta), los depósitos que éste efectúe en "+
+"dinero efectivo y atender, hasta la concurrencia de los fondos depositados (Provisión), las órdenes de pago impartidas por el Cliente al Banco, efectuadas mediante la emisión de los cheques contenidos "+
+"en las libretas que  el  Banco entregará al Cliente, o a través de órdenes de pago o de cualquier otro medio electrónico, que ambas partes expresamente convengan a los fines de la movilización  de  la "+
+"Cuenta.  Los cheques contenidos en las libretas que el Banco entregará al Cliente, así como cualquier otro instrumento que las partes acuerden como medio para la movilización de la Cuenta, estarán "+
+"bajo la guarda,custodia y responsabilidad exclusiva del Cliente quien por tanto se compromete a asumir toda la responsabilidad y a sufrir las consecuencias que pudieren resultar por la sustracción o "+
+"extravío de   la solicitud de chequera, de las libretas entregadas por el Banco o de alguno(s) de los cheques en ellas contenidos. En ningún caso el Banco  asume responsabilidad por el pago de "+
+"cheques presentados después de los lapsos fijados para ello por la Ley. Los depósitos efectuados por terceros para ser acreditados a la Cuenta se regirán, igualmente, por este contrato, entendiéndose "+
+"que éstos actúan siempre por cuenta del Cliente. El Banco podrá recibir para su cobro, sin obligación de levantar protestos, ni ejercer recursos, los cheques y otros efectos de comercio que con tal fin "+
+"le entregue el Cliente, y acreditará, en la Cuenta, el producto de los cobrados. Los cheques no pagados quedarán a disposición del Cliente, sin obligación de aviso. Si el Cliente, al efectuar el depósito o "+
+"el tercero que lo haga a su nombre, no indica correctamente el número asignado a la Cuenta, el Banco no tendrá ninguna responsabilidad por las consecuencias que de ello pudiera derivarse, por "+
+"cualquier causa, aún cuando el nombre se hubiere indicado correctamente.\n"+
+"<u>Segunda:</u> Para realizar depósitos de dinero efectivo y cheques a la Cuenta se utilizarán las planillas de depósito proporcionadas por el Banco al efecto.                                        \n"+
+"<u>Tercera:</u> El Cliente se obliga a no emplear bolígrafos ni plumas ni ningún otro instrumento de escritura con tinta fácilmente borrable o esfumable, en la hechura, endoso, aval y firma  de  los cheques "+
+"mediante los cuales movilice la Cuenta y asume en forma expresa y exclusiva frente al  Banco toda la responsabilidad por cualquier falsificación o alteración de y en tales cheques derivada o facilitada "+
+"por uso de tales bolígrafos, plumas u otros instrumentos con tinta fácilmente borrable o esfumable. Para anular cualquier cheque(s) el Cliente, deberá notificarlo, por escrito, al funcionario autorizado de "+
+"la oficina señalada en la casilla (1), con indicación precisa del(los) cheque(s), cuyo(s) pago(s) no deba(n) efectuarse. A partir del recibo de tal notificación, el Banco se abstendrá de efectuar el(los) "+
+"pago(s),   sin asumir responsabilidad alguna si el(los) cheque(s) hubiere(n) sido pagado(s) antes de la notificación. Tampoco asumirá el Banco responsabilidad alguna por rehusar el pago del(los)"+
+"cheque(s) después de la notificación. La notificación referida deberá hacerse en el formulario que el Banco suministrará al efecto.                                                          \n"+
+"<u>Cuarta:</u> Los pagos con cargo a la Cuenta los hará el Banco en moneda de curso legal de la República Bolivariana de Venezuela (en monedas o en billetes, a su elección).                           \n"+
+"<u>Quinta:</u> Para movilizar la Cuenta por mandatario, deberá previamente registrarse la firma de éste en el Banco y presentarse el instrumento de mandato. Toda revocatoria deberá "+
+"necesariamente notificarse al Banco por escrito, para que surta efectos.                                                                                                          \n"+
+"<u>Sexta:</u> Las cantidades pagadas por el Banco, en exceso de la Provisión de la Cuenta, se considerarán como un crédito otorgado al Cliente, el cual devengará intereses a favor del Banco, que serán "+
+"calculados a la rata máxima permitida por el Banco Central de Venezuela para las operaciones activas de los bancos universales o, en su defecto, a la tasa máxima de interés fijada o aplicada por el "+
+"propio Banco para las operaciones activas de carácter comercial, todo conforme se estipula en la Cláusula Vigésima Segunda de este contrato.                                                              \n"+
+"<u>Séptima:</u> Las medidas preventivas o ejecutivas se llevarán a efecto sobre el saldo de la Cuenta que aparezca en los libros del Banco y no implicarán el cierre de la misma                                     \n"+
+"<u>Octava:</u> La Cuenta es remunerada, en el sentido de que los fondos depositados en ella, devengarán intereses sobre saldo promedio mensual, bajo los términos y condiciones que se establecen en el "+
+"presente contrato. Los intereses serán calculados atendiendo a la tasa de interés que corresponda al saldo promedio mensual de la Cuenta, dentro de la tabla o tramo que se mencionada en la Cláusula"+
+"Novena. Los intereses serán pagados al vencimiento de cada mes calendario. Es expresamente entendido, sin embargo, que si el saldo promedio mensual que arroje la Cuenta al vencimiento  del "+
+"respectivo mes calendario, resulta inferior al saldo indicado en la casilla (7), o si fuere el caso, inferior al nuevo saldo promedio mensual mínimo fijado por el Banco en la tabla o tramo que se indica en la "+
+"Cláusula Novena, dichos fondos depositados no devengaran intereses durante ese mes calendario.                                                                                                            \n"+
+"<u>Novena:</u> Es expresamente entendido que el interés que devengará este tipo de cuenta denominada \"Cuenta Corriente Bancaria Remunerada Banca Personal\", será fijado por el Banco de tiempo en "+
+"tiempo, de acuerdo a las regulaciones legales pertinentes dictadas por el Banco Central de Venezuela o cualquier otro ente encargado de tal fijación, de ser el caso. El Banco igualmente podrá, en "+
+"cualquier momento, por su sola decisión, modificar el saldo mínimo remunerable indicado en la casilla (7), así como fijar tablas o tramos, en base a saldos promedios mensuales a los fines de la "+
+"remuneración. El Banco mantendrá informado diariamente al Cliente mediante publicaciones o avisos colocados, en lugar visible,  en toda la red de agencias y oficinas del Banco, así como en su pagina "+
+"Web (www.provincial.com),  sobre los intereses que resultan aplicables a la Cuenta Corriente Bancaria Remunerada Banca Personal, así como la tabla o tramo aplicables a la Cuenta.\n"+
+"<u>Décima:</u> Los intereses que devengue el saldo promedio mensual de la Cuenta conforme a lo dicho, se calcularán sobre la base de un año de 360 días y se abonarán en la Cuenta el día último del "+
+"correspondiente mes calendario.                                                                                                                                                                                                                                      \n"+
+"<u>Décima Primera:</u> El Cliente acepta que la Cuenta esta sujeta al pago de las comisiones que pueda establecer el Banco por los conceptos indicados en el Tarifario vigente para la Cuenta Corriente \n"+
+"Bancaria Remunerada Banca Personal,  las cuales conforme a la normativa legal vigente son anunciadas por el Banco diariamente en  toda su red de oficinas en lugar visible al público, así como en su "+
+"página Web (www.provincial.com). El monto de las comisiones aplicables a la Corriente Bancaria Remunerada Banca Personal, será informado por el Banco al Cliente con la periodicidad y a través de "+
+"los medios indicados anteriormente. El Banco de tiempo en tiempo, podrá modificar el monto de las comisiones aplicables a la Corriente Bancaria Remunerada Banca Personal, en el entendido  que "+
+"cualquier modificación que el Banco efectúe en tal sentido, la hará  del conocimiento del Cliente con por lo menos treinta (30) días de anticipación a la fecha de su entrada en vigencia, mediante avisos "+
+"que colocará en lugar visible al público,  en toda su red de agencias u oficinas a nivel nacional y en su pagina Web (www.provincial.com). Adicionalmente el Banco, si lo considera conveniente, podrá "+
+"efectuar las notificaciones a que hubiere lugar a través de cualquier otro medio de comunicación, tales como: telegramas, avisos encartados en correspondencia enviada por el Banco al Cliente o incluso "+
+"mediante avisos publicados  en un diario de circulación nacional. A todo evento se entenderá que el Cliente aceptó la correspondiente modificación,  si para la fecha de su entrada en vigencia, el "+
+"Cliente no procede al cierre de la Cuenta en el plazo anteriormente señalado, o si durante dicho plazo moviliza la Cuenta, tanto para hacer  depósitos como para hacer retiros de fondos. Los montos de "+
+"las comisiones que, conforme a lo previsto en esta Cláusula, aplique el Banco a la Cuenta en ningún caso podrán exceder del  monto o porcentaje máximo que, de ser el caso,  establezca el Banco "+
+"Central de Venezuela o cualquier otro organismo que tuviere facultades para ello. El Cliente autoriza al Banco para debitar en la Cuenta el monto correspondiente al cobro de todas las comisiones que el "+
+"Banco deba realizar en razón de este contrato o de cualquier otro contrato que mantenga el Cliente  con el Banco, salvo cuando se trate de una cuenta nómina, en cuyo caso el Banco deberá contar con "+
+"autorización escrita del Cliente para poder efectuar tales cargos en dicha cuenta nómina.                                                                                                                 \n"+
+"<u>Décima Segunda:</u> Este Contrato quedará automáticamente terminado en cualquier tiempo y cerrada la Cuenta en uno cualesquiera de los siguientes casos: a) Por la emisión durante la vigencia del "+
+"contrato de tres (3) cheques sin Provisión suficiente para cubrirlos; b) Si, durante tres (3) meses calendarios, consecutivos, no tuviere el Cliente, Provisión alguna en la Cuenta, por cualquier causa. "+
+"Podrá cerrarse también mediante notificación escrita hecha por cualquiera de las partes, a la otra, con treinta (30) días de anticipación, por lo menos, a la fecha efectiva del cierre. Quedará así mismo "+
+"cerrada la Cuenta, en los demás casos establecidos en la Ley, a cuyo efecto deberá notificarse por escrito y probarse legalmente al Banco, por los interesados, la causal de terminación de que se tratare."+
+"El Banco, conforme a los términos que determine la Superintendencia de Bancos y Otras Instituciones Financieras, podrá adoptar medidas sobre la Cuenta cuando ésta registre en el lapso de un período "+
+"liquidado, rechazos a las órdenes de pago realizadas contra la misma. En tales casos El Banco podrá, una vez restringido el uso de la Cuenta frente a terceros, cerrar la misma.   \n"+
+"<u>Décima Tercera:</u> El Banco, está obligado a llevar la Cuenta al día con el objeto de determinar los saldos deudores o acreedores de la misma e informar al Cliente mensualmente, dentro de los quince (15)"+
+"días continuos siguientes a la fecha de terminación de cada mes, de los movimientos de la Cuenta correspondiente al período de liquidación de que se trate, por medio de un estado de cuenta, enviado a "+
+"la dirección seleccionada por el Cliente en la casilla (10). Cuando el Cliente no hubiere recibido el respectivo estado de cuenta dentro de los quince (15) días continuos siguientes al vencimiento  del plazo "+
+"anteriormente señalado, éste podrá reclamar por escrito su respectivo estado de cuenta, dentro de los quince (15) días continuos siguientes al vencimiento del plazo dentro del cual debió recibirlo, "+
+"y el Banco estará obligado a entregárselo de inmediato. Vencido este último plazo de quince (15) días continuos sin que el Cliente haya reclamado por escrito su respectivo estado de cuenta, se "+
+"entenderá  que el Cliente recibió del Banco el correspondiente estado de cuenta y se presumirá como cierto, salvo prueba en contrario, que el estado de cuenta que el Banco exhiba o le oponga al Cliente "+
+"como correspondiente a un determinado mes o período de liquidación, es el mismo que el Banco le envió al Cliente como correspondiente a ese mismo mes o período. Si el Cliente tiene observaciones "+
+"que formular al estado de cuenta, deberá hacerlas llegar al Banco por escrito a su dirección o por vía electrónica, en forma detallada y razonada, dentro de los seis (6) meses siguientes a la fecha de "+
+"recepción del respectivo estado de cuenta. Dentro del referido plazo de seis (6) meses siguientes a la fecha de terminación del respectivo mes, tanto el Cliente como el Banco podrán, bajo pena de "+
+"caducidad, impugnar el respectivo estado de cuenta por errores de cálculo o de escritura, por omisiones o duplicaciones y por falsificaciones de firma(s) en los correspondientes cheques u órdenes de "+
+"pago. Vencido el plazo antes indicado sin que el Banco haya recibido ni las observaciones ni la conformidad del Cliente o sin que se haya impugnado, el estado de cuenta, se tendrá por reconocido en la "+
+"forma presentada, sus saldos deudores o acreedores serán definitivos en la fecha de la Cuenta y las firmas estampadas en los cheques y órdenes de pago se tendrán como reconocidas por el Cliente. "+
+"Los cheques relacionados con un estado de cuenta, conformado por el Cliente en forma expresa o tácita, le podrán ser devueltos al Cliente una vez transcurrido el lapso para las impugnaciones a que se "+
+"refiere esta Cláusula, salvo que hayan sido propuestas válidamente impugnaciones. Antes de devolver los cheques al Cliente, el Banco los copiará en películas en miniaturas o mediante otros medios "+
+"electrónicos o computarizados y conservará esas copias, por lo menos, durante diez (10) años, en forma tal que puedan ser reproducidos. Tales copias, a falta de los originales, adminiculadas con los "+
+"respectivos estados de cuenta, podrán constituir prueba de los cheques devueltos al Cliente."]]></textFieldExpression>
+			</textField>
+			<image>
+				<reportElement x="-1" y="0" width="124" height="18"/>
+				<imageExpression class="java.lang.String"><![CDATA["C:\\Users\\Administrador\\Desktop\\basabe\\ejemplo contratos\\banner.png"]]></imageExpression>
+			</image>
+			<textField>
+				<reportElement x="246" y="790" width="100" height="12"/>
+				<textElement textAlignment="Center">
+					<font fontName="Arial" isBold="true"/>
+				</textElement>
+				<textFieldExpression class="java.lang.String"><![CDATA[$P{P_TEXTO_ORIGINAL}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="483" y="0" width="72" height="10"/>
+				<textElement textAlignment="Right">
+					<font fontName="Arial" size="6"/>
+				</textElement>
+				<text><![CDATA[Página 1 de 2]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="-12" y="747" width="11" height="38"/>
+				<textElement textAlignment="Left" verticalAlignment="Bottom" rotation="Left">
+					<font size="6"/>
+				</textElement>
+				<text><![CDATA[BGPR66]]></text>
+			</staticText>
+		</band>
+	</detail>
+</jasperReport>
