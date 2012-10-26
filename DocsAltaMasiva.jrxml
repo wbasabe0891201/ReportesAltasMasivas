@@ -18,6 +18,9 @@
 	<parameter name="SUBREPORT_DIR1" class="java.lang.String" isForPrompting="false">
 		<defaultValueExpression><![CDATA["C:\\Users\\wbasabe\\TRABAJO\\BASABE CONSULTORES\\JMC\\solicitudes\\02_PROYECTO NOMINA PROVINCIAL\\reporte\\ReportesAltasMasivas\\ReportePaginas.jasper"]]></defaultValueExpression>
 	</parameter>
+	<parameter name="SUBREPORT_DIR4" class="java.lang.String" isForPrompting="false">
+		<defaultValueExpression><![CDATA["C:\\Users\\wbasabe\\TRABAJO\\BASABE CONSULTORES\\JMC\\solicitudes\\02_PROYECTO NOMINA PROVINCIAL\\reporte\\ReportesAltasMasivas\\BGPR60.jasper"]]></defaultValueExpression>
+	</parameter>
 	<queryString language="xPath">
 		<![CDATA[/Cuentas/Documento]]>
 	</queryString>

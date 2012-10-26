@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="BGPR54" language="groovy" pageWidth="612" pageHeight="792" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20">
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="BGPR54" language="groovy" pageWidth="572" pageHeight="752" columnWidth="555" leftMargin="0" rightMargin="0" topMargin="0" bottomMargin="0">
 	<property name="ireport.zoom" value="2.3579476910000117"/>
 	<property name="ireport.x" value="0"/>
-	<property name="ireport.y" value="537"/>
+	<property name="ireport.y" value="288"/>
+	<parameter name="P_COD_FORM" class="java.lang.String" isForPrompting="false">
+		<defaultValueExpression><![CDATA["BGPR60"]]></defaultValueExpression>
+	</parameter>
 	<queryString language="xPath">
 		<![CDATA[/Cuentas/Documento]]>
 	</queryString>
@@ -766,13 +769,13 @@
 				</textElement>
 				<text><![CDATA[C.C:]]></text>
 			</staticText>
-			<staticText>
+			<textField>
 				<reportElement x="32" y="301" width="17" height="38"/>
-				<textElement verticalAlignment="Bottom" rotation="Left">
+				<textElement verticalAlignment="Bottom" rotation="Left" markup="none">
 					<font size="7" isBold="true"/>
 				</textElement>
-				<text><![CDATA[BGPR60]]></text>
-			</staticText>
+				<textFieldExpression class="java.lang.String"><![CDATA[$P{P_COD_FORM}]]></textFieldExpression>
+			</textField>
 			<staticText>
 				<reportElement x="302" y="473" width="270" height="100"/>
 				<box topPadding="2" leftPadding="4"/>
