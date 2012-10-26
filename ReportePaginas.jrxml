@@ -26,14 +26,9 @@
 				<subreportParameter name="P_TEXTO_ORIGINAL">
 					<subreportParameterExpression><![CDATA[$P{P_TEXTO_ORIGINAL}]]></subreportParameterExpression>
 				</subreportParameter>
-				<dataSourceExpression><![CDATA[((net.sf.jasperreports.engine.data.JRXmlDataSource)$P{REPORT_DATA_SOURCE}).subDataSource("parent::Donvbnbcumento")]]></dataSourceExpression>
+				<dataSourceExpression><![CDATA[((net.sf.jasperreports.engine.data.JRXmlDataSource)$P{REPORT_DATA_SOURCE}).subDataSource("/parent::Documento/pagina")]]></dataSourceExpression>
 				<subreportExpression class="java.lang.String"><![CDATA[$P{SUBREPORT_DIR1}]]></subreportExpression>
 			</subreport>
-			<textField>
-				<reportElement x="357" y="11" width="100" height="20"/>
-				<textElement/>
-				<textFieldExpression class="java.lang.String"><![CDATA[$F{codForm}]]></textFieldExpression>
-			</textField>
 		</band>
 	</detail>
 </jasperReport>
