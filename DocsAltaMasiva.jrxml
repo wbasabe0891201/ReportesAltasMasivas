@@ -9,69 +9,21 @@
 	<parameter name="P_TEXTO_ORIGINAL" class="java.lang.String" isForPrompting="false">
 		<defaultValueExpression><![CDATA["ORIGINAL"]]></defaultValueExpression>
 	</parameter>
+	<parameter name="SUBREPORT_DIR1" class="java.lang.String">
+		<defaultValueExpression><![CDATA["C:\\Users\\wbasabe\\TRABAJO\\BASABE CONSULTORES\\JMC\\solicitudes\\02_PROYECTO NOMINA PROVINCIAL\\reporte\\ReportesAltasMasivas\\MPPR90.jasper"]]></defaultValueExpression>
+	</parameter>
 	<queryString language="xPath">
 		<![CDATA[/Cuentas/Documento]]>
 	</queryString>
+	<field name="codForm" class="java.lang.String">
+		<fieldDescription><![CDATA[pagina/codForm]]></fieldDescription>
+	</field>
 	<background>
 		<band splitType="Stretch"/>
 	</background>
 	<detail>
 		<band height="50">
-			<subreport>
-				<reportElement x="0" y="0" width="159" height="50"/>
-				<subreportParameter name="P_TEXTO_ORIGINAL">
-					<subreportParameterExpression><![CDATA[$P{P_TEXTO_ORIGINAL}]]></subreportParameterExpression>
-				</subreportParameter>
-				<dataSourceExpression><![CDATA[((net.sf.jasperreports.engine.data.JRXmlDataSource)$P{REPORT_DATA_SOURCE}).subDataSource("/Documento")]]></dataSourceExpression>
-				<subreportExpression class="java.lang.String"><![CDATA[$P{SUBREPORT_DIR} + "PEPR0100.jasper"]]></subreportExpression>
-			</subreport>
-		</band>
-		<band height="50"/>
-		<band height="50"/>
-		<band height="50"/>
-		<band height="50"/>
-		<band height="50">
-			<subreport>
-				<reportElement x="0" y="0" width="159" height="50"/>
-				<subreportParameter name="P_TEXTO_ORIGINAL">
-					<subreportParameterExpression><![CDATA[$P{P_TEXTO_ORIGINAL}]]></subreportParameterExpression>
-				</subreportParameter>
-				<dataSourceExpression><![CDATA[((net.sf.jasperreports.engine.data.JRXmlDataSource)$P{REPORT_DATA_SOURCE}).subDataSource("/Documento")]]></dataSourceExpression>
-				<subreportExpression class="java.lang.String"><![CDATA[$P{SUBREPORT_DIR} + "PEPR0100.jasper"]]></subreportExpression>
-			</subreport>
-		</band>
-		<band height="50">
-			<subreport>
-				<reportElement x="0" y="0" width="159" height="50"/>
-				<subreportParameter name="P_TEXTO_ORIGINAL">
-					<subreportParameterExpression><![CDATA[$P{P_TEXTO_ORIGINAL}]]></subreportParameterExpression>
-				</subreportParameter>
-				<subreportParameter name="SUBREPORT_DIR"/>
-				<dataSourceExpression><![CDATA[((net.sf.jasperreports.engine.data.JRXmlDataSource)$P{REPORT_DATA_SOURCE}).subDataSource("/Documento")]]></dataSourceExpression>
-				<subreportExpression class="java.lang.String"><![CDATA[$P{SUBREPORT_DIR} + "PEPR02.jasper"]]></subreportExpression>
-			</subreport>
-		</band>
-		<band height="50">
-			<subreport>
-				<reportElement x="0" y="0" width="159" height="50"/>
-				<subreportParameter name="P_TEXTO_ORIGINAL">
-					<subreportParameterExpression><![CDATA[$P{P_TEXTO_ORIGINAL}]]></subreportParameterExpression>
-				</subreportParameter>
-				<subreportParameter name="SUBREPORT_DIR"/>
-				<dataSourceExpression><![CDATA[((net.sf.jasperreports.engine.data.JRXmlDataSource)$P{REPORT_DATA_SOURCE}).subDataSource("/Documento")]]></dataSourceExpression>
-				<subreportExpression class="java.lang.String"><![CDATA[$P{SUBREPORT_DIR} + "PEPR0300.jasper"]]></subreportExpression>
-			</subreport>
-		</band>
-		<band height="50">
-			<subreport>
-				<reportElement x="0" y="0" width="159" height="50"/>
-				<subreportParameter name="P_TEXTO_ORIGINAL">
-					<subreportParameterExpression><![CDATA[$P{P_TEXTO_ORIGINAL}]]></subreportParameterExpression>
-				</subreportParameter>
-				<subreportParameter name="SUBREPORT_DIR"/>
-				<dataSourceExpression><![CDATA[((net.sf.jasperreports.engine.data.JRXmlDataSource)$P{REPORT_DATA_SOURCE}).subDataSource("/Documento")]]></dataSourceExpression>
-				<subreportExpression class="java.lang.String"><![CDATA[$P{SUBREPORT_DIR} + "PEPR1300.jasper"]]></subreportExpression>
-			</subreport>
+			<printWhenExpression><![CDATA["MPPR9000".equals($F{codForm})]]></printWhenExpression>
 		</band>
 	</detail>
 </jasperReport>

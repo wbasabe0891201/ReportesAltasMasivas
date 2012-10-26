@@ -1,0 +1,2569 @@
+<Cuentas>
+	<Documento identificador="09047158">
+		<Binaria>
+			<correlativo/>
+		</Binaria>
+		<pagina>
+			<canal>0</canal>
+			<longitudReg>02079</longitudReg>
+			<destinatario>40621</destinatario>
+			<codForm>BGPRB500</codForm>
+			<codEmpresa>40621</codEmpresa>
+			<codProducto>15</codProducto>
+			<codSubProducto>3011</codSubProducto>
+			<canal>1</canal>
+			<codEmpresa>40621</codEmpresa>
+			<nombreEmpresa>NERA TELECOMUNICACIO</nombreEmpresa>
+			<nacionalidad>V</nacionalidad>
+			<cedIdentidad>0018308374</cedIdentidad>
+			<nombreCliente>BALZA CONTRERAS ANDREYNA YOSELYNE</nombreCliente>
+			<filler>00</filler>
+			<dirCliente1>AV. AV VOLMER</dirCliente1>
+			<dirCliente2>TRR AV ESTE CERO CANDELARIA</dirCliente2>
+			<dirCliente3>SAN BERNARDINO LIBERTADOR CARACAS</dirCliente3>
+			<dirCliente4>DISTRITO FEDERAL 01080 000</dirCliente4>
+			<codEmpresa>40621</codEmpresa>
+			<nombreOficina>CENTRAL</nombreOficina>
+			<numCta>589524-0203-77425-3668</numCta>
+			<tipoCta>INDIVIDUAL</tipoCta>
+			<fechaApertura>2012-09-14</fechaApertura>
+			<numCliente>09047158</numCliente>
+			<nombreCliente>ANDREYNA YOSELYNE BALZA CONTRERAS</nombreCliente>
+			<codIdentificacion>V</codIdentificacion>
+			<cedRif>0018308374</cedRif>
+			<nacionalidadAbrev>VEN</nacionalidadAbrev>
+			<edoCivil>SOLTERO/A</edoCivil>
+			<codDivisa>VEF</codDivisa>
+			<codProducto>TA</codProducto>
+			<descripcionProducto>RJETA GANA</descripcionProducto>
+			<codSubProducto>+</codSubProducto>
+			<sucursal>CENTRAL</sucursal>
+			<fechaDB2>2012-09-14</fechaDB2>
+			<tipoFirma>I</tipoFirma>
+			<descripcionTipoFirma>INDIVIDUAL</descripcionTipoFirma>
+			<fechaApertura>2012-09-13</fechaApertura>
+			<fechaModificacion>2012-09-14</fechaModificacion>
+			<nombreFamiliar>30027 BLANCA ELENA BERMUDEZ ALVAREZ</nombreFamiliar>
+			<tipoParticipacion>TITULAR</tipoParticipacion>
+			<corasu>64</corasu>
+			<numCliente>09047158</numCliente>
+			<nombreCliente>ANDREYNA YOSELYNE BALZA CONTRERAS</nombreCliente>
+			<docIdentidad>V0018308374</docIdentidad>
+			<numContratoTarjeta>0108-0027-76-5020216823</numContratoTarjeta>
+			<numTarjetaElect>589524-0203-77425-3668</numTarjetaElect>
+			<fechaEntrega>2012-09-14</fechaEntrega>
+			<nombreCiudad>CARACAS</nombreCiudad>
+			<nombreOficina>CENTRAL</nombreOficina>
+			<filler>X</filler>
+			<tipoUsoCta>NOMINA</tipoUsoCta>
+			<nombreCliente>ANDREYNA YOSELYNE BALZA CONTRERAS</nombreCliente>
+			<docIdentidad>V0018308374</docIdentidad>
+			<descripcionTarjeta>TARJETA DE PAGO ELECTRONICO</descripcionTarjeta>
+			<ciudadFecha>CARACAS</ciudadFecha>
+			<fechaDiasLetras>CATORCE</fechaDiasLetras>
+			<nombreMes>SEPTIEMBRE</nombreMes>
+			<anio>2012</anio>
+			<numCtaTarjPopular>01080027791500003719</numCtaTarjPopular>
+		</pagina>
+		<pagina>
+			<canal>0</canal>
+			<longitudReg>02079</longitudReg>
+			<destinatario>40621</destinatario>
+			<codForm>BGPRB600</codForm>
+			<codEmpresa>40621</codEmpresa>
+			<codProducto>15</codProducto>
+			<codSubProducto>3011</codSubProducto>
+			<canal>1</canal>
+			<codEmpresa>40621</codEmpresa>
+			<nombreEmpresa>NERA TELECOMUNICACIO</nombreEmpresa>
+			<nacionalidad>V</nacionalidad>
+			<cedIdentidad>0018308374</cedIdentidad>
+			<nombreCliente>BALZA CONTRERAS ANDREYNA YOSELYNE</nombreCliente>
+			<filler>00</filler>
+			<dirCliente1>AV. AV VOLMER</dirCliente1>
+			<dirCliente2>TRR AV ESTE CERO CANDELARIA</dirCliente2>
+			<dirCliente3>SAN BERNARDINO LIBERTADOR CARACAS</dirCliente3>
+			<dirCliente4>DISTRITO FEDERAL 01080 000</dirCliente4>
+			<codEmpresa>40621</codEmpresa>
+			<nombreOficina>CENTRAL</nombreOficina>
+			<numCta>589524-0203-77425-3668</numCta>
+			<tipoCta>INDIVIDUAL</tipoCta>
+			<fechaApertura>2012-09-14</fechaApertura>
+			<numCliente>09047158</numCliente>
+			<nombreCliente>ANDREYNA YOSELYNE BALZA CONTRERAS</nombreCliente>
+			<codIdentificacion>V</codIdentificacion>
+			<cedRif>0018308374</cedRif>
+			<nacionalidadAbrev>VEN</nacionalidadAbrev>
+			<edoCivil>SOLTERO/A</edoCivil>
+			<codDivisa>VEF</codDivisa>
+			<codProducto>TA</codProducto>
+			<descripcionProducto>RJETA GANA</descripcionProducto>
+			<codSubProducto>+</codSubProducto>
+			<sucursal>CENTRAL</sucursal>
+			<fechaDB2>2012-09-14</fechaDB2>
+			<tipoFirma>I</tipoFirma>
+			<descripcionTipoFirma>INDIVIDUAL</descripcionTipoFirma>
+			<fechaApertura>2012-09-13</fechaApertura>
+			<fechaModificacion>2012-09-14</fechaModificacion>
+			<nombreFamiliar>30027 BLANCA ELENA BERMUDEZ ALVAREZ</nombreFamiliar>
+			<tipoParticipacion>TITULAR</tipoParticipacion>
+			<corasu>64</corasu>
+			<numCliente>09047158</numCliente>
+			<nombreCliente>ANDREYNA YOSELYNE BALZA CONTRERAS</nombreCliente>
+			<docIdentidad>V0018308374</docIdentidad>
+			<numContratoTarjeta>0108-0027-76-5020216823</numContratoTarjeta>
+			<numTarjetaElect>589524-0203-77425-3668</numTarjetaElect>
+			<fechaEntrega>2012-09-14</fechaEntrega>
+			<nombreCiudad>CARACAS</nombreCiudad>
+			<nombreOficina>CENTRAL</nombreOficina>
+			<filler>X</filler>
+			<tipoUsoCta>NOMINA</tipoUsoCta>
+			<nombreCliente>ANDREYNA YOSELYNE BALZA CONTRERAS</nombreCliente>
+			<docIdentidad>V0018308374</docIdentidad>
+			<descripcionTarjeta>TARJETA DE PAGO ELECTRONICO</descripcionTarjeta>
+			<ciudadFecha>CARACAS</ciudadFecha>
+			<fechaDiasLetras>CATORCE</fechaDiasLetras>
+			<nombreMes>SEPTIEMBRE</nombreMes>
+			<anio>2012</anio>
+			<numCtaTarjPopular>01080027791500003719</numCtaTarjPopular>
+		</pagina>
+		<pagina>
+			<canal>0</canal>
+			<longitudReg>02079</longitudReg>
+			<destinatario>40621</destinatario>
+			<codForm>BGPRB700</codForm>
+			<codEmpresa>40621</codEmpresa>
+			<codProducto>15</codProducto>
+			<codSubProducto>3011</codSubProducto>
+			<canal>1</canal>
+			<codEmpresa>40621</codEmpresa>
+			<nombreEmpresa>NERA TELECOMUNICACIO</nombreEmpresa>
+			<nacionalidad>V</nacionalidad>
+			<cedIdentidad>0018308374</cedIdentidad>
+			<nombreCliente>BALZA CONTRERAS ANDREYNA YOSELYNE</nombreCliente>
+			<filler>00</filler>
+			<dirCliente1>AV. AV VOLMER</dirCliente1>
+			<dirCliente2>TRR AV ESTE CERO CANDELARIA</dirCliente2>
+			<dirCliente3>SAN BERNARDINO LIBERTADOR CARACAS</dirCliente3>
+			<dirCliente4>DISTRITO FEDERAL 01080 000</dirCliente4>
+			<codEmpresa>40621</codEmpresa>
+			<nombreOficina>CENTRAL</nombreOficina>
+			<numCta>589524-0203-77425-3668</numCta>
+			<tipoCta>INDIVIDUAL</tipoCta>
+			<fechaApertura>2012-09-14</fechaApertura>
+			<numCliente>09047158</numCliente>
+			<nombreCliente>ANDREYNA YOSELYNE BALZA CONTRERAS</nombreCliente>
+			<codIdentificacion>V</codIdentificacion>
+			<cedRif>0018308374</cedRif>
+			<nacionalidadAbrev>VEN</nacionalidadAbrev>
+			<edoCivil>SOLTERO/A</edoCivil>
+			<codDivisa>VEF</codDivisa>
+			<codProducto>TA</codProducto>
+			<descripcionProducto>RJETA GANA</descripcionProducto>
+			<codSubProducto>+</codSubProducto>
+			<sucursal>CENTRAL</sucursal>
+			<fechaDB2>2012-09-14</fechaDB2>
+			<tipoFirma>I</tipoFirma>
+			<descripcionTipoFirma>INDIVIDUAL</descripcionTipoFirma>
+			<fechaApertura>2012-09-13</fechaApertura>
+			<fechaModificacion>2012-09-14</fechaModificacion>
+			<nombreFamiliar>30027 BLANCA ELENA BERMUDEZ ALVAREZ</nombreFamiliar>
+			<tipoParticipacion>TITULAR</tipoParticipacion>
+			<corasu>64</corasu>
+			<numCliente>09047158</numCliente>
+			<nombreCliente>ANDREYNA YOSELYNE BALZA CONTRERAS</nombreCliente>
+			<docIdentidad>V0018308374</docIdentidad>
+			<numContratoTarjeta>0108-0027-76-5020216823</numContratoTarjeta>
+			<numTarjetaElect>589524-0203-77425-3668</numTarjetaElect>
+			<fechaEntrega>2012-09-14</fechaEntrega>
+			<nombreCiudad>CARACAS</nombreCiudad>
+			<nombreOficina>CENTRAL</nombreOficina>
+			<filler>X</filler>
+			<tipoUsoCta>NOMINA</tipoUsoCta>
+			<nombreCliente>ANDREYNA YOSELYNE BALZA CONTRERAS</nombreCliente>
+			<docIdentidad>V0018308374</docIdentidad>
+			<descripcionTarjeta>TARJETA DE PAGO ELECTRONICO</descripcionTarjeta>
+			<ciudadFecha>CARACAS</ciudadFecha>
+			<fechaDiasLetras>CATORCE</fechaDiasLetras>
+			<nombreMes>SEPTIEMBRE</nombreMes>
+			<anio>2012</anio>
+			<numCtaTarjPopular>01080027791500003719</numCtaTarjPopular>
+		</pagina>
+		<pagina>
+			<canal>0</canal>
+			<longitudReg>02079</longitudReg>
+			<destinatario>40621</destinatario>
+			<codForm>BGPRB800</codForm>
+			<codEmpresa>40621</codEmpresa>
+			<codProducto>15</codProducto>
+			<codSubProducto>3011</codSubProducto>
+			<canal>1</canal>
+			<codEmpresa>40621</codEmpresa>
+			<nombreEmpresa>NERA TELECOMUNICACIO</nombreEmpresa>
+			<nacionalidad>V</nacionalidad>
+			<cedIdentidad>0018308374</cedIdentidad>
+			<nombreCliente>BALZA CONTRERAS ANDREYNA YOSELYNE</nombreCliente>
+			<filler>00</filler>
+			<dirCliente1>AV. AV VOLMER</dirCliente1>
+			<dirCliente2>TRR AV ESTE CERO CANDELARIA</dirCliente2>
+			<dirCliente3>SAN BERNARDINO LIBERTADOR CARACAS</dirCliente3>
+			<dirCliente4>DISTRITO FEDERAL 01080 000</dirCliente4>
+			<codEmpresa>40621</codEmpresa>
+			<nombreOficina>CENTRAL</nombreOficina>
+			<numCta>589524-0203-77425-3668</numCta>
+			<tipoCta>INDIVIDUAL</tipoCta>
+			<fechaApertura>2012-09-14</fechaApertura>
+			<numCliente>09047158</numCliente>
+			<nombreCliente>ANDREYNA YOSELYNE BALZA CONTRERAS</nombreCliente>
+			<codIdentificacion>V</codIdentificacion>
+			<cedRif>0018308374</cedRif>
+			<nacionalidadAbrev>VEN</nacionalidadAbrev>
+			<edoCivil>SOLTERO/A</edoCivil>
+			<codDivisa>VEF</codDivisa>
+			<codProducto>TA</codProducto>
+			<descripcionProducto>RJETA GANA</descripcionProducto>
+			<codSubProducto>+</codSubProducto>
+			<sucursal>CENTRAL</sucursal>
+			<fechaDB2>2012-09-14</fechaDB2>
+			<tipoFirma>I</tipoFirma>
+			<descripcionTipoFirma>INDIVIDUAL</descripcionTipoFirma>
+			<fechaApertura>2012-09-13</fechaApertura>
+			<fechaModificacion>2012-09-14</fechaModificacion>
+			<nombreFamiliar>30027 BLANCA ELENA BERMUDEZ ALVAREZ</nombreFamiliar>
+			<tipoParticipacion>TITULAR</tipoParticipacion>
+			<corasu>64</corasu>
+			<numCliente>09047158</numCliente>
+			<nombreCliente>ANDREYNA YOSELYNE BALZA CONTRERAS</nombreCliente>
+			<docIdentidad>V0018308374</docIdentidad>
+			<numContratoTarjeta>0108-0027-76-5020216823</numContratoTarjeta>
+			<numTarjetaElect>589524-0203-77425-3668</numTarjetaElect>
+			<fechaEntrega>2012-09-14</fechaEntrega>
+			<nombreCiudad>CARACAS</nombreCiudad>
+			<nombreOficina>CENTRAL</nombreOficina>
+			<filler>X</filler>
+			<tipoUsoCta>NOMINA</tipoUsoCta>
+			<nombreCliente>ANDREYNA YOSELYNE BALZA CONTRERAS</nombreCliente>
+			<docIdentidad>V0018308374</docIdentidad>
+			<descripcionTarjeta>TARJETA DE PAGO ELECTRONICO</descripcionTarjeta>
+			<ciudadFecha>CARACAS</ciudadFecha>
+			<fechaDiasLetras>CATORCE</fechaDiasLetras>
+			<nombreMes>SEPTIEMBRE</nombreMes>
+			<anio>2012</anio>
+			<numCtaTarjPopular>01080027791500003719</numCtaTarjPopular>
+		</pagina>
+		<pagina>
+			<canal>0</canal>
+			<longitudReg>04379</longitudReg>
+			<destinatario>40621</destinatario>
+			<codForm>PEPR1400</codForm>
+			<codEmpresa>40621</codEmpresa>
+			<codProducto>15</codProducto>
+			<codSubProducto>3011</codSubProducto>
+			<filler>1</filler>
+			<codEmpresa>40621</codEmpresa>
+			<nombreEmpresa>NERA TELECOMUNICACIO</nombreEmpresa>
+			<nacionalidad>V</nacionalidad>
+			<cedIdentidad>0018308374</cedIdentidad>
+			<nombreCliente>BALZA CONTRERAS ANDREYNA YOSELYNE</nombreCliente>
+			<filler>00</filler>
+			<dirCliente1>AV. AV VOLMER</dirCliente1>
+			<dirCliente2>TRR AV ESTE CERO CANDELARIA</dirCliente2>
+			<dirCliente3>SAN BERNARDINO LIBERTADOR CARACAS</dirCliente3>
+			<dirCliente4>DISTRITO FEDERAL 01080 000</dirCliente4>
+			<numCliente>09047158</numCliente>
+			<numCta>5895240203774253668</numCta>
+			<nombreCliente>ANDREYNA YOSELYNE BALZA CON</nombreCliente>
+			<codIdentidad>V</codIdentidad>
+			<filler>-</filler>
+			<docIdentidad>0018308374</docIdentidad>
+			<lugarNacimiento>VENEZUELA - MERIDA</lugarNacimiento>
+			<fechaNac>1987-11-06</fechaNac>
+			<nacionalidad>VENEZUELA</nacionalidad>
+			<edoCivil>SOLTERO/A</edoCivil>
+			<profesion>OBRERO</profesion>
+			<ocupacion>SERVICIOS PRIVADOS</ocupacion>
+			<dirClienteLn1>AVENIDA NRO 3 NRO. CASA NRO 173 EL ARENAL</dirClienteLn1>
+			<telfCliente>0274-2449016</telfCliente>
+			<razonUsoCta>NOMINA</razonUsoCta>
+			<nombreEmpresa>NERA TELECOMUNICACIO</nombreEmpresa>
+			<telfEmpresa>212-5041111</telfEmpresa>
+			<dirEmpresa1>AV VOLMER</dirEmpresa1>
+			<dirEmpresa2>AV ESTE CERO</dirEmpresa2>
+			<sueldoCliente>2.400,00</sueldoCliente>
+			<fechaApertura>2012-09-14</fechaApertura>
+			<numCliente>09047158</numCliente>
+			<datosIdentificacion>V - 0018308374 - ANDREYNA YOSELYNE BALZA CON</datosIdentificacion>
+			<detalle>
+				<contratoCliente>01080027001500003719</contratoCliente>
+				<tipoCliente>TITULAR</tipoCliente>
+				<numSecuencia>01</numSecuencia>
+				<estatusContrato>ACTIVO</estatusContrato>
+				<relacionContrato/>
+				<descripcionProducto>CUENTA REFERENCIAL</descripcionProducto>
+			</detalle>
+			<detalle>
+				<contratoCliente>01080027005020216823</contratoCliente>
+				<tipoCliente>TITULAR</tipoCliente>
+				<numSecuencia>01</numSecuencia>
+				<estatusContrato>ACTIVO</estatusContrato>
+				<relacionContrato/>
+				<descripcionProducto>TH. CREDITO Y DEBITO</descripcionProducto>
+			</detalle>
+			<detalle>
+				<contratoCliente/>
+				<tipoCliente/>
+				<numSecuencia/>
+				<estatusContrato/>
+				<relacionContrato/>
+				<descripcionProducto/>
+			</detalle>
+			<detalle>
+				<contratoCliente/>
+				<tipoCliente/>
+				<numSecuencia/>
+				<estatusContrato/>
+				<relacionContrato/>
+				<descripcionProducto/>
+			</detalle>
+			<detalle>
+				<contratoCliente/>
+				<tipoCliente/>
+				<numSecuencia/>
+				<estatusContrato/>
+				<relacionContrato/>
+				<descripcionProducto/>
+			</detalle>
+			<detalle>
+				<contratoCliente/>
+				<tipoCliente/>
+				<numSecuencia/>
+				<estatusContrato/>
+				<relacionContrato/>
+				<descripcionProducto/>
+			</detalle>
+			<detalle>
+				<contratoCliente/>
+				<tipoCliente/>
+				<numSecuencia/>
+				<estatusContrato/>
+				<relacionContrato/>
+				<descripcionProducto/>
+			</detalle>
+			<detalle>
+				<contratoCliente/>
+				<tipoCliente/>
+				<numSecuencia/>
+				<estatusContrato/>
+				<relacionContrato/>
+				<descripcionProducto/>
+			</detalle>
+			<detalle>
+				<contratoCliente/>
+				<tipoCliente/>
+				<numSecuencia/>
+				<estatusContrato/>
+				<relacionContrato/>
+				<descripcionProducto/>
+			</detalle>
+			<detalle>
+				<contratoCliente/>
+				<tipoCliente/>
+				<numSecuencia/>
+				<estatusContrato/>
+				<relacionContrato/>
+				<descripcionProducto/>
+			</detalle>
+			<detalle>
+				<contratoCliente/>
+				<tipoCliente/>
+				<numSecuencia/>
+				<estatusContrato/>
+				<relacionContrato/>
+				<descripcionProducto/>
+			</detalle>
+			<detalle>
+				<contratoCliente/>
+				<tipoCliente/>
+				<numSecuencia/>
+				<estatusContrato/>
+				<relacionContrato/>
+				<descripcionProducto/>
+			</detalle>
+			<detalle>
+				<contratoCliente/>
+				<tipoCliente/>
+				<numSecuencia/>
+				<estatusContrato/>
+				<relacionContrato/>
+				<descripcionProducto/>
+			</detalle>
+			<detalle>
+				<contratoCliente/>
+				<tipoCliente/>
+				<numSecuencia/>
+				<estatusContrato/>
+				<relacionContrato/>
+				<descripcionProducto/>
+			</detalle>
+			<detalle>
+				<contratoCliente/>
+				<tipoCliente/>
+				<numSecuencia/>
+				<estatusContrato/>
+				<relacionContrato/>
+				<descripcionProducto/>
+			</detalle>
+			<detalle>
+				<contratoCliente/>
+				<tipoCliente/>
+				<numSecuencia/>
+				<estatusContrato/>
+				<relacionContrato/>
+				<descripcionProducto/>
+			</detalle>
+			<detalle>
+				<contratoCliente/>
+				<tipoCliente/>
+				<numSecuencia/>
+				<estatusContrato/>
+				<relacionContrato/>
+				<descripcionProducto/>
+			</detalle>
+			<detalle>
+				<contratoCliente/>
+				<tipoCliente/>
+				<numSecuencia/>
+				<estatusContrato/>
+				<relacionContrato/>
+				<descripcionProducto/>
+			</detalle>
+			<detalle>
+				<contratoCliente/>
+				<tipoCliente/>
+				<numSecuencia/>
+				<estatusContrato/>
+				<relacionContrato/>
+				<descripcionProducto/>
+			</detalle>
+			<numCliente>09047158</numCliente>
+			<datosIdentificacion>V - 0018308374 - ANDREYNA YOSELYNE BALZA CON</datosIdentificacion>
+			<nombreClienteLn1>LUIS</nombreClienteLn1>
+			<telfClienteLn1>-</telfClienteLn1>
+			<telfClienteLn2>-</telfClienteLn2>
+			<origenFondos>SUELDO / SALARIO</origenFondos>
+			<promTransMensuales>5</promTransMensuales>
+			<fechaFirma>14-09-2012</fechaFirma>
+			<codIdentidad>V</codIdentidad>
+			<filler>-</filler>
+			<docIdentidad>0018308374</docIdentidad>
+			<nombreCliente>ANDREYNA YOSELYNE BALZA CON</nombreCliente>
+			<fechaNac>1987-11-06</fechaNac>
+			<paisNac>VENEZUELA</paisNac>
+			<paisDomicilio>VENEZUELA</paisDomicilio>
+			<promTransMes>5</promTransMes>
+			<sector>RESIDENTE EN EL PAIS</sector>
+			<actEconomica>SERVICIOS PRIVADOS</actEconomica>
+			<obligSeNoFinan>NO APLICA</obligSeNoFinan>
+			<TFE>NO</TFE>
+			<PEPS>NO</PEPS>
+			<EMTA>NO</EMTA>
+			<GPNS>NO</GPNS>
+			<ctaTarjPopular>01080027791500003719</ctaTarjPopular>
+		</pagina>
+		<pagina>
+			<canal>0</canal>
+			<longitudReg>04379</longitudReg>
+			<destinatario>40621</destinatario>
+			<codForm>PEPR1500</codForm>
+			<codEmpresa>40621</codEmpresa>
+			<codProducto>15</codProducto>
+			<codSubProducto>3011</codSubProducto>
+			<filler>1</filler>
+			<codEmpresa>40621</codEmpresa>
+			<nombreEmpresa>NERA TELECOMUNICACIO</nombreEmpresa>
+			<nacionalidad>V</nacionalidad>
+			<cedIdentidad>0018308374</cedIdentidad>
+			<nombreCliente>BALZA CONTRERAS ANDREYNA YOSELYNE</nombreCliente>
+			<filler>00</filler>
+			<dirCliente1>AV. AV VOLMER</dirCliente1>
+			<dirCliente2>TRR AV ESTE CERO CANDELARIA</dirCliente2>
+			<dirCliente3>SAN BERNARDINO LIBERTADOR CARACAS</dirCliente3>
+			<dirCliente4>DISTRITO FEDERAL 01080 000</dirCliente4>
+			<numCliente>09047158</numCliente>
+			<numCta>5895240203774253668</numCta>
+			<nombreCliente>ANDREYNA YOSELYNE BALZA CON</nombreCliente>
+			<codIdentidad>V</codIdentidad>
+			<filler>-</filler>
+			<docIdentidad>0018308374</docIdentidad>
+			<lugarNacimiento>VENEZUELA - MERIDA</lugarNacimiento>
+			<fechaNac>1987-11-06</fechaNac>
+			<nacionalidad>VENEZUELA</nacionalidad>
+			<edoCivil>SOLTERO/A</edoCivil>
+			<profesion>OBRERO</profesion>
+			<ocupacion>SERVICIOS PRIVADOS</ocupacion>
+			<dirClienteLn1>AVENIDA NRO 3 NRO. CASA NRO 173 EL ARENAL</dirClienteLn1>
+			<telfCliente>0274-2449016</telfCliente>
+			<razonUsoCta>NOMINA</razonUsoCta>
+			<nombreEmpresa>NERA TELECOMUNICACIO</nombreEmpresa>
+			<telfEmpresa>212-5041111</telfEmpresa>
+			<dirEmpresa1>AV VOLMER</dirEmpresa1>
+			<dirEmpresa2>AV ESTE CERO</dirEmpresa2>
+			<sueldoCliente>2.400,00</sueldoCliente>
+			<fechaApertura>2012-09-14</fechaApertura>
+			<numCliente>09047158</numCliente>
+			<datosIdentificacion>V - 0018308374 - ANDREYNA YOSELYNE BALZA CON</datosIdentificacion>
+			<detalle>
+				<contratoCliente>01080027001500003719</contratoCliente>
+				<tipoCliente>TITULAR</tipoCliente>
+				<numSecuencia>01</numSecuencia>
+				<estatusContrato>ACTIVO</estatusContrato>
+				<relacionContrato/>
+				<descripcionProducto>CUENTA REFERENCIAL</descripcionProducto>
+			</detalle>
+			<detalle>
+				<contratoCliente>01080027005020216823</contratoCliente>
+				<tipoCliente>TITULAR</tipoCliente>
+				<numSecuencia>01</numSecuencia>
+				<estatusContrato>ACTIVO</estatusContrato>
+				<relacionContrato/>
+				<descripcionProducto>TH. CREDITO Y DEBITO</descripcionProducto>
+			</detalle>
+			<detalle>
+				<contratoCliente/>
+				<tipoCliente/>
+				<numSecuencia/>
+				<estatusContrato/>
+				<relacionContrato/>
+				<descripcionProducto/>
+			</detalle>
+			<detalle>
+				<contratoCliente/>
+				<tipoCliente/>
+				<numSecuencia/>
+				<estatusContrato/>
+				<relacionContrato/>
+				<descripcionProducto/>
+			</detalle>
+			<detalle>
+				<contratoCliente/>
+				<tipoCliente/>
+				<numSecuencia/>
+				<estatusContrato/>
+				<relacionContrato/>
+				<descripcionProducto/>
+			</detalle>
+			<detalle>
+				<contratoCliente/>
+				<tipoCliente/>
+				<numSecuencia/>
+				<estatusContrato/>
+				<relacionContrato/>
+				<descripcionProducto/>
+			</detalle>
+			<detalle>
+				<contratoCliente/>
+				<tipoCliente/>
+				<numSecuencia/>
+				<estatusContrato/>
+				<relacionContrato/>
+				<descripcionProducto/>
+			</detalle>
+			<detalle>
+				<contratoCliente/>
+				<tipoCliente/>
+				<numSecuencia/>
+				<estatusContrato/>
+				<relacionContrato/>
+				<descripcionProducto/>
+			</detalle>
+			<detalle>
+				<contratoCliente/>
+				<tipoCliente/>
+				<numSecuencia/>
+				<estatusContrato/>
+				<relacionContrato/>
+				<descripcionProducto/>
+			</detalle>
+			<detalle>
+				<contratoCliente/>
+				<tipoCliente/>
+				<numSecuencia/>
+				<estatusContrato/>
+				<relacionContrato/>
+				<descripcionProducto/>
+			</detalle>
+			<detalle>
+				<contratoCliente/>
+				<tipoCliente/>
+				<numSecuencia/>
+				<estatusContrato/>
+				<relacionContrato/>
+				<descripcionProducto/>
+			</detalle>
+			<detalle>
+				<contratoCliente/>
+				<tipoCliente/>
+				<numSecuencia/>
+				<estatusContrato/>
+				<relacionContrato/>
+				<descripcionProducto/>
+			</detalle>
+			<detalle>
+				<contratoCliente/>
+				<tipoCliente/>
+				<numSecuencia/>
+				<estatusContrato/>
+				<relacionContrato/>
+				<descripcionProducto/>
+			</detalle>
+			<detalle>
+				<contratoCliente/>
+				<tipoCliente/>
+				<numSecuencia/>
+				<estatusContrato/>
+				<relacionContrato/>
+				<descripcionProducto/>
+			</detalle>
+			<detalle>
+				<contratoCliente/>
+				<tipoCliente/>
+				<numSecuencia/>
+				<estatusContrato/>
+				<relacionContrato/>
+				<descripcionProducto/>
+			</detalle>
+			<detalle>
+				<contratoCliente/>
+				<tipoCliente/>
+				<numSecuencia/>
+				<estatusContrato/>
+				<relacionContrato/>
+				<descripcionProducto/>
+			</detalle>
+			<detalle>
+				<contratoCliente/>
+				<tipoCliente/>
+				<numSecuencia/>
+				<estatusContrato/>
+				<relacionContrato/>
+				<descripcionProducto/>
+			</detalle>
+			<detalle>
+				<contratoCliente/>
+				<tipoCliente/>
+				<numSecuencia/>
+				<estatusContrato/>
+				<relacionContrato/>
+				<descripcionProducto/>
+			</detalle>
+			<detalle>
+				<contratoCliente/>
+				<tipoCliente/>
+				<numSecuencia/>
+				<estatusContrato/>
+				<relacionContrato/>
+				<descripcionProducto/>
+			</detalle>
+			<numCliente>09047158</numCliente>
+			<datosIdentificacion>V - 0018308374 - ANDREYNA YOSELYNE BALZA CON</datosIdentificacion>
+			<nombreClienteLn1>LUIS</nombreClienteLn1>
+			<telfClienteLn1>-</telfClienteLn1>
+			<telfClienteLn2>-</telfClienteLn2>
+			<origenFondos>SUELDO / SALARIO</origenFondos>
+			<promTransMensuales>5</promTransMensuales>
+			<fechaFirma>14-09-2012</fechaFirma>
+			<codIdentidad>V</codIdentidad>
+			<filler>-</filler>
+			<docIdentidad>0018308374</docIdentidad>
+			<nombreCliente>ANDREYNA YOSELYNE BALZA CON</nombreCliente>
+			<fechaNac>1987-11-06</fechaNac>
+			<paisNac>VENEZUELA</paisNac>
+			<paisDomicilio>VENEZUELA</paisDomicilio>
+			<promTransMes>5</promTransMes>
+			<sector>RESIDENTE EN EL PAIS</sector>
+			<actEconomica>SERVICIOS PRIVADOS</actEconomica>
+			<obligSeNoFinan>NO APLICA</obligSeNoFinan>
+			<TFE>NO</TFE>
+			<PEPS>NO</PEPS>
+			<EMTA>NO</EMTA>
+			<GPNS>NO</GPNS>
+			<ctaTarjPopular>01080027791500003719</ctaTarjPopular>
+		</pagina>
+		<pagina>
+			<canal>0</canal>
+			<longitudReg>04379</longitudReg>
+			<destinatario>40621</destinatario>
+			<codForm>PEPR1600</codForm>
+			<codEmpresa>40621</codEmpresa>
+			<codProducto>15</codProducto>
+			<codSubProducto>3011</codSubProducto>
+			<filler>1</filler>
+			<codEmpresa>40621</codEmpresa>
+			<nombreEmpresa>NERA TELECOMUNICACIO</nombreEmpresa>
+			<nacionalidad>V</nacionalidad>
+			<cedIdentidad>0018308374</cedIdentidad>
+			<nombreCliente>BALZA CONTRERAS ANDREYNA YOSELYNE</nombreCliente>
+			<filler>00</filler>
+			<dirCliente1>AV. AV VOLMER</dirCliente1>
+			<dirCliente2>TRR AV ESTE CERO CANDELARIA</dirCliente2>
+			<dirCliente3>SAN BERNARDINO LIBERTADOR CARACAS</dirCliente3>
+			<dirCliente4>DISTRITO FEDERAL 01080 000</dirCliente4>
+			<numCliente>09047158</numCliente>
+			<numCta>5895240203774253668</numCta>
+			<nombreCliente>ANDREYNA YOSELYNE BALZA CON</nombreCliente>
+			<codIdentidad>V</codIdentidad>
+			<filler>-</filler>
+			<docIdentidad>0018308374</docIdentidad>
+			<lugarNacimiento>VENEZUELA - MERIDA</lugarNacimiento>
+			<fechaNac>1987-11-06</fechaNac>
+			<nacionalidad>VENEZUELA</nacionalidad>
+			<edoCivil>SOLTERO/A</edoCivil>
+			<profesion>OBRERO</profesion>
+			<ocupacion>SERVICIOS PRIVADOS</ocupacion>
+			<dirClienteLn1>AVENIDA NRO 3 NRO. CASA NRO 173 EL ARENAL</dirClienteLn1>
+			<telfCliente>0274-2449016</telfCliente>
+			<razonUsoCta>NOMINA</razonUsoCta>
+			<nombreEmpresa>NERA TELECOMUNICACIO</nombreEmpresa>
+			<telfEmpresa>212-5041111</telfEmpresa>
+			<dirEmpresa1>AV VOLMER</dirEmpresa1>
+			<dirEmpresa2>AV ESTE CERO</dirEmpresa2>
+			<sueldoCliente>2.400,00</sueldoCliente>
+			<fechaApertura>2012-09-14</fechaApertura>
+			<numCliente>09047158</numCliente>
+			<datosIdentificacion>V - 0018308374 - ANDREYNA YOSELYNE BALZA CON</datosIdentificacion>
+			<detalle>
+				<contratoCliente>01080027001500003719</contratoCliente>
+				<tipoCliente>TITULAR</tipoCliente>
+				<numSecuencia>01</numSecuencia>
+				<estatusContrato>ACTIVO</estatusContrato>
+				<relacionContrato/>
+				<descripcionProducto>CUENTA REFERENCIAL</descripcionProducto>
+			</detalle>
+			<detalle>
+				<contratoCliente>01080027005020216823</contratoCliente>
+				<tipoCliente>TITULAR</tipoCliente>
+				<numSecuencia>01</numSecuencia>
+				<estatusContrato>ACTIVO</estatusContrato>
+				<relacionContrato/>
+				<descripcionProducto>TH. CREDITO Y DEBITO</descripcionProducto>
+			</detalle>
+			<detalle>
+				<contratoCliente/>
+				<tipoCliente/>
+				<numSecuencia/>
+				<estatusContrato/>
+				<relacionContrato/>
+				<descripcionProducto/>
+			</detalle>
+			<detalle>
+				<contratoCliente/>
+				<tipoCliente/>
+				<numSecuencia/>
+				<estatusContrato/>
+				<relacionContrato/>
+				<descripcionProducto/>
+			</detalle>
+			<detalle>
+				<contratoCliente/>
+				<tipoCliente/>
+				<numSecuencia/>
+				<estatusContrato/>
+				<relacionContrato/>
+				<descripcionProducto/>
+			</detalle>
+			<detalle>
+				<contratoCliente/>
+				<tipoCliente/>
+				<numSecuencia/>
+				<estatusContrato/>
+				<relacionContrato/>
+				<descripcionProducto/>
+			</detalle>
+			<detalle>
+				<contratoCliente/>
+				<tipoCliente/>
+				<numSecuencia/>
+				<estatusContrato/>
+				<relacionContrato/>
+				<descripcionProducto/>
+			</detalle>
+			<detalle>
+				<contratoCliente/>
+				<tipoCliente/>
+				<numSecuencia/>
+				<estatusContrato/>
+				<relacionContrato/>
+				<descripcionProducto/>
+			</detalle>
+			<detalle>
+				<contratoCliente/>
+				<tipoCliente/>
+				<numSecuencia/>
+				<estatusContrato/>
+				<relacionContrato/>
+				<descripcionProducto/>
+			</detalle>
+			<detalle>
+				<contratoCliente/>
+				<tipoCliente/>
+				<numSecuencia/>
+				<estatusContrato/>
+				<relacionContrato/>
+				<descripcionProducto/>
+			</detalle>
+			<detalle>
+				<contratoCliente/>
+				<tipoCliente/>
+				<numSecuencia/>
+				<estatusContrato/>
+				<relacionContrato/>
+				<descripcionProducto/>
+			</detalle>
+			<detalle>
+				<contratoCliente/>
+				<tipoCliente/>
+				<numSecuencia/>
+				<estatusContrato/>
+				<relacionContrato/>
+				<descripcionProducto/>
+			</detalle>
+			<detalle>
+				<contratoCliente/>
+				<tipoCliente/>
+				<numSecuencia/>
+				<estatusContrato/>
+				<relacionContrato/>
+				<descripcionProducto/>
+			</detalle>
+			<detalle>
+				<contratoCliente/>
+				<tipoCliente/>
+				<numSecuencia/>
+				<estatusContrato/>
+				<relacionContrato/>
+				<descripcionProducto/>
+			</detalle>
+			<detalle>
+				<contratoCliente/>
+				<tipoCliente/>
+				<numSecuencia/>
+				<estatusContrato/>
+				<relacionContrato/>
+				<descripcionProducto/>
+			</detalle>
+			<detalle>
+				<contratoCliente/>
+				<tipoCliente/>
+				<numSecuencia/>
+				<estatusContrato/>
+				<relacionContrato/>
+				<descripcionProducto/>
+			</detalle>
+			<detalle>
+				<contratoCliente/>
+				<tipoCliente/>
+				<numSecuencia/>
+				<estatusContrato/>
+				<relacionContrato/>
+				<descripcionProducto/>
+			</detalle>
+			<detalle>
+				<contratoCliente/>
+				<tipoCliente/>
+				<numSecuencia/>
+				<estatusContrato/>
+				<relacionContrato/>
+				<descripcionProducto/>
+			</detalle>
+			<detalle>
+				<contratoCliente/>
+				<tipoCliente/>
+				<numSecuencia/>
+				<estatusContrato/>
+				<relacionContrato/>
+				<descripcionProducto/>
+			</detalle>
+			<numCliente>09047158</numCliente>
+			<datosIdentificacion>V - 0018308374 - ANDREYNA YOSELYNE BALZA CON</datosIdentificacion>
+			<nombreClienteLn1>LUIS</nombreClienteLn1>
+			<telfClienteLn1>-</telfClienteLn1>
+			<telfClienteLn2>-</telfClienteLn2>
+			<origenFondos>SUELDO / SALARIO</origenFondos>
+			<promTransMensuales>5</promTransMensuales>
+			<fechaFirma>14-09-2012</fechaFirma>
+			<codIdentidad>V</codIdentidad>
+			<filler>-</filler>
+			<docIdentidad>0018308374</docIdentidad>
+			<nombreCliente>ANDREYNA YOSELYNE BALZA CON</nombreCliente>
+			<fechaNac>1987-11-06</fechaNac>
+			<paisNac>VENEZUELA</paisNac>
+			<paisDomicilio>VENEZUELA</paisDomicilio>
+			<promTransMes>5</promTransMes>
+			<sector>RESIDENTE EN EL PAIS</sector>
+			<actEconomica>SERVICIOS PRIVADOS</actEconomica>
+			<obligSeNoFinan>NO APLICA</obligSeNoFinan>
+			<TFE>NO</TFE>
+			<PEPS>NO</PEPS>
+			<EMTA>NO</EMTA>
+			<GPNS>NO</GPNS>
+			<ctaTarjPopular>01080027791500003719</ctaTarjPopular>
+		</pagina>
+		<pagina>
+			<canal>0</canal>
+			<longitudReg>04379</longitudReg>
+			<destinatario>40621</destinatario>
+			<codForm>PEPR1700</codForm>
+			<codEmpresa>40621</codEmpresa>
+			<codProducto>15</codProducto>
+			<codSubProducto>3011</codSubProducto>
+			<filler>1</filler>
+			<codEmpresa>40621</codEmpresa>
+			<nombreEmpresa>NERA TELECOMUNICACIO</nombreEmpresa>
+			<nacionalidad>V</nacionalidad>
+			<cedIdentidad>0018308374</cedIdentidad>
+			<nombreCliente>BALZA CONTRERAS ANDREYNA YOSELYNE</nombreCliente>
+			<filler>00</filler>
+			<dirCliente1>AV. AV VOLMER</dirCliente1>
+			<dirCliente2>TRR AV ESTE CERO CANDELARIA</dirCliente2>
+			<dirCliente3>SAN BERNARDINO LIBERTADOR CARACAS</dirCliente3>
+			<dirCliente4>DISTRITO FEDERAL 01080 000</dirCliente4>
+			<numCliente>09047158</numCliente>
+			<numCta>5895240203774253668</numCta>
+			<nombreCliente>ANDREYNA YOSELYNE BALZA CON</nombreCliente>
+			<codIdentidad>V</codIdentidad>
+			<filler>-</filler>
+			<docIdentidad>0018308374</docIdentidad>
+			<lugarNacimiento>VENEZUELA - MERIDA</lugarNacimiento>
+			<fechaNac>1987-11-06</fechaNac>
+			<nacionalidad>VENEZUELA</nacionalidad>
+			<edoCivil>SOLTERO/A</edoCivil>
+			<profesion>OBRERO</profesion>
+			<ocupacion>SERVICIOS PRIVADOS</ocupacion>
+			<dirClienteLn1>AVENIDA NRO 3 NRO. CASA NRO 173 EL ARENAL</dirClienteLn1>
+			<telfCliente>0274-2449016</telfCliente>
+			<razonUsoCta>NOMINA</razonUsoCta>
+			<nombreEmpresa>NERA TELECOMUNICACIO</nombreEmpresa>
+			<telfEmpresa>212-5041111</telfEmpresa>
+			<dirEmpresa1>AV VOLMER</dirEmpresa1>
+			<dirEmpresa2>AV ESTE CERO</dirEmpresa2>
+			<sueldoCliente>2.400,00</sueldoCliente>
+			<fechaApertura>2012-09-14</fechaApertura>
+			<numCliente>09047158</numCliente>
+			<datosIdentificacion>V - 0018308374 - ANDREYNA YOSELYNE BALZA CON</datosIdentificacion>
+			<detalle>
+				<contratoCliente>01080027001500003719</contratoCliente>
+				<tipoCliente>TITULAR</tipoCliente>
+				<numSecuencia>01</numSecuencia>
+				<estatusContrato>ACTIVO</estatusContrato>
+				<relacionContrato/>
+				<descripcionProducto>CUENTA REFERENCIAL</descripcionProducto>
+			</detalle>
+			<detalle>
+				<contratoCliente>01080027005020216823</contratoCliente>
+				<tipoCliente>TITULAR</tipoCliente>
+				<numSecuencia>01</numSecuencia>
+				<estatusContrato>ACTIVO</estatusContrato>
+				<relacionContrato/>
+				<descripcionProducto>TH. CREDITO Y DEBITO</descripcionProducto>
+			</detalle>
+			<detalle>
+				<contratoCliente/>
+				<tipoCliente/>
+				<numSecuencia/>
+				<estatusContrato/>
+				<relacionContrato/>
+				<descripcionProducto/>
+			</detalle>
+			<detalle>
+				<contratoCliente/>
+				<tipoCliente/>
+				<numSecuencia/>
+				<estatusContrato/>
+				<relacionContrato/>
+				<descripcionProducto/>
+			</detalle>
+			<detalle>
+				<contratoCliente/>
+				<tipoCliente/>
+				<numSecuencia/>
+				<estatusContrato/>
+				<relacionContrato/>
+				<descripcionProducto/>
+			</detalle>
+			<detalle>
+				<contratoCliente/>
+				<tipoCliente/>
+				<numSecuencia/>
+				<estatusContrato/>
+				<relacionContrato/>
+				<descripcionProducto/>
+			</detalle>
+			<detalle>
+				<contratoCliente/>
+				<tipoCliente/>
+				<numSecuencia/>
+				<estatusContrato/>
+				<relacionContrato/>
+				<descripcionProducto/>
+			</detalle>
+			<detalle>
+				<contratoCliente/>
+				<tipoCliente/>
+				<numSecuencia/>
+				<estatusContrato/>
+				<relacionContrato/>
+				<descripcionProducto/>
+			</detalle>
+			<detalle>
+				<contratoCliente/>
+				<tipoCliente/>
+				<numSecuencia/>
+				<estatusContrato/>
+				<relacionContrato/>
+				<descripcionProducto/>
+			</detalle>
+			<detalle>
+				<contratoCliente/>
+				<tipoCliente/>
+				<numSecuencia/>
+				<estatusContrato/>
+				<relacionContrato/>
+				<descripcionProducto/>
+			</detalle>
+			<detalle>
+				<contratoCliente/>
+				<tipoCliente/>
+				<numSecuencia/>
+				<estatusContrato/>
+				<relacionContrato/>
+				<descripcionProducto/>
+			</detalle>
+			<detalle>
+				<contratoCliente/>
+				<tipoCliente/>
+				<numSecuencia/>
+				<estatusContrato/>
+				<relacionContrato/>
+				<descripcionProducto/>
+			</detalle>
+			<detalle>
+				<contratoCliente/>
+				<tipoCliente/>
+				<numSecuencia/>
+				<estatusContrato/>
+				<relacionContrato/>
+				<descripcionProducto/>
+			</detalle>
+			<detalle>
+				<contratoCliente/>
+				<tipoCliente/>
+				<numSecuencia/>
+				<estatusContrato/>
+				<relacionContrato/>
+				<descripcionProducto/>
+			</detalle>
+			<detalle>
+				<contratoCliente/>
+				<tipoCliente/>
+				<numSecuencia/>
+				<estatusContrato/>
+				<relacionContrato/>
+				<descripcionProducto/>
+			</detalle>
+			<detalle>
+				<contratoCliente/>
+				<tipoCliente/>
+				<numSecuencia/>
+				<estatusContrato/>
+				<relacionContrato/>
+				<descripcionProducto/>
+			</detalle>
+			<detalle>
+				<contratoCliente/>
+				<tipoCliente/>
+				<numSecuencia/>
+				<estatusContrato/>
+				<relacionContrato/>
+				<descripcionProducto/>
+			</detalle>
+			<detalle>
+				<contratoCliente/>
+				<tipoCliente/>
+				<numSecuencia/>
+				<estatusContrato/>
+				<relacionContrato/>
+				<descripcionProducto/>
+			</detalle>
+			<detalle>
+				<contratoCliente/>
+				<tipoCliente/>
+				<numSecuencia/>
+				<estatusContrato/>
+				<relacionContrato/>
+				<descripcionProducto/>
+			</detalle>
+			<numCliente>09047158</numCliente>
+			<datosIdentificacion>V - 0018308374 - ANDREYNA YOSELYNE BALZA CON</datosIdentificacion>
+			<nombreClienteLn1>LUIS</nombreClienteLn1>
+			<telfClienteLn1>-</telfClienteLn1>
+			<telfClienteLn2>-</telfClienteLn2>
+			<origenFondos>SUELDO / SALARIO</origenFondos>
+			<promTransMensuales>5</promTransMensuales>
+			<fechaFirma>14-09-2012</fechaFirma>
+			<codIdentidad>V</codIdentidad>
+			<filler>-</filler>
+			<docIdentidad>0018308374</docIdentidad>
+			<nombreCliente>ANDREYNA YOSELYNE BALZA CON</nombreCliente>
+			<fechaNac>1987-11-06</fechaNac>
+			<paisNac>VENEZUELA</paisNac>
+			<paisDomicilio>VENEZUELA</paisDomicilio>
+			<promTransMes>5</promTransMes>
+			<sector>RESIDENTE EN EL PAIS</sector>
+			<actEconomica>SERVICIOS PRIVADOS</actEconomica>
+			<obligSeNoFinan>NO APLICA</obligSeNoFinan>
+			<TFE>NO</TFE>
+			<PEPS>NO</PEPS>
+			<EMTA>NO</EMTA>
+			<GPNS>NO</GPNS>
+			<ctaTarjPopular>01080027791500003719</ctaTarjPopular>
+		</pagina>
+		<pagina>
+			<canal>0</canal>
+			<longitudReg>04379</longitudReg>
+			<destinatario>40621</destinatario>
+			<codForm>PEPR1800</codForm>
+			<codEmpresa>40621</codEmpresa>
+			<codProducto>15</codProducto>
+			<codSubProducto>3011</codSubProducto>
+			<filler>1</filler>
+			<codEmpresa>40621</codEmpresa>
+			<nombreEmpresa>NERA TELECOMUNICACIO</nombreEmpresa>
+			<nacionalidad>V</nacionalidad>
+			<cedIdentidad>0018308374</cedIdentidad>
+			<nombreCliente>BALZA CONTRERAS ANDREYNA YOSELYNE</nombreCliente>
+			<filler>00</filler>
+			<dirCliente1>AV. AV VOLMER</dirCliente1>
+			<dirCliente2>TRR AV ESTE CERO CANDELARIA</dirCliente2>
+			<dirCliente3>SAN BERNARDINO LIBERTADOR CARACAS</dirCliente3>
+			<dirCliente4>DISTRITO FEDERAL 01080 000</dirCliente4>
+			<numCliente>09047158</numCliente>
+			<numCta>5895240203774253668</numCta>
+			<nombreCliente>ANDREYNA YOSELYNE BALZA CON</nombreCliente>
+			<codIdentidad>V</codIdentidad>
+			<filler>-</filler>
+			<docIdentidad>0018308374</docIdentidad>
+			<lugarNacimiento>VENEZUELA - MERIDA</lugarNacimiento>
+			<fechaNac>1987-11-06</fechaNac>
+			<nacionalidad>VENEZUELA</nacionalidad>
+			<edoCivil>SOLTERO/A</edoCivil>
+			<profesion>OBRERO</profesion>
+			<ocupacion>SERVICIOS PRIVADOS</ocupacion>
+			<dirClienteLn1>AVENIDA NRO 3 NRO. CASA NRO 173 EL ARENAL</dirClienteLn1>
+			<telfCliente>0274-2449016</telfCliente>
+			<razonUsoCta>NOMINA</razonUsoCta>
+			<nombreEmpresa>NERA TELECOMUNICACIO</nombreEmpresa>
+			<telfEmpresa>212-5041111</telfEmpresa>
+			<dirEmpresa1>AV VOLMER</dirEmpresa1>
+			<dirEmpresa2>AV ESTE CERO</dirEmpresa2>
+			<sueldoCliente>2.400,00</sueldoCliente>
+			<fechaApertura>2012-09-14</fechaApertura>
+			<numCliente>09047158</numCliente>
+			<datosIdentificacion>V - 0018308374 - ANDREYNA YOSELYNE BALZA CON</datosIdentificacion>
+			<detalle>
+				<contratoCliente>01080027001500003719</contratoCliente>
+				<tipoCliente>TITULAR</tipoCliente>
+				<numSecuencia>01</numSecuencia>
+				<estatusContrato>ACTIVO</estatusContrato>
+				<relacionContrato/>
+				<descripcionProducto>CUENTA REFERENCIAL</descripcionProducto>
+			</detalle>
+			<detalle>
+				<contratoCliente>01080027005020216823</contratoCliente>
+				<tipoCliente>TITULAR</tipoCliente>
+				<numSecuencia>01</numSecuencia>
+				<estatusContrato>ACTIVO</estatusContrato>
+				<relacionContrato/>
+				<descripcionProducto>TH. CREDITO Y DEBITO</descripcionProducto>
+			</detalle>
+			<detalle>
+				<contratoCliente/>
+				<tipoCliente/>
+				<numSecuencia/>
+				<estatusContrato/>
+				<relacionContrato/>
+				<descripcionProducto/>
+			</detalle>
+			<detalle>
+				<contratoCliente/>
+				<tipoCliente/>
+				<numSecuencia/>
+				<estatusContrato/>
+				<relacionContrato/>
+				<descripcionProducto/>
+			</detalle>
+			<detalle>
+				<contratoCliente/>
+				<tipoCliente/>
+				<numSecuencia/>
+				<estatusContrato/>
+				<relacionContrato/>
+				<descripcionProducto/>
+			</detalle>
+			<detalle>
+				<contratoCliente/>
+				<tipoCliente/>
+				<numSecuencia/>
+				<estatusContrato/>
+				<relacionContrato/>
+				<descripcionProducto/>
+			</detalle>
+			<detalle>
+				<contratoCliente/>
+				<tipoCliente/>
+				<numSecuencia/>
+				<estatusContrato/>
+				<relacionContrato/>
+				<descripcionProducto/>
+			</detalle>
+			<detalle>
+				<contratoCliente/>
+				<tipoCliente/>
+				<numSecuencia/>
+				<estatusContrato/>
+				<relacionContrato/>
+				<descripcionProducto/>
+			</detalle>
+			<detalle>
+				<contratoCliente/>
+				<tipoCliente/>
+				<numSecuencia/>
+				<estatusContrato/>
+				<relacionContrato/>
+				<descripcionProducto/>
+			</detalle>
+			<detalle>
+				<contratoCliente/>
+				<tipoCliente/>
+				<numSecuencia/>
+				<estatusContrato/>
+				<relacionContrato/>
+				<descripcionProducto/>
+			</detalle>
+			<detalle>
+				<contratoCliente/>
+				<tipoCliente/>
+				<numSecuencia/>
+				<estatusContrato/>
+				<relacionContrato/>
+				<descripcionProducto/>
+			</detalle>
+			<detalle>
+				<contratoCliente/>
+				<tipoCliente/>
+				<numSecuencia/>
+				<estatusContrato/>
+				<relacionContrato/>
+				<descripcionProducto/>
+			</detalle>
+			<detalle>
+				<contratoCliente/>
+				<tipoCliente/>
+				<numSecuencia/>
+				<estatusContrato/>
+				<relacionContrato/>
+				<descripcionProducto/>
+			</detalle>
+			<detalle>
+				<contratoCliente/>
+				<tipoCliente/>
+				<numSecuencia/>
+				<estatusContrato/>
+				<relacionContrato/>
+				<descripcionProducto/>
+			</detalle>
+			<detalle>
+				<contratoCliente/>
+				<tipoCliente/>
+				<numSecuencia/>
+				<estatusContrato/>
+				<relacionContrato/>
+				<descripcionProducto/>
+			</detalle>
+			<detalle>
+				<contratoCliente/>
+				<tipoCliente/>
+				<numSecuencia/>
+				<estatusContrato/>
+				<relacionContrato/>
+				<descripcionProducto/>
+			</detalle>
+			<detalle>
+				<contratoCliente/>
+				<tipoCliente/>
+				<numSecuencia/>
+				<estatusContrato/>
+				<relacionContrato/>
+				<descripcionProducto/>
+			</detalle>
+			<detalle>
+				<contratoCliente/>
+				<tipoCliente/>
+				<numSecuencia/>
+				<estatusContrato/>
+				<relacionContrato/>
+				<descripcionProducto/>
+			</detalle>
+			<detalle>
+				<contratoCliente/>
+				<tipoCliente/>
+				<numSecuencia/>
+				<estatusContrato/>
+				<relacionContrato/>
+				<descripcionProducto/>
+			</detalle>
+			<numCliente>09047158</numCliente>
+			<datosIdentificacion>V - 0018308374 - ANDREYNA YOSELYNE BALZA CON</datosIdentificacion>
+			<nombreClienteLn1>LUIS</nombreClienteLn1>
+			<telfClienteLn1>-</telfClienteLn1>
+			<telfClienteLn2>-</telfClienteLn2>
+			<origenFondos>SUELDO / SALARIO</origenFondos>
+			<promTransMensuales>5</promTransMensuales>
+			<fechaFirma>14-09-2012</fechaFirma>
+			<codIdentidad>V</codIdentidad>
+			<filler>-</filler>
+			<docIdentidad>0018308374</docIdentidad>
+			<nombreCliente>ANDREYNA YOSELYNE BALZA CON</nombreCliente>
+			<fechaNac>1987-11-06</fechaNac>
+			<paisNac>VENEZUELA</paisNac>
+			<paisDomicilio>VENEZUELA</paisDomicilio>
+			<promTransMes>5</promTransMes>
+			<sector>RESIDENTE EN EL PAIS</sector>
+			<actEconomica>SERVICIOS PRIVADOS</actEconomica>
+			<obligSeNoFinan>NO APLICA</obligSeNoFinan>
+			<TFE>NO</TFE>
+			<PEPS>NO</PEPS>
+			<EMTA>NO</EMTA>
+			<GPNS>NO</GPNS>
+			<ctaTarjPopular>01080027791500003719</ctaTarjPopular>
+		</pagina>
+		<pagina>
+			<canal>0</canal>
+			<longitudReg>04379</longitudReg>
+			<destinatario>40621</destinatario>
+			<codForm>PEPR1900</codForm>
+			<codEmpresa>40621</codEmpresa>
+			<codProducto>15</codProducto>
+			<codSubProducto>3011</codSubProducto>
+			<filler>1</filler>
+			<codEmpresa>40621</codEmpresa>
+			<nombreEmpresa>NERA TELECOMUNICACIO</nombreEmpresa>
+			<nacionalidad>V</nacionalidad>
+			<cedIdentidad>0018308374</cedIdentidad>
+			<nombreCliente>BALZA CONTRERAS ANDREYNA YOSELYNE</nombreCliente>
+			<filler>00</filler>
+			<dirCliente1>AV. AV VOLMER</dirCliente1>
+			<dirCliente2>TRR AV ESTE CERO CANDELARIA</dirCliente2>
+			<dirCliente3>SAN BERNARDINO LIBERTADOR CARACAS</dirCliente3>
+			<dirCliente4>DISTRITO FEDERAL 01080 000</dirCliente4>
+			<numCliente>09047158</numCliente>
+			<numCta>5895240203774253668</numCta>
+			<nombreCliente>ANDREYNA YOSELYNE BALZA CON</nombreCliente>
+			<codIdentidad>V</codIdentidad>
+			<filler>-</filler>
+			<docIdentidad>0018308374</docIdentidad>
+			<lugarNacimiento>VENEZUELA - MERIDA</lugarNacimiento>
+			<fechaNac>1987-11-06</fechaNac>
+			<nacionalidad>VENEZUELA</nacionalidad>
+			<edoCivil>SOLTERO/A</edoCivil>
+			<profesion>OBRERO</profesion>
+			<ocupacion>SERVICIOS PRIVADOS</ocupacion>
+			<dirClienteLn1>AVENIDA NRO 3 NRO. CASA NRO 173 EL ARENAL</dirClienteLn1>
+			<telfCliente>0274-2449016</telfCliente>
+			<razonUsoCta>NOMINA</razonUsoCta>
+			<nombreEmpresa>NERA TELECOMUNICACIO</nombreEmpresa>
+			<telfEmpresa>212-5041111</telfEmpresa>
+			<dirEmpresa1>AV VOLMER</dirEmpresa1>
+			<dirEmpresa2>AV ESTE CERO</dirEmpresa2>
+			<sueldoCliente>2.400,00</sueldoCliente>
+			<fechaApertura>2012-09-14</fechaApertura>
+			<numCliente>09047158</numCliente>
+			<datosIdentificacion>V - 0018308374 - ANDREYNA YOSELYNE BALZA CON</datosIdentificacion>
+			<detalle>
+				<contratoCliente>01080027001500003719</contratoCliente>
+				<tipoCliente>TITULAR</tipoCliente>
+				<numSecuencia>01</numSecuencia>
+				<estatusContrato>ACTIVO</estatusContrato>
+				<relacionContrato/>
+				<descripcionProducto>CUENTA REFERENCIAL</descripcionProducto>
+			</detalle>
+			<detalle>
+				<contratoCliente>01080027005020216823</contratoCliente>
+				<tipoCliente>TITULAR</tipoCliente>
+				<numSecuencia>01</numSecuencia>
+				<estatusContrato>ACTIVO</estatusContrato>
+				<relacionContrato/>
+				<descripcionProducto>TH. CREDITO Y DEBITO</descripcionProducto>
+			</detalle>
+			<detalle>
+				<contratoCliente/>
+				<tipoCliente/>
+				<numSecuencia/>
+				<estatusContrato/>
+				<relacionContrato/>
+				<descripcionProducto/>
+			</detalle>
+			<detalle>
+				<contratoCliente/>
+				<tipoCliente/>
+				<numSecuencia/>
+				<estatusContrato/>
+				<relacionContrato/>
+				<descripcionProducto/>
+			</detalle>
+			<detalle>
+				<contratoCliente/>
+				<tipoCliente/>
+				<numSecuencia/>
+				<estatusContrato/>
+				<relacionContrato/>
+				<descripcionProducto/>
+			</detalle>
+			<detalle>
+				<contratoCliente/>
+				<tipoCliente/>
+				<numSecuencia/>
+				<estatusContrato/>
+				<relacionContrato/>
+				<descripcionProducto/>
+			</detalle>
+			<detalle>
+				<contratoCliente/>
+				<tipoCliente/>
+				<numSecuencia/>
+				<estatusContrato/>
+				<relacionContrato/>
+				<descripcionProducto/>
+			</detalle>
+			<detalle>
+				<contratoCliente/>
+				<tipoCliente/>
+				<numSecuencia/>
+				<estatusContrato/>
+				<relacionContrato/>
+				<descripcionProducto/>
+			</detalle>
+			<detalle>
+				<contratoCliente/>
+				<tipoCliente/>
+				<numSecuencia/>
+				<estatusContrato/>
+				<relacionContrato/>
+				<descripcionProducto/>
+			</detalle>
+			<detalle>
+				<contratoCliente/>
+				<tipoCliente/>
+				<numSecuencia/>
+				<estatusContrato/>
+				<relacionContrato/>
+				<descripcionProducto/>
+			</detalle>
+			<detalle>
+				<contratoCliente/>
+				<tipoCliente/>
+				<numSecuencia/>
+				<estatusContrato/>
+				<relacionContrato/>
+				<descripcionProducto/>
+			</detalle>
+			<detalle>
+				<contratoCliente/>
+				<tipoCliente/>
+				<numSecuencia/>
+				<estatusContrato/>
+				<relacionContrato/>
+				<descripcionProducto/>
+			</detalle>
+			<detalle>
+				<contratoCliente/>
+				<tipoCliente/>
+				<numSecuencia/>
+				<estatusContrato/>
+				<relacionContrato/>
+				<descripcionProducto/>
+			</detalle>
+			<detalle>
+				<contratoCliente/>
+				<tipoCliente/>
+				<numSecuencia/>
+				<estatusContrato/>
+				<relacionContrato/>
+				<descripcionProducto/>
+			</detalle>
+			<detalle>
+				<contratoCliente/>
+				<tipoCliente/>
+				<numSecuencia/>
+				<estatusContrato/>
+				<relacionContrato/>
+				<descripcionProducto/>
+			</detalle>
+			<detalle>
+				<contratoCliente/>
+				<tipoCliente/>
+				<numSecuencia/>
+				<estatusContrato/>
+				<relacionContrato/>
+				<descripcionProducto/>
+			</detalle>
+			<detalle>
+				<contratoCliente/>
+				<tipoCliente/>
+				<numSecuencia/>
+				<estatusContrato/>
+				<relacionContrato/>
+				<descripcionProducto/>
+			</detalle>
+			<detalle>
+				<contratoCliente/>
+				<tipoCliente/>
+				<numSecuencia/>
+				<estatusContrato/>
+				<relacionContrato/>
+				<descripcionProducto/>
+			</detalle>
+			<detalle>
+				<contratoCliente/>
+				<tipoCliente/>
+				<numSecuencia/>
+				<estatusContrato/>
+				<relacionContrato/>
+				<descripcionProducto/>
+			</detalle>
+			<numCliente>09047158</numCliente>
+			<datosIdentificacion>V - 0018308374 - ANDREYNA YOSELYNE BALZA CON</datosIdentificacion>
+			<nombreClienteLn1>LUIS</nombreClienteLn1>
+			<telfClienteLn1>-</telfClienteLn1>
+			<telfClienteLn2>-</telfClienteLn2>
+			<origenFondos>SUELDO / SALARIO</origenFondos>
+			<promTransMensuales>5</promTransMensuales>
+			<fechaFirma>14-09-2012</fechaFirma>
+			<codIdentidad>V</codIdentidad>
+			<filler>-</filler>
+			<docIdentidad>0018308374</docIdentidad>
+			<nombreCliente>ANDREYNA YOSELYNE BALZA CON</nombreCliente>
+			<fechaNac>1987-11-06</fechaNac>
+			<paisNac>VENEZUELA</paisNac>
+			<paisDomicilio>VENEZUELA</paisDomicilio>
+			<promTransMes>5</promTransMes>
+			<sector>RESIDENTE EN EL PAIS</sector>
+			<actEconomica>SERVICIOS PRIVADOS</actEconomica>
+			<obligSeNoFinan>NO APLICA</obligSeNoFinan>
+			<TFE>NO</TFE>
+			<PEPS>NO</PEPS>
+			<EMTA>NO</EMTA>
+			<GPNS>NO</GPNS>
+			<ctaTarjPopular>01080027791500003719</ctaTarjPopular>
+		</pagina>
+		<pagina>
+			<canal>0</canal>
+			<logitudReg>01472</logitudReg>
+			<destinatario>40621</destinatario>
+			<codForm>MPPR9000</codForm>
+			<codEmpresa>40621</codEmpresa>
+			<codProducto>15</codProducto>
+			<codSubProducto>3011</codSubProducto>
+			<canal>1</canal>
+			<codEmpresa>40621</codEmpresa>
+			<nombreEmpresa>NERA TELECOMUNICACIO</nombreEmpresa>
+			<nacionalidad>V</nacionalidad>
+			<cedIdentidad>0018308374</cedIdentidad>
+			<nombreCliente>BALZA CONTRERAS ANDREYNA YOSELYNE</nombreCliente>
+			<filler>00</filler>
+			<dirCliente1>AV. AV VOLMER</dirCliente1>
+			<dirCliente2>TRR AV ESTE CERO CANDELARIA</dirCliente2>
+			<dirCliente3>SAN BERNARDINO LIBERTADOR CARACAS</dirCliente3>
+			<dirCliente4>DISTRITO FEDERAL 01080 000</dirCliente4>
+			<numContratoTarj>01080027765020216823</numContratoTarj>
+			<codOficina>0027</codOficina>
+			<numCtaTarjPopular>0108-0027-79-1500003719</numCtaTarjPopular>
+			<numTarjElect>5895240203774253668</numTarjElect>
+			<fechaApertura>13-09-2012</fechaApertura>
+			<numCliente>09047158</numCliente>
+			<nombreCliente>ANDREYNA BALZA CONTRERAS</nombreCliente>
+			<codIdentificacion>V</codIdentificacion>
+			<docIdentidad>0018308374</docIdentidad>
+			<codIdentificacion>V</codIdentificacion>
+			<codigoIdentificacion>0018308374</codigoIdentificacion>
+			<nacionalidadAbrev>VEN</nacionalidadAbrev>
+			<dirOficina>AV.AV VOLMER TRRAV ESTE CERO CANDELARIA SAN BERNARDINO</dirOficina>
+			<zonaPostal>01080</zonaPostal>
+			<nombreEstado>DISTRITO FEDERAL</nombreEstado>
+			<nombreCiudad>CARACAS</nombreCiudad>
+			<filler>O</filler>
+			<numTelf1>02125041111</numTelf1>
+			<filler>0000H</filler>
+			<numTelf2>02125041111</numTelf2>
+			<filler>0000 000000000000000 X</filler>
+			<nombreCliente>ANDREYNA BALZA CONTRERAS</nombreCliente>
+			<codIdentificacion>V</codIdentificacion>
+			<docIdentidad>0018308374</docIdentidad>
+			<ciudadFecha>CARACAS</ciudadFecha>
+			<diasFecha>13</diasFecha>
+			<nombreMes>SEPTIEMBRE</nombreMes>
+			<anioFecha>2012</anioFecha>
+			<nombreFamiliar>BLANCA ELENA BERMUDEZ ALVAREZ</nombreFamiliar>
+			<numTelef>-</numTelef>
+		</pagina>
+		<pagina>
+			<canal>0</canal>
+			<logitudReg>01472</logitudReg>
+			<destinatario>40621</destinatario>
+			<codForm>MPPR9100</codForm>
+			<codEmpresa>40621</codEmpresa>
+			<codProducto>15</codProducto>
+			<codSubProducto>3011</codSubProducto>
+			<canal>1</canal>
+			<codEmpresa>40621</codEmpresa>
+			<nombreEmpresa>NERA TELECOMUNICACIO</nombreEmpresa>
+			<nacionalidad>V</nacionalidad>
+			<cedIdentidad>0018308374</cedIdentidad>
+			<nombreCliente>BALZA CONTRERAS ANDREYNA YOSELYNE</nombreCliente>
+			<filler>00</filler>
+			<dirCliente1>AV. AV VOLMER</dirCliente1>
+			<dirCliente2>TRR AV ESTE CERO CANDELARIA</dirCliente2>
+			<dirCliente3>SAN BERNARDINO LIBERTADOR CARACAS</dirCliente3>
+			<dirCliente4>DISTRITO FEDERAL 01080 000</dirCliente4>
+			<numContratoTarj>01080027765020216823</numContratoTarj>
+			<codOficina>0027</codOficina>
+			<numCtaTarjPopular>0108-0027-79-1500003719</numCtaTarjPopular>
+			<numTarjElect>5895240203774253668</numTarjElect>
+			<fechaApertura>13-09-2012</fechaApertura>
+			<numCliente>09047158</numCliente>
+			<nombreCliente>ANDREYNA BALZA CONTRERAS</nombreCliente>
+			<codIdentificacion>V</codIdentificacion>
+			<docIdentidad>0018308374</docIdentidad>
+			<codIdentificacion>V</codIdentificacion>
+			<codigoIdentificacion>0018308374</codigoIdentificacion>
+			<nacionalidadAbrev>VEN</nacionalidadAbrev>
+			<dirOficina>AV.AV VOLMER TRRAV ESTE CERO CANDELARIA SAN BERNARDINO</dirOficina>
+			<zonaPostal>01080</zonaPostal>
+			<nombreEstado>DISTRITO FEDERAL</nombreEstado>
+			<nombreCiudad>CARACAS</nombreCiudad>
+			<filler>O</filler>
+			<numTelf1>02125041111</numTelf1>
+			<filler>0000H</filler>
+			<numTelf2>02125041111</numTelf2>
+			<filler>0000 000000000000000 X</filler>
+			<nombreCliente>ANDREYNA BALZA CONTRERAS</nombreCliente>
+			<codIdentificacion>V</codIdentificacion>
+			<docIdentidad>0018308374</docIdentidad>
+			<ciudadFecha>CARACAS</ciudadFecha>
+			<diasFecha>13</diasFecha>
+			<nombreMes>SEPTIEMBRE</nombreMes>
+			<anioFecha>2012</anioFecha>
+			<nombreFamiliar>BLANCA ELENA BERMUDEZ ALVAREZ</nombreFamiliar>
+			<numTelef>-</numTelef>
+		</pagina>
+		<pagina>
+			<canal>0</canal>
+			<logitudReg>01472</logitudReg>
+			<destinatario>40621</destinatario>
+			<codForm>MPPR9200</codForm>
+			<codEmpresa>40621</codEmpresa>
+			<codProducto>15</codProducto>
+			<codSubProducto>3011</codSubProducto>
+			<canal>1</canal>
+			<codEmpresa>40621</codEmpresa>
+			<nombreEmpresa>NERA TELECOMUNICACIO</nombreEmpresa>
+			<nacionalidad>V</nacionalidad>
+			<cedIdentidad>0018308374</cedIdentidad>
+			<nombreCliente>BALZA CONTRERAS ANDREYNA YOSELYNE</nombreCliente>
+			<filler>00</filler>
+			<dirCliente1>AV. AV VOLMER</dirCliente1>
+			<dirCliente2>TRR AV ESTE CERO CANDELARIA</dirCliente2>
+			<dirCliente3>SAN BERNARDINO LIBERTADOR CARACAS</dirCliente3>
+			<dirCliente4>DISTRITO FEDERAL 01080 000</dirCliente4>
+			<numContratoTarj>01080027765020216823</numContratoTarj>
+			<codOficina>0027</codOficina>
+			<numCtaTarjPopular>0108-0027-79-1500003719</numCtaTarjPopular>
+			<numTarjElect>5895240203774253668</numTarjElect>
+			<fechaApertura>13-09-2012</fechaApertura>
+			<numCliente>09047158</numCliente>
+			<nombreCliente>ANDREYNA BALZA CONTRERAS</nombreCliente>
+			<codIdentificacion>V</codIdentificacion>
+			<docIdentidad>0018308374</docIdentidad>
+			<codIdentificacion>V</codIdentificacion>
+			<codigoIdentificacion>0018308374</codigoIdentificacion>
+			<nacionalidadAbrev>VEN</nacionalidadAbrev>
+			<dirOficina>AV.AV VOLMER TRRAV ESTE CERO CANDELARIA SAN BERNARDINO</dirOficina>
+			<zonaPostal>01080</zonaPostal>
+			<nombreEstado>DISTRITO FEDERAL</nombreEstado>
+			<nombreCiudad>CARACAS</nombreCiudad>
+			<filler>O</filler>
+			<numTelf1>02125041111</numTelf1>
+			<filler>0000H</filler>
+			<numTelf2>02125041111</numTelf2>
+			<filler>0000 000000000000000 X</filler>
+			<nombreCliente>ANDREYNA BALZA CONTRERAS</nombreCliente>
+			<codIdentificacion>V</codIdentificacion>
+			<docIdentidad>0018308374</docIdentidad>
+			<ciudadFecha>CARACAS</ciudadFecha>
+			<diasFecha>13</diasFecha>
+			<nombreMes>SEPTIEMBRE</nombreMes>
+			<anioFecha>2012</anioFecha>
+			<nombreFamiliar>BLANCA ELENA BERMUDEZ ALVAREZ</nombreFamiliar>
+			<numTelef>-</numTelef>
+		</pagina>
+		<pagina>
+			<canal>0</canal>
+			<logitudReg>01472</logitudReg>
+			<destinatario>40621</destinatario>
+			<codForm>MPPR9300</codForm>
+			<codEmpresa>40621</codEmpresa>
+			<codProducto>15</codProducto>
+			<codSubProducto>3011</codSubProducto>
+			<canal>1</canal>
+			<codEmpresa>40621</codEmpresa>
+			<nombreEmpresa>NERA TELECOMUNICACIO</nombreEmpresa>
+			<nacionalidad>V</nacionalidad>
+			<cedIdentidad>0018308374</cedIdentidad>
+			<nombreCliente>BALZA CONTRERAS ANDREYNA YOSELYNE</nombreCliente>
+			<filler>00</filler>
+			<dirCliente1>AV. AV VOLMER</dirCliente1>
+			<dirCliente2>TRR AV ESTE CERO CANDELARIA</dirCliente2>
+			<dirCliente3>SAN BERNARDINO LIBERTADOR CARACAS</dirCliente3>
+			<dirCliente4>DISTRITO FEDERAL 01080 000</dirCliente4>
+			<numContratoTarj>01080027765020216823</numContratoTarj>
+			<codOficina>0027</codOficina>
+			<numCtaTarjPopular>0108-0027-79-1500003719</numCtaTarjPopular>
+			<numTarjElect>5895240203774253668</numTarjElect>
+			<fechaApertura>13-09-2012</fechaApertura>
+			<numCliente>09047158</numCliente>
+			<nombreCliente>ANDREYNA BALZA CONTRERAS</nombreCliente>
+			<codIdentificacion>V</codIdentificacion>
+			<docIdentidad>0018308374</docIdentidad>
+			<codIdentificacion>V</codIdentificacion>
+			<codigoIdentificacion>0018308374</codigoIdentificacion>
+			<nacionalidadAbrev>VEN</nacionalidadAbrev>
+			<dirOficina>AV.AV VOLMER TRRAV ESTE CERO CANDELARIA SAN BERNARDINO</dirOficina>
+			<zonaPostal>01080</zonaPostal>
+			<nombreEstado>DISTRITO FEDERAL</nombreEstado>
+			<nombreCiudad>CARACAS</nombreCiudad>
+			<filler>O</filler>
+			<numTelf1>02125041111</numTelf1>
+			<filler>0000H</filler>
+			<numTelf2>02125041111</numTelf2>
+			<filler>0000 000000000000000 X</filler>
+			<nombreCliente>ANDREYNA BALZA CONTRERAS</nombreCliente>
+			<codIdentificacion>V</codIdentificacion>
+			<docIdentidad>0018308374</docIdentidad>
+			<ciudadFecha>CARACAS</ciudadFecha>
+			<diasFecha>13</diasFecha>
+			<nombreMes>SEPTIEMBRE</nombreMes>
+			<anioFecha>2012</anioFecha>
+			<nombreFamiliar>BLANCA ELENA BERMUDEZ ALVAREZ</nombreFamiliar>
+			<numTelef>-</numTelef>
+		</pagina>
+		<pagina>
+			<canal>0</canal>
+			<logitudReg>01472</logitudReg>
+			<destinatario>40621</destinatario>
+			<codForm>MPPR9400</codForm>
+			<codEmpresa>40621</codEmpresa>
+			<codProducto>15</codProducto>
+			<codSubProducto>3011</codSubProducto>
+			<canal>1</canal>
+			<codEmpresa>40621</codEmpresa>
+			<nombreEmpresa>NERA TELECOMUNICACIO</nombreEmpresa>
+			<nacionalidad>V</nacionalidad>
+			<cedIdentidad>0018308374</cedIdentidad>
+			<nombreCliente>BALZA CONTRERAS ANDREYNA YOSELYNE</nombreCliente>
+			<filler>00</filler>
+			<dirCliente1>AV. AV VOLMER</dirCliente1>
+			<dirCliente2>TRR AV ESTE CERO CANDELARIA</dirCliente2>
+			<dirCliente3>SAN BERNARDINO LIBERTADOR CARACAS</dirCliente3>
+			<dirCliente4>DISTRITO FEDERAL 01080 000</dirCliente4>
+			<numContratoTarj>01080027765020216823</numContratoTarj>
+			<codOficina>0027</codOficina>
+			<numCtaTarjPopular>0108-0027-79-1500003719</numCtaTarjPopular>
+			<numTarjElect>5895240203774253668</numTarjElect>
+			<fechaApertura>13-09-2012</fechaApertura>
+			<numCliente>09047158</numCliente>
+			<nombreCliente>ANDREYNA BALZA CONTRERAS</nombreCliente>
+			<codIdentificacion>V</codIdentificacion>
+			<docIdentidad>0018308374</docIdentidad>
+			<codIdentificacion>V</codIdentificacion>
+			<codigoIdentificacion>0018308374</codigoIdentificacion>
+			<nacionalidadAbrev>VEN</nacionalidadAbrev>
+			<dirOficina>AV.AV VOLMER TRRAV ESTE CERO CANDELARIA SAN BERNARDINO</dirOficina>
+			<zonaPostal>01080</zonaPostal>
+			<nombreEstado>DISTRITO FEDERAL</nombreEstado>
+			<nombreCiudad>CARACAS</nombreCiudad>
+			<filler>O</filler>
+			<numTelf1>02125041111</numTelf1>
+			<filler>0000H</filler>
+			<numTelf2>02125041111</numTelf2>
+			<filler>0000 000000000000000 X</filler>
+			<nombreCliente>ANDREYNA BALZA CONTRERAS</nombreCliente>
+			<codIdentificacion>V</codIdentificacion>
+			<docIdentidad>0018308374</docIdentidad>
+			<ciudadFecha>CARACAS</ciudadFecha>
+			<diasFecha>13</diasFecha>
+			<nombreMes>SEPTIEMBRE</nombreMes>
+			<anioFecha>2012</anioFecha>
+			<nombreFamiliar>BLANCA ELENA BERMUDEZ ALVAREZ</nombreFamiliar>
+			<numTelef>-</numTelef>
+		</pagina>
+		<pagina>
+			<canal>0</canal>
+			<logitudReg>01472</logitudReg>
+			<destinatario>40621</destinatario>
+			<codForm>MPPR9500</codForm>
+			<codEmpresa>40621</codEmpresa>
+			<codProducto>15</codProducto>
+			<codSubProducto>3011</codSubProducto>
+			<canal>1</canal>
+			<codEmpresa>40621</codEmpresa>
+			<nombreEmpresa>NERA TELECOMUNICACIO</nombreEmpresa>
+			<nacionalidad>V</nacionalidad>
+			<cedIdentidad>0018308374</cedIdentidad>
+			<nombreCliente>BALZA CONTRERAS ANDREYNA YOSELYNE</nombreCliente>
+			<filler>00</filler>
+			<dirCliente1>AV. AV VOLMER</dirCliente1>
+			<dirCliente2>TRR AV ESTE CERO CANDELARIA</dirCliente2>
+			<dirCliente3>SAN BERNARDINO LIBERTADOR CARACAS</dirCliente3>
+			<dirCliente4>DISTRITO FEDERAL 01080 000</dirCliente4>
+			<numContratoTarj>01080027765020216823</numContratoTarj>
+			<codOficina>0027</codOficina>
+			<numCtaTarjPopular>0108-0027-79-1500003719</numCtaTarjPopular>
+			<numTarjElect>5895240203774253668</numTarjElect>
+			<fechaApertura>13-09-2012</fechaApertura>
+			<numCliente>09047158</numCliente>
+			<nombreCliente>ANDREYNA BALZA CONTRERAS</nombreCliente>
+			<codIdentificacion>V</codIdentificacion>
+			<docIdentidad>0018308374</docIdentidad>
+			<codIdentificacion>V</codIdentificacion>
+			<codigoIdentificacion>0018308374</codigoIdentificacion>
+			<nacionalidadAbrev>VEN</nacionalidadAbrev>
+			<dirOficina>AV.AV VOLMER TRRAV ESTE CERO CANDELARIA SAN BERNARDINO</dirOficina>
+			<zonaPostal>01080</zonaPostal>
+			<nombreEstado>DISTRITO FEDERAL</nombreEstado>
+			<nombreCiudad>CARACAS</nombreCiudad>
+			<filler>O</filler>
+			<numTelf1>02125041111</numTelf1>
+			<filler>0000H</filler>
+			<numTelf2>02125041111</numTelf2>
+			<filler>0000 000000000000000 X</filler>
+			<nombreCliente>ANDREYNA BALZA CONTRERAS</nombreCliente>
+			<codIdentificacion>V</codIdentificacion>
+			<docIdentidad>0018308374</docIdentidad>
+			<ciudadFecha>CARACAS</ciudadFecha>
+			<diasFecha>13</diasFecha>
+			<nombreMes>SEPTIEMBRE</nombreMes>
+			<anioFecha>2012</anioFecha>
+			<nombreFamiliar>BLANCA ELENA BERMUDEZ ALVAREZ</nombreFamiliar>
+			<numTelef>-</numTelef>
+		</pagina>
+		<pagina>
+			<canal>0</canal>
+			<logitudReg>01472</logitudReg>
+			<destinatario>40621</destinatario>
+			<codForm>MPPR9600</codForm>
+			<codEmpresa>40621</codEmpresa>
+			<codProducto>15</codProducto>
+			<codSubProducto>3011</codSubProducto>
+			<canal>1</canal>
+			<codEmpresa>40621</codEmpresa>
+			<nombreEmpresa>NERA TELECOMUNICACIO</nombreEmpresa>
+			<nacionalidad>V</nacionalidad>
+			<cedIdentidad>0018308374</cedIdentidad>
+			<nombreCliente>BALZA CONTRERAS ANDREYNA YOSELYNE</nombreCliente>
+			<filler>00</filler>
+			<dirCliente1>AV. AV VOLMER</dirCliente1>
+			<dirCliente2>TRR AV ESTE CERO CANDELARIA</dirCliente2>
+			<dirCliente3>SAN BERNARDINO LIBERTADOR CARACAS</dirCliente3>
+			<dirCliente4>DISTRITO FEDERAL 01080 000</dirCliente4>
+			<numContratoTarj>01080027765020216823</numContratoTarj>
+			<codOficina>0027</codOficina>
+			<numCtaTarjPopular>0108-0027-79-1500003719</numCtaTarjPopular>
+			<numTarjElect>5895240203774253668</numTarjElect>
+			<fechaApertura>13-09-2012</fechaApertura>
+			<numCliente>09047158</numCliente>
+			<nombreCliente>ANDREYNA BALZA CONTRERAS</nombreCliente>
+			<codIdentificacion>V</codIdentificacion>
+			<docIdentidad>0018308374</docIdentidad>
+			<codIdentificacion>V</codIdentificacion>
+			<codigoIdentificacion>0018308374</codigoIdentificacion>
+			<nacionalidadAbrev>VEN</nacionalidadAbrev>
+			<dirOficina>AV.AV VOLMER TRRAV ESTE CERO CANDELARIA SAN BERNARDINO</dirOficina>
+			<zonaPostal>01080</zonaPostal>
+			<nombreEstado>DISTRITO FEDERAL</nombreEstado>
+			<nombreCiudad>CARACAS</nombreCiudad>
+			<filler>O</filler>
+			<numTelf1>02125041111</numTelf1>
+			<filler>0000H</filler>
+			<numTelf2>02125041111</numTelf2>
+			<filler>0000 000000000000000 X</filler>
+			<nombreCliente>ANDREYNA BALZA CONTRERAS</nombreCliente>
+			<codIdentificacion>V</codIdentificacion>
+			<docIdentidad>0018308374</docIdentidad>
+			<ciudadFecha>CARACAS</ciudadFecha>
+			<diasFecha>13</diasFecha>
+			<nombreMes>SEPTIEMBRE</nombreMes>
+			<anioFecha>2012</anioFecha>
+			<nombreFamiliar>BLANCA ELENA BERMUDEZ ALVAREZ</nombreFamiliar>
+			<numTelef>-</numTelef>
+		</pagina>
+		<pagina>
+			<canal>0</canal>
+			<logitudReg>01472</logitudReg>
+			<destinatario>40621</destinatario>
+			<codForm>MPPR9700</codForm>
+			<codEmpresa>40621</codEmpresa>
+			<codProducto>15</codProducto>
+			<codSubProducto>3011</codSubProducto>
+			<canal>1</canal>
+			<codEmpresa>40621</codEmpresa>
+			<nombreEmpresa>NERA TELECOMUNICACIO</nombreEmpresa>
+			<nacionalidad>V</nacionalidad>
+			<cedIdentidad>0018308374</cedIdentidad>
+			<nombreCliente>BALZA CONTRERAS ANDREYNA YOSELYNE</nombreCliente>
+			<filler>00</filler>
+			<dirCliente1>AV. AV VOLMER</dirCliente1>
+			<dirCliente2>TRR AV ESTE CERO CANDELARIA</dirCliente2>
+			<dirCliente3>SAN BERNARDINO LIBERTADOR CARACAS</dirCliente3>
+			<dirCliente4>DISTRITO FEDERAL 01080 000</dirCliente4>
+			<numContratoTarj>01080027765020216823</numContratoTarj>
+			<codOficina>0027</codOficina>
+			<numCtaTarjPopular>0108-0027-79-1500003719</numCtaTarjPopular>
+			<numTarjElect>5895240203774253668</numTarjElect>
+			<fechaApertura>13-09-2012</fechaApertura>
+			<numCliente>09047158</numCliente>
+			<nombreCliente>ANDREYNA BALZA CONTRERAS</nombreCliente>
+			<codIdentificacion>V</codIdentificacion>
+			<docIdentidad>0018308374</docIdentidad>
+			<codIdentificacion>V</codIdentificacion>
+			<codigoIdentificacion>0018308374</codigoIdentificacion>
+			<nacionalidadAbrev>VEN</nacionalidadAbrev>
+			<dirOficina>AV.AV VOLMER TRRAV ESTE CERO CANDELARIA SAN BERNARDINO</dirOficina>
+			<zonaPostal>01080</zonaPostal>
+			<nombreEstado>DISTRITO FEDERAL</nombreEstado>
+			<nombreCiudad>CARACAS</nombreCiudad>
+			<filler>O</filler>
+			<numTelf1>02125041111</numTelf1>
+			<filler>0000H</filler>
+			<numTelf2>02125041111</numTelf2>
+			<filler>0000 000000000000000 X</filler>
+			<nombreCliente>ANDREYNA BALZA CONTRERAS</nombreCliente>
+			<codIdentificacion>V</codIdentificacion>
+			<docIdentidad>0018308374</docIdentidad>
+			<ciudadFecha>CARACAS</ciudadFecha>
+			<diasFecha>13</diasFecha>
+			<nombreMes>SEPTIEMBRE</nombreMes>
+			<anioFecha>2012</anioFecha>
+			<nombreFamiliar>BLANCA ELENA BERMUDEZ ALVAREZ</nombreFamiliar>
+			<numTelef>-</numTelef>
+		</pagina>
+		<pagina>
+			<canal>0</canal>
+			<logitudReg>01472</logitudReg>
+			<destinatario>40621</destinatario>
+			<codForm>MPPR9800</codForm>
+			<codEmpresa>40621</codEmpresa>
+			<codProducto>15</codProducto>
+			<codSubProducto>3011</codSubProducto>
+			<canal>1</canal>
+			<codEmpresa>40621</codEmpresa>
+			<nombreEmpresa>NERA TELECOMUNICACIO</nombreEmpresa>
+			<nacionalidad>V</nacionalidad>
+			<cedIdentidad>0018308374</cedIdentidad>
+			<nombreCliente>BALZA CONTRERAS ANDREYNA YOSELYNE</nombreCliente>
+			<filler>00</filler>
+			<dirCliente1>AV. AV VOLMER</dirCliente1>
+			<dirCliente2>TRR AV ESTE CERO CANDELARIA</dirCliente2>
+			<dirCliente3>SAN BERNARDINO LIBERTADOR CARACAS</dirCliente3>
+			<dirCliente4>DISTRITO FEDERAL 01080 000</dirCliente4>
+			<numContratoTarj>01080027765020216823</numContratoTarj>
+			<codOficina>0027</codOficina>
+			<numCtaTarjPopular>0108-0027-79-1500003719</numCtaTarjPopular>
+			<numTarjElect>5895240203774253668</numTarjElect>
+			<fechaApertura>13-09-2012</fechaApertura>
+			<numCliente>09047158</numCliente>
+			<nombreCliente>ANDREYNA BALZA CONTRERAS</nombreCliente>
+			<codIdentificacion>V</codIdentificacion>
+			<docIdentidad>0018308374</docIdentidad>
+			<codIdentificacion>V</codIdentificacion>
+			<codigoIdentificacion>0018308374</codigoIdentificacion>
+			<nacionalidadAbrev>VEN</nacionalidadAbrev>
+			<dirOficina>AV.AV VOLMER TRRAV ESTE CERO CANDELARIA SAN BERNARDINO</dirOficina>
+			<zonaPostal>01080</zonaPostal>
+			<nombreEstado>DISTRITO FEDERAL</nombreEstado>
+			<nombreCiudad>CARACAS</nombreCiudad>
+			<filler>O</filler>
+			<numTelf1>02125041111</numTelf1>
+			<filler>0000H</filler>
+			<numTelf2>02125041111</numTelf2>
+			<filler>0000 000000000000000 X</filler>
+			<nombreCliente>ANDREYNA BALZA CONTRERAS</nombreCliente>
+			<codIdentificacion>V</codIdentificacion>
+			<docIdentidad>0018308374</docIdentidad>
+			<ciudadFecha>CARACAS</ciudadFecha>
+			<diasFecha>13</diasFecha>
+			<nombreMes>SEPTIEMBRE</nombreMes>
+			<anioFecha>2012</anioFecha>
+			<nombreFamiliar>BLANCA ELENA BERMUDEZ ALVAREZ</nombreFamiliar>
+			<numTelef>-</numTelef>
+		</pagina>
+		<pagina>
+			<canal>0</canal>
+			<logitudReg>01472</logitudReg>
+			<destinatario>40621</destinatario>
+			<codForm>MPPR9900</codForm>
+			<codEmpresa>40621</codEmpresa>
+			<codProducto>15</codProducto>
+			<codSubProducto>3011</codSubProducto>
+			<canal>1</canal>
+			<codEmpresa>40621</codEmpresa>
+			<nombreEmpresa>NERA TELECOMUNICACIO</nombreEmpresa>
+			<nacionalidad>V</nacionalidad>
+			<cedIdentidad>0018308374</cedIdentidad>
+			<nombreCliente>BALZA CONTRERAS ANDREYNA YOSELYNE</nombreCliente>
+			<filler>00</filler>
+			<dirCliente1>AV. AV VOLMER</dirCliente1>
+			<dirCliente2>TRR AV ESTE CERO CANDELARIA</dirCliente2>
+			<dirCliente3>SAN BERNARDINO LIBERTADOR CARACAS</dirCliente3>
+			<dirCliente4>DISTRITO FEDERAL 01080 000</dirCliente4>
+			<numContratoTarj>01080027765020216823</numContratoTarj>
+			<codOficina>0027</codOficina>
+			<numCtaTarjPopular>0108-0027-79-1500003719</numCtaTarjPopular>
+			<numTarjElect>5895240203774253668</numTarjElect>
+			<fechaApertura>13-09-2012</fechaApertura>
+			<numCliente>09047158</numCliente>
+			<nombreCliente>ANDREYNA BALZA CONTRERAS</nombreCliente>
+			<codIdentificacion>V</codIdentificacion>
+			<docIdentidad>0018308374</docIdentidad>
+			<codIdentificacion>V</codIdentificacion>
+			<codigoIdentificacion>0018308374</codigoIdentificacion>
+			<nacionalidadAbrev>VEN</nacionalidadAbrev>
+			<dirOficina>AV.AV VOLMER TRRAV ESTE CERO CANDELARIA SAN BERNARDINO</dirOficina>
+			<zonaPostal>01080</zonaPostal>
+			<nombreEstado>DISTRITO FEDERAL</nombreEstado>
+			<nombreCiudad>CARACAS</nombreCiudad>
+			<filler>O</filler>
+			<numTelf1>02125041111</numTelf1>
+			<filler>0000H</filler>
+			<numTelf2>02125041111</numTelf2>
+			<filler>0000 000000000000000 X</filler>
+			<nombreCliente>ANDREYNA BALZA CONTRERAS</nombreCliente>
+			<codIdentificacion>V</codIdentificacion>
+			<docIdentidad>0018308374</docIdentidad>
+			<ciudadFecha>CARACAS</ciudadFecha>
+			<diasFecha>13</diasFecha>
+			<nombreMes>SEPTIEMBRE</nombreMes>
+			<anioFecha>2012</anioFecha>
+			<nombreFamiliar>BLANCA ELENA BERMUDEZ ALVAREZ</nombreFamiliar>
+			<numTelef>-</numTelef>
+		</pagina>
+		<pagina>
+			<canal>0</canal>
+			<logitudReg>01472</logitudReg>
+			<destinatario>40621</destinatario>
+			<codForm>MPPR9000</codForm>
+			<codEmpresa>40621</codEmpresa>
+			<codProducto>15</codProducto>
+			<codSubProducto>3011</codSubProducto>
+			<canal>1</canal>
+			<codEmpresa>40621</codEmpresa>
+			<nombreEmpresa>NERA TELECOMUNICACIO</nombreEmpresa>
+			<nacionalidad>V</nacionalidad>
+			<cedIdentidad>0018308374</cedIdentidad>
+			<nombreCliente>BALZA CONTRERAS ANDREYNA YOSELYNE</nombreCliente>
+			<filler>00</filler>
+			<dirCliente1>AV. AV VOLMER</dirCliente1>
+			<dirCliente2>TRR AV ESTE CERO CANDELARIA</dirCliente2>
+			<dirCliente3>SAN BERNARDINO LIBERTADOR CARACAS</dirCliente3>
+			<dirCliente4>DISTRITO FEDERAL 01080 000</dirCliente4>
+			<numContratoTarj>01080027765020216823</numContratoTarj>
+			<codOficina>0027</codOficina>
+			<numCtaTarjPopular>0108-0027-79-1500003719</numCtaTarjPopular>
+			<numTarjElect>5895240203774253668</numTarjElect>
+			<fechaApertura>13-09-2012</fechaApertura>
+			<numCliente>09047158</numCliente>
+			<nombreCliente>ANDREYNA BALZA CONTRERAS</nombreCliente>
+			<codIdentificacion>V</codIdentificacion>
+			<docIdentidad>0018308374</docIdentidad>
+			<codIdentificacion>V</codIdentificacion>
+			<codigoIdentificacion>0018308374</codigoIdentificacion>
+			<nacionalidadAbrev>VEN</nacionalidadAbrev>
+			<dirOficina>AV.AV VOLMER TRRAV ESTE CERO CANDELARIA SAN BERNARDINO</dirOficina>
+			<zonaPostal>01080</zonaPostal>
+			<nombreEstado>DISTRITO FEDERAL</nombreEstado>
+			<nombreCiudad>CARACAS</nombreCiudad>
+			<filler>O</filler>
+			<numTelf1>02125041111</numTelf1>
+			<filler>0000H</filler>
+			<numTelf2>02125041111</numTelf2>
+			<filler>0000 000000000000000 X</filler>
+			<nombreCliente>ANDREYNA BALZA CONTRERAS</nombreCliente>
+			<codIdentificacion>V</codIdentificacion>
+			<docIdentidad>0018308374</docIdentidad>
+			<ciudadFecha>CARACAS</ciudadFecha>
+			<diasFecha>13</diasFecha>
+			<nombreMes>SEPTIEMBRE</nombreMes>
+			<anioFecha>2012</anioFecha>
+			<nombreFamiliar>BLANCA ELENA BERMUDEZ ALVAREZ</nombreFamiliar>
+			<numTelef>-</numTelef>
+		</pagina>
+		<pagina>
+			<canal>0</canal>
+			<logitudReg>01472</logitudReg>
+			<destinatario>40621</destinatario>
+			<codForm>MPPR9100</codForm>
+			<codEmpresa>40621</codEmpresa>
+			<codProducto>15</codProducto>
+			<codSubProducto>3011</codSubProducto>
+			<canal>1</canal>
+			<codEmpresa>40621</codEmpresa>
+			<nombreEmpresa>NERA TELECOMUNICACIO</nombreEmpresa>
+			<nacionalidad>V</nacionalidad>
+			<cedIdentidad>0018308374</cedIdentidad>
+			<nombreCliente>BALZA CONTRERAS ANDREYNA YOSELYNE</nombreCliente>
+			<filler>00</filler>
+			<dirCliente1>AV. AV VOLMER</dirCliente1>
+			<dirCliente2>TRR AV ESTE CERO CANDELARIA</dirCliente2>
+			<dirCliente3>SAN BERNARDINO LIBERTADOR CARACAS</dirCliente3>
+			<dirCliente4>DISTRITO FEDERAL 01080 000</dirCliente4>
+			<numContratoTarj>01080027765020216823</numContratoTarj>
+			<codOficina>0027</codOficina>
+			<numCtaTarjPopular>0108-0027-79-1500003719</numCtaTarjPopular>
+			<numTarjElect>5895240203774253668</numTarjElect>
+			<fechaApertura>13-09-2012</fechaApertura>
+			<numCliente>09047158</numCliente>
+			<nombreCliente>ANDREYNA BALZA CONTRERAS</nombreCliente>
+			<codIdentificacion>V</codIdentificacion>
+			<docIdentidad>0018308374</docIdentidad>
+			<codIdentificacion>V</codIdentificacion>
+			<codigoIdentificacion>0018308374</codigoIdentificacion>
+			<nacionalidadAbrev>VEN</nacionalidadAbrev>
+			<dirOficina>AV.AV VOLMER TRRAV ESTE CERO CANDELARIA SAN BERNARDINO</dirOficina>
+			<zonaPostal>01080</zonaPostal>
+			<nombreEstado>DISTRITO FEDERAL</nombreEstado>
+			<nombreCiudad>CARACAS</nombreCiudad>
+			<filler>O</filler>
+			<numTelf1>02125041111</numTelf1>
+			<filler>0000H</filler>
+			<numTelf2>02125041111</numTelf2>
+			<filler>0000 000000000000000 X</filler>
+			<nombreCliente>ANDREYNA BALZA CONTRERAS</nombreCliente>
+			<codIdentificacion>V</codIdentificacion>
+			<docIdentidad>0018308374</docIdentidad>
+			<ciudadFecha>CARACAS</ciudadFecha>
+			<diasFecha>13</diasFecha>
+			<nombreMes>SEPTIEMBRE</nombreMes>
+			<anioFecha>2012</anioFecha>
+			<nombreFamiliar>BLANCA ELENA BERMUDEZ ALVAREZ</nombreFamiliar>
+			<numTelef>-</numTelef>
+		</pagina>
+		<pagina>
+			<canal>0</canal>
+			<logitudReg>01472</logitudReg>
+			<destinatario>40621</destinatario>
+			<codForm>MPPR9200</codForm>
+			<codEmpresa>40621</codEmpresa>
+			<codProducto>15</codProducto>
+			<codSubProducto>3011</codSubProducto>
+			<canal>1</canal>
+			<codEmpresa>40621</codEmpresa>
+			<nombreEmpresa>NERA TELECOMUNICACIO</nombreEmpresa>
+			<nacionalidad>V</nacionalidad>
+			<cedIdentidad>0018308374</cedIdentidad>
+			<nombreCliente>BALZA CONTRERAS ANDREYNA YOSELYNE</nombreCliente>
+			<filler>00</filler>
+			<dirCliente1>AV. AV VOLMER</dirCliente1>
+			<dirCliente2>TRR AV ESTE CERO CANDELARIA</dirCliente2>
+			<dirCliente3>SAN BERNARDINO LIBERTADOR CARACAS</dirCliente3>
+			<dirCliente4>DISTRITO FEDERAL 01080 000</dirCliente4>
+			<numContratoTarj>01080027765020216823</numContratoTarj>
+			<codOficina>0027</codOficina>
+			<numCtaTarjPopular>0108-0027-79-1500003719</numCtaTarjPopular>
+			<numTarjElect>5895240203774253668</numTarjElect>
+			<fechaApertura>13-09-2012</fechaApertura>
+			<numCliente>09047158</numCliente>
+			<nombreCliente>ANDREYNA BALZA CONTRERAS</nombreCliente>
+			<codIdentificacion>V</codIdentificacion>
+			<docIdentidad>0018308374</docIdentidad>
+			<codIdentificacion>V</codIdentificacion>
+			<codigoIdentificacion>0018308374</codigoIdentificacion>
+			<nacionalidadAbrev>VEN</nacionalidadAbrev>
+			<dirOficina>AV.AV VOLMER TRRAV ESTE CERO CANDELARIA SAN BERNARDINO</dirOficina>
+			<zonaPostal>01080</zonaPostal>
+			<nombreEstado>DISTRITO FEDERAL</nombreEstado>
+			<nombreCiudad>CARACAS</nombreCiudad>
+			<filler>O</filler>
+			<numTelf1>02125041111</numTelf1>
+			<filler>0000H</filler>
+			<numTelf2>02125041111</numTelf2>
+			<filler>0000 000000000000000 X</filler>
+			<nombreCliente>ANDREYNA BALZA CONTRERAS</nombreCliente>
+			<codIdentificacion>V</codIdentificacion>
+			<docIdentidad>0018308374</docIdentidad>
+			<ciudadFecha>CARACAS</ciudadFecha>
+			<diasFecha>13</diasFecha>
+			<nombreMes>SEPTIEMBRE</nombreMes>
+			<anioFecha>2012</anioFecha>
+			<nombreFamiliar>BLANCA ELENA BERMUDEZ ALVAREZ</nombreFamiliar>
+			<numTelef>-</numTelef>
+		</pagina>
+		<pagina>
+			<canal>0</canal>
+			<logitudReg>01472</logitudReg>
+			<destinatario>40621</destinatario>
+			<codForm>MPPR9300</codForm>
+			<codEmpresa>40621</codEmpresa>
+			<codProducto>15</codProducto>
+			<codSubProducto>3011</codSubProducto>
+			<canal>1</canal>
+			<codEmpresa>40621</codEmpresa>
+			<nombreEmpresa>NERA TELECOMUNICACIO</nombreEmpresa>
+			<nacionalidad>V</nacionalidad>
+			<cedIdentidad>0018308374</cedIdentidad>
+			<nombreCliente>BALZA CONTRERAS ANDREYNA YOSELYNE</nombreCliente>
+			<filler>00</filler>
+			<dirCliente1>AV. AV VOLMER</dirCliente1>
+			<dirCliente2>TRR AV ESTE CERO CANDELARIA</dirCliente2>
+			<dirCliente3>SAN BERNARDINO LIBERTADOR CARACAS</dirCliente3>
+			<dirCliente4>DISTRITO FEDERAL 01080 000</dirCliente4>
+			<numContratoTarj>01080027765020216823</numContratoTarj>
+			<codOficina>0027</codOficina>
+			<numCtaTarjPopular>0108-0027-79-1500003719</numCtaTarjPopular>
+			<numTarjElect>5895240203774253668</numTarjElect>
+			<fechaApertura>13-09-2012</fechaApertura>
+			<numCliente>09047158</numCliente>
+			<nombreCliente>ANDREYNA BALZA CONTRERAS</nombreCliente>
+			<codIdentificacion>V</codIdentificacion>
+			<docIdentidad>0018308374</docIdentidad>
+			<codIdentificacion>V</codIdentificacion>
+			<codigoIdentificacion>0018308374</codigoIdentificacion>
+			<nacionalidadAbrev>VEN</nacionalidadAbrev>
+			<dirOficina>AV.AV VOLMER TRRAV ESTE CERO CANDELARIA SAN BERNARDINO</dirOficina>
+			<zonaPostal>01080</zonaPostal>
+			<nombreEstado>DISTRITO FEDERAL</nombreEstado>
+			<nombreCiudad>CARACAS</nombreCiudad>
+			<filler>O</filler>
+			<numTelf1>02125041111</numTelf1>
+			<filler>0000H</filler>
+			<numTelf2>02125041111</numTelf2>
+			<filler>0000 000000000000000 X</filler>
+			<nombreCliente>ANDREYNA BALZA CONTRERAS</nombreCliente>
+			<codIdentificacion>V</codIdentificacion>
+			<docIdentidad>0018308374</docIdentidad>
+			<ciudadFecha>CARACAS</ciudadFecha>
+			<diasFecha>13</diasFecha>
+			<nombreMes>SEPTIEMBRE</nombreMes>
+			<anioFecha>2012</anioFecha>
+			<nombreFamiliar>BLANCA ELENA BERMUDEZ ALVAREZ</nombreFamiliar>
+			<numTelef>-</numTelef>
+		</pagina>
+		<pagina>
+			<canal>0</canal>
+			<logitudReg>01472</logitudReg>
+			<destinatario>40621</destinatario>
+			<codForm>MPPR9400</codForm>
+			<codEmpresa>40621</codEmpresa>
+			<codProducto>15</codProducto>
+			<codSubProducto>3011</codSubProducto>
+			<canal>1</canal>
+			<codEmpresa>40621</codEmpresa>
+			<nombreEmpresa>NERA TELECOMUNICACIO</nombreEmpresa>
+			<nacionalidad>V</nacionalidad>
+			<cedIdentidad>0018308374</cedIdentidad>
+			<nombreCliente>BALZA CONTRERAS ANDREYNA YOSELYNE</nombreCliente>
+			<filler>00</filler>
+			<dirCliente1>AV. AV VOLMER</dirCliente1>
+			<dirCliente2>TRR AV ESTE CERO CANDELARIA</dirCliente2>
+			<dirCliente3>SAN BERNARDINO LIBERTADOR CARACAS</dirCliente3>
+			<dirCliente4>DISTRITO FEDERAL 01080 000</dirCliente4>
+			<numContratoTarj>01080027765020216823</numContratoTarj>
+			<codOficina>0027</codOficina>
+			<numCtaTarjPopular>0108-0027-79-1500003719</numCtaTarjPopular>
+			<numTarjElect>5895240203774253668</numTarjElect>
+			<fechaApertura>13-09-2012</fechaApertura>
+			<numCliente>09047158</numCliente>
+			<nombreCliente>ANDREYNA BALZA CONTRERAS</nombreCliente>
+			<codIdentificacion>V</codIdentificacion>
+			<docIdentidad>0018308374</docIdentidad>
+			<codIdentificacion>V</codIdentificacion>
+			<codigoIdentificacion>0018308374</codigoIdentificacion>
+			<nacionalidadAbrev>VEN</nacionalidadAbrev>
+			<dirOficina>AV.AV VOLMER TRRAV ESTE CERO CANDELARIA SAN BERNARDINO</dirOficina>
+			<zonaPostal>01080</zonaPostal>
+			<nombreEstado>DISTRITO FEDERAL</nombreEstado>
+			<nombreCiudad>CARACAS</nombreCiudad>
+			<filler>O</filler>
+			<numTelf1>02125041111</numTelf1>
+			<filler>0000H</filler>
+			<numTelf2>02125041111</numTelf2>
+			<filler>0000 000000000000000 X</filler>
+			<nombreCliente>ANDREYNA BALZA CONTRERAS</nombreCliente>
+			<codIdentificacion>V</codIdentificacion>
+			<docIdentidad>0018308374</docIdentidad>
+			<ciudadFecha>CARACAS</ciudadFecha>
+			<diasFecha>13</diasFecha>
+			<nombreMes>SEPTIEMBRE</nombreMes>
+			<anioFecha>2012</anioFecha>
+			<nombreFamiliar>BLANCA ELENA BERMUDEZ ALVAREZ</nombreFamiliar>
+			<numTelef>-</numTelef>
+		</pagina>
+		<pagina>
+			<canal>0</canal>
+			<logitudReg>01472</logitudReg>
+			<destinatario>40621</destinatario>
+			<codForm>MPPR9500</codForm>
+			<codEmpresa>40621</codEmpresa>
+			<codProducto>15</codProducto>
+			<codSubProducto>3011</codSubProducto>
+			<canal>1</canal>
+			<codEmpresa>40621</codEmpresa>
+			<nombreEmpresa>NERA TELECOMUNICACIO</nombreEmpresa>
+			<nacionalidad>V</nacionalidad>
+			<cedIdentidad>0018308374</cedIdentidad>
+			<nombreCliente>BALZA CONTRERAS ANDREYNA YOSELYNE</nombreCliente>
+			<filler>00</filler>
+			<dirCliente1>AV. AV VOLMER</dirCliente1>
+			<dirCliente2>TRR AV ESTE CERO CANDELARIA</dirCliente2>
+			<dirCliente3>SAN BERNARDINO LIBERTADOR CARACAS</dirCliente3>
+			<dirCliente4>DISTRITO FEDERAL 01080 000</dirCliente4>
+			<numContratoTarj>01080027765020216823</numContratoTarj>
+			<codOficina>0027</codOficina>
+			<numCtaTarjPopular>0108-0027-79-1500003719</numCtaTarjPopular>
+			<numTarjElect>5895240203774253668</numTarjElect>
+			<fechaApertura>13-09-2012</fechaApertura>
+			<numCliente>09047158</numCliente>
+			<nombreCliente>ANDREYNA BALZA CONTRERAS</nombreCliente>
+			<codIdentificacion>V</codIdentificacion>
+			<docIdentidad>0018308374</docIdentidad>
+			<codIdentificacion>V</codIdentificacion>
+			<codigoIdentificacion>0018308374</codigoIdentificacion>
+			<nacionalidadAbrev>VEN</nacionalidadAbrev>
+			<dirOficina>AV.AV VOLMER TRRAV ESTE CERO CANDELARIA SAN BERNARDINO</dirOficina>
+			<zonaPostal>01080</zonaPostal>
+			<nombreEstado>DISTRITO FEDERAL</nombreEstado>
+			<nombreCiudad>CARACAS</nombreCiudad>
+			<filler>O</filler>
+			<numTelf1>02125041111</numTelf1>
+			<filler>0000H</filler>
+			<numTelf2>02125041111</numTelf2>
+			<filler>0000 000000000000000 X</filler>
+			<nombreCliente>ANDREYNA BALZA CONTRERAS</nombreCliente>
+			<codIdentificacion>V</codIdentificacion>
+			<docIdentidad>0018308374</docIdentidad>
+			<ciudadFecha>CARACAS</ciudadFecha>
+			<diasFecha>13</diasFecha>
+			<nombreMes>SEPTIEMBRE</nombreMes>
+			<anioFecha>2012</anioFecha>
+			<nombreFamiliar>BLANCA ELENA BERMUDEZ ALVAREZ</nombreFamiliar>
+			<numTelef>-</numTelef>
+		</pagina>
+		<pagina>
+			<canal>0</canal>
+			<logitudReg>01472</logitudReg>
+			<destinatario>40621</destinatario>
+			<codForm>MPPR9600</codForm>
+			<codEmpresa>40621</codEmpresa>
+			<codProducto>15</codProducto>
+			<codSubProducto>3011</codSubProducto>
+			<canal>1</canal>
+			<codEmpresa>40621</codEmpresa>
+			<nombreEmpresa>NERA TELECOMUNICACIO</nombreEmpresa>
+			<nacionalidad>V</nacionalidad>
+			<cedIdentidad>0018308374</cedIdentidad>
+			<nombreCliente>BALZA CONTRERAS ANDREYNA YOSELYNE</nombreCliente>
+			<filler>00</filler>
+			<dirCliente1>AV. AV VOLMER</dirCliente1>
+			<dirCliente2>TRR AV ESTE CERO CANDELARIA</dirCliente2>
+			<dirCliente3>SAN BERNARDINO LIBERTADOR CARACAS</dirCliente3>
+			<dirCliente4>DISTRITO FEDERAL 01080 000</dirCliente4>
+			<numContratoTarj>01080027765020216823</numContratoTarj>
+			<codOficina>0027</codOficina>
+			<numCtaTarjPopular>0108-0027-79-1500003719</numCtaTarjPopular>
+			<numTarjElect>5895240203774253668</numTarjElect>
+			<fechaApertura>13-09-2012</fechaApertura>
+			<numCliente>09047158</numCliente>
+			<nombreCliente>ANDREYNA BALZA CONTRERAS</nombreCliente>
+			<codIdentificacion>V</codIdentificacion>
+			<docIdentidad>0018308374</docIdentidad>
+			<codIdentificacion>V</codIdentificacion>
+			<codigoIdentificacion>0018308374</codigoIdentificacion>
+			<nacionalidadAbrev>VEN</nacionalidadAbrev>
+			<dirOficina>AV.AV VOLMER TRRAV ESTE CERO CANDELARIA SAN BERNARDINO</dirOficina>
+			<zonaPostal>01080</zonaPostal>
+			<nombreEstado>DISTRITO FEDERAL</nombreEstado>
+			<nombreCiudad>CARACAS</nombreCiudad>
+			<filler>O</filler>
+			<numTelf1>02125041111</numTelf1>
+			<filler>0000H</filler>
+			<numTelf2>02125041111</numTelf2>
+			<filler>0000 000000000000000 X</filler>
+			<nombreCliente>ANDREYNA BALZA CONTRERAS</nombreCliente>
+			<codIdentificacion>V</codIdentificacion>
+			<docIdentidad>0018308374</docIdentidad>
+			<ciudadFecha>CARACAS</ciudadFecha>
+			<diasFecha>13</diasFecha>
+			<nombreMes>SEPTIEMBRE</nombreMes>
+			<anioFecha>2012</anioFecha>
+			<nombreFamiliar>BLANCA ELENA BERMUDEZ ALVAREZ</nombreFamiliar>
+			<numTelef>-</numTelef>
+		</pagina>
+		<pagina>
+			<canal>0</canal>
+			<logitudReg>01472</logitudReg>
+			<destinatario>40621</destinatario>
+			<codForm>MPPR9700</codForm>
+			<codEmpresa>40621</codEmpresa>
+			<codProducto>15</codProducto>
+			<codSubProducto>3011</codSubProducto>
+			<canal>1</canal>
+			<codEmpresa>40621</codEmpresa>
+			<nombreEmpresa>NERA TELECOMUNICACIO</nombreEmpresa>
+			<nacionalidad>V</nacionalidad>
+			<cedIdentidad>0018308374</cedIdentidad>
+			<nombreCliente>BALZA CONTRERAS ANDREYNA YOSELYNE</nombreCliente>
+			<filler>00</filler>
+			<dirCliente1>AV. AV VOLMER</dirCliente1>
+			<dirCliente2>TRR AV ESTE CERO CANDELARIA</dirCliente2>
+			<dirCliente3>SAN BERNARDINO LIBERTADOR CARACAS</dirCliente3>
+			<dirCliente4>DISTRITO FEDERAL 01080 000</dirCliente4>
+			<numContratoTarj>01080027765020216823</numContratoTarj>
+			<codOficina>0027</codOficina>
+			<numCtaTarjPopular>0108-0027-79-1500003719</numCtaTarjPopular>
+			<numTarjElect>5895240203774253668</numTarjElect>
+			<fechaApertura>13-09-2012</fechaApertura>
+			<numCliente>09047158</numCliente>
+			<nombreCliente>ANDREYNA BALZA CONTRERAS</nombreCliente>
+			<codIdentificacion>V</codIdentificacion>
+			<docIdentidad>0018308374</docIdentidad>
+			<codIdentificacion>V</codIdentificacion>
+			<codigoIdentificacion>0018308374</codigoIdentificacion>
+			<nacionalidadAbrev>VEN</nacionalidadAbrev>
+			<dirOficina>AV.AV VOLMER TRRAV ESTE CERO CANDELARIA SAN BERNARDINO</dirOficina>
+			<zonaPostal>01080</zonaPostal>
+			<nombreEstado>DISTRITO FEDERAL</nombreEstado>
+			<nombreCiudad>CARACAS</nombreCiudad>
+			<filler>O</filler>
+			<numTelf1>02125041111</numTelf1>
+			<filler>0000H</filler>
+			<numTelf2>02125041111</numTelf2>
+			<filler>0000 000000000000000 X</filler>
+			<nombreCliente>ANDREYNA BALZA CONTRERAS</nombreCliente>
+			<codIdentificacion>V</codIdentificacion>
+			<docIdentidad>0018308374</docIdentidad>
+			<ciudadFecha>CARACAS</ciudadFecha>
+			<diasFecha>13</diasFecha>
+			<nombreMes>SEPTIEMBRE</nombreMes>
+			<anioFecha>2012</anioFecha>
+			<nombreFamiliar>BLANCA ELENA BERMUDEZ ALVAREZ</nombreFamiliar>
+			<numTelef>-</numTelef>
+		</pagina>
+		<pagina>
+			<canal>0</canal>
+			<logitudReg>01472</logitudReg>
+			<destinatario>40621</destinatario>
+			<codForm>MPPR9800</codForm>
+			<codEmpresa>40621</codEmpresa>
+			<codProducto>15</codProducto>
+			<codSubProducto>3011</codSubProducto>
+			<canal>1</canal>
+			<codEmpresa>40621</codEmpresa>
+			<nombreEmpresa>NERA TELECOMUNICACIO</nombreEmpresa>
+			<nacionalidad>V</nacionalidad>
+			<cedIdentidad>0018308374</cedIdentidad>
+			<nombreCliente>BALZA CONTRERAS ANDREYNA YOSELYNE</nombreCliente>
+			<filler>00</filler>
+			<dirCliente1>AV. AV VOLMER</dirCliente1>
+			<dirCliente2>TRR AV ESTE CERO CANDELARIA</dirCliente2>
+			<dirCliente3>SAN BERNARDINO LIBERTADOR CARACAS</dirCliente3>
+			<dirCliente4>DISTRITO FEDERAL 01080 000</dirCliente4>
+			<numContratoTarj>01080027765020216823</numContratoTarj>
+			<codOficina>0027</codOficina>
+			<numCtaTarjPopular>0108-0027-79-1500003719</numCtaTarjPopular>
+			<numTarjElect>5895240203774253668</numTarjElect>
+			<fechaApertura>13-09-2012</fechaApertura>
+			<numCliente>09047158</numCliente>
+			<nombreCliente>ANDREYNA BALZA CONTRERAS</nombreCliente>
+			<codIdentificacion>V</codIdentificacion>
+			<docIdentidad>0018308374</docIdentidad>
+			<codIdentificacion>V</codIdentificacion>
+			<codigoIdentificacion>0018308374</codigoIdentificacion>
+			<nacionalidadAbrev>VEN</nacionalidadAbrev>
+			<dirOficina>AV.AV VOLMER TRRAV ESTE CERO CANDELARIA SAN BERNARDINO</dirOficina>
+			<zonaPostal>01080</zonaPostal>
+			<nombreEstado>DISTRITO FEDERAL</nombreEstado>
+			<nombreCiudad>CARACAS</nombreCiudad>
+			<filler>O</filler>
+			<numTelf1>02125041111</numTelf1>
+			<filler>0000H</filler>
+			<numTelf2>02125041111</numTelf2>
+			<filler>0000 000000000000000 X</filler>
+			<nombreCliente>ANDREYNA BALZA CONTRERAS</nombreCliente>
+			<codIdentificacion>V</codIdentificacion>
+			<docIdentidad>0018308374</docIdentidad>
+			<ciudadFecha>CARACAS</ciudadFecha>
+			<diasFecha>13</diasFecha>
+			<nombreMes>SEPTIEMBRE</nombreMes>
+			<anioFecha>2012</anioFecha>
+			<nombreFamiliar>BLANCA ELENA BERMUDEZ ALVAREZ</nombreFamiliar>
+			<numTelef>-</numTelef>
+		</pagina>
+		<pagina>
+			<canal>0</canal>
+			<logitudReg>01472</logitudReg>
+			<destinatario>40621</destinatario>
+			<codForm>MPPR9900</codForm>
+			<codEmpresa>40621</codEmpresa>
+			<codProducto>15</codProducto>
+			<codSubProducto>3011</codSubProducto>
+			<canal>1</canal>
+			<codEmpresa>40621</codEmpresa>
+			<nombreEmpresa>NERA TELECOMUNICACIO</nombreEmpresa>
+			<nacionalidad>V</nacionalidad>
+			<cedIdentidad>0018308374</cedIdentidad>
+			<nombreCliente>BALZA CONTRERAS ANDREYNA YOSELYNE</nombreCliente>
+			<filler>00</filler>
+			<dirCliente1>AV. AV VOLMER</dirCliente1>
+			<dirCliente2>TRR AV ESTE CERO CANDELARIA</dirCliente2>
+			<dirCliente3>SAN BERNARDINO LIBERTADOR CARACAS</dirCliente3>
+			<dirCliente4>DISTRITO FEDERAL 01080 000</dirCliente4>
+			<numContratoTarj>01080027765020216823</numContratoTarj>
+			<codOficina>0027</codOficina>
+			<numCtaTarjPopular>0108-0027-79-1500003719</numCtaTarjPopular>
+			<numTarjElect>5895240203774253668</numTarjElect>
+			<fechaApertura>13-09-2012</fechaApertura>
+			<numCliente>09047158</numCliente>
+			<nombreCliente>ANDREYNA BALZA CONTRERAS</nombreCliente>
+			<codIdentificacion>V</codIdentificacion>
+			<docIdentidad>0018308374</docIdentidad>
+			<codIdentificacion>V</codIdentificacion>
+			<codigoIdentificacion>0018308374</codigoIdentificacion>
+			<nacionalidadAbrev>VEN</nacionalidadAbrev>
+			<dirOficina>AV.AV VOLMER TRRAV ESTE CERO CANDELARIA SAN BERNARDINO</dirOficina>
+			<zonaPostal>01080</zonaPostal>
+			<nombreEstado>DISTRITO FEDERAL</nombreEstado>
+			<nombreCiudad>CARACAS</nombreCiudad>
+			<filler>O</filler>
+			<numTelf1>02125041111</numTelf1>
+			<filler>0000H</filler>
+			<numTelf2>02125041111</numTelf2>
+			<filler>0000 000000000000000 X</filler>
+			<nombreCliente>ANDREYNA BALZA CONTRERAS</nombreCliente>
+			<codIdentificacion>V</codIdentificacion>
+			<docIdentidad>0018308374</docIdentidad>
+			<ciudadFecha>CARACAS</ciudadFecha>
+			<diasFecha>13</diasFecha>
+			<nombreMes>SEPTIEMBRE</nombreMes>
+			<anioFecha>2012</anioFecha>
+			<nombreFamiliar>BLANCA ELENA BERMUDEZ ALVAREZ</nombreFamiliar>
+			<numTelef>-</numTelef>
+		</pagina>
+	</Documento>
+</Cuentas>

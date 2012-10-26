@@ -1,0 +1,388 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="MPPR90" language="groovy" pageWidth="572" pageHeight="752" columnWidth="555" leftMargin="0" rightMargin="0" topMargin="0" bottomMargin="0">
+	<property name="ireport.zoom" value="1.2100000000000057"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="0"/>
+	<parameter name="P_TEXTO_ORIGINAL" class="java.lang.String" isForPrompting="false">
+		<defaultValueExpression><![CDATA["ORIGINAL"]]></defaultValueExpression>
+	</parameter>
+	<queryString language="xPath">
+		<![CDATA[/Cuentas/Documento/pagina[codForm = "MPPR9000"]]]>
+	</queryString>
+	<field name="numContratoTarj" class="java.lang.String">
+		<fieldDescription><![CDATA[numContratoTarj]]></fieldDescription>
+	</field>
+	<field name="codOficina" class="java.lang.String">
+		<fieldDescription><![CDATA[codOficina]]></fieldDescription>
+	</field>
+	<field name="numCtaTarjPopular" class="java.lang.String">
+		<fieldDescription><![CDATA[numCtaTarjPopular]]></fieldDescription>
+	</field>
+	<field name="numTarjElect" class="java.lang.String">
+		<fieldDescription><![CDATA[numTarjElect]]></fieldDescription>
+	</field>
+	<field name="fechaApertura" class="java.lang.String">
+		<fieldDescription><![CDATA[fechaApertura]]></fieldDescription>
+	</field>
+	<field name="nombreCliente" class="java.lang.String">
+		<fieldDescription><![CDATA[nombreCliente]]></fieldDescription>
+	</field>
+	<field name="nacionalidad" class="java.lang.String">
+		<fieldDescription><![CDATA[nacionalidad]]></fieldDescription>
+	</field>
+	<field name="cedIdentidad" class="java.lang.String">
+		<fieldDescription><![CDATA[cedIdentidad]]></fieldDescription>
+	</field>
+	<field name="dirCliente1" class="java.lang.String">
+		<fieldDescription><![CDATA[dirCliente1]]></fieldDescription>
+	</field>
+	<field name="dirCliente2" class="java.lang.String">
+		<fieldDescription><![CDATA[dirCliente2]]></fieldDescription>
+	</field>
+	<field name="dirCliente3" class="java.lang.String">
+		<fieldDescription><![CDATA[dirCliente3]]></fieldDescription>
+	</field>
+	<field name="dirCliente4" class="java.lang.String">
+		<fieldDescription><![CDATA[dirCliente4]]></fieldDescription>
+	</field>
+	<field name="numTelf1" class="java.lang.String">
+		<fieldDescription><![CDATA[numTelf1]]></fieldDescription>
+	</field>
+	<field name="numTelf2" class="java.lang.String">
+		<fieldDescription><![CDATA[numTelf2]]></fieldDescription>
+	</field>
+	<detail>
+		<band height="752" splitType="Stretch">
+			<image>
+				<reportElement x="0" y="0" width="124" height="18"/>
+				<imageExpression class="java.lang.String"><![CDATA["C:\\Users\\wbasabe\\TRABAJO\\BASABE CONSULTORES\\JMC\\solicitudes\\02_PROYECTO NOMINA PROVINCIAL\\reporte\\ReportesAltasMasivas\\logo-Provincial-500.jpg"]]></imageExpression>
+			</image>
+			<textField>
+				<reportElement x="151" y="0" width="317" height="27"/>
+				<textElement textAlignment="Center">
+					<font fontName="Arial" isBold="true"/>
+				</textElement>
+				<textFieldExpression class="java.lang.String"><![CDATA["TARJETA DE PAGO ELECTRONICO PROVINCIAL"]]></textFieldExpression>
+			</textField>
+			<rectangle>
+				<reportElement x="0" y="67" width="572" height="14" backcolor="#CCCCCC"/>
+			</rectangle>
+			<staticText>
+				<reportElement x="0" y="27" width="125" height="16"/>
+				<textElement verticalAlignment="Bottom">
+					<font fontName="Arial" size="6" isBold="false"/>
+				</textElement>
+				<text><![CDATA[R.I.F.: J-00002967-9  NIT: 0052524237]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement x="0" y="43" width="572" height="22"/>
+			</rectangle>
+			<staticText>
+				<reportElement x="0" y="43" width="150" height="11"/>
+				<textElement>
+					<font fontName="Arial" size="6" isBold="true"/>
+				</textElement>
+				<text><![CDATA[  OFICINA:]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="0" y="54" width="150" height="11"/>
+				<textElement textAlignment="Center">
+					<font fontName="Arial" size="7"/>
+				</textElement>
+				<textFieldExpression class="java.lang.String"><![CDATA[$F{codOficina}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="500" y="0" width="72" height="10"/>
+				<textElement textAlignment="Right">
+					<font fontName="Arial" size="6"/>
+				</textElement>
+				<text><![CDATA[Página 1 de 5]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="423" y="32" width="149" height="11"/>
+				<textElement textAlignment="Left">
+					<font fontName="Arial" size="7"/>
+				</textElement>
+				<textFieldExpression class="java.lang.String"><![CDATA["CONTRATO NRO  "+$F{numContratoTarj}]]></textFieldExpression>
+			</textField>
+			<line>
+				<reportElement x="271" y="43" width="1" height="22"/>
+			</line>
+			<line>
+				<reportElement x="150" y="43" width="1" height="22"/>
+			</line>
+			<line>
+				<reportElement x="422" y="43" width="1" height="22"/>
+			</line>
+			<rectangle>
+				<reportElement x="0" y="233" width="572" height="33" backcolor="#CCCCCC"/>
+			</rectangle>
+			<textField>
+				<reportElement x="151" y="54" width="120" height="11"/>
+				<textElement textAlignment="Center">
+					<font fontName="Arial" size="7"/>
+				</textElement>
+				<textFieldExpression class="java.lang.String"><![CDATA[$F{numCtaTarjPopular}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="151" y="43" width="120" height="11"/>
+				<textElement>
+					<font fontName="Arial" size="6" isBold="true"/>
+				</textElement>
+				<text><![CDATA[  CODIGO CUENTA CLIENTE Nº:]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="272" y="54" width="150" height="11"/>
+				<textElement textAlignment="Center">
+					<font fontName="Arial" size="7"/>
+				</textElement>
+				<textFieldExpression class="java.lang.String"><![CDATA[$F{numTarjElect}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="272" y="43" width="150" height="11"/>
+				<textElement>
+					<font fontName="Arial" size="6" isBold="true"/>
+				</textElement>
+				<text><![CDATA[  TARJETA PAGO ELECTRONICO PROVINCIAL Nº:]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="423" y="54" width="149" height="11"/>
+				<textElement textAlignment="Center">
+					<font fontName="Arial" size="7"/>
+				</textElement>
+				<textFieldExpression class="java.lang.String"><![CDATA[$F{fechaApertura}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="423" y="43" width="149" height="11"/>
+				<textElement>
+					<font fontName="Arial" size="6" isBold="true"/>
+				</textElement>
+				<text><![CDATA[  FECHA DE EMISION:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="67" width="572" height="14"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Arial" size="9" isBold="true"/>
+				</textElement>
+				<text><![CDATA[(1) DATOS DE IDENTIFICACION DEL TARJETAHABIENTE]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement x="0" y="81" width="572" height="153"/>
+			</rectangle>
+			<textField>
+				<reportElement x="0" y="81" width="572" height="11"/>
+				<textElement textAlignment="Left" verticalAlignment="Bottom">
+					<font fontName="Arial" size="7"/>
+				</textElement>
+				<textFieldExpression class="java.lang.String"><![CDATA["  Nº DEL TARJETAHABIENTE:  "]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="0" y="92" width="572" height="11"/>
+				<textElement textAlignment="Left" verticalAlignment="Bottom">
+					<font fontName="Arial" size="7"/>
+				</textElement>
+				<textFieldExpression class="java.lang.String"><![CDATA["  NOMBRE(S) Y APELLIDO(S):  "+$F{nombreCliente}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="0" y="103" width="225" height="11"/>
+				<textElement textAlignment="Left" verticalAlignment="Bottom">
+					<font fontName="Arial" size="7"/>
+				</textElement>
+				<textFieldExpression class="java.lang.String"><![CDATA["  CEDULA DE IDENTIDAD Nº :  "+$F{cedIdentidad}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="0" y="114" width="572" height="11"/>
+				<textElement textAlignment="Left" verticalAlignment="Bottom">
+					<font fontName="Arial" size="7"/>
+				</textElement>
+				<textFieldExpression class="java.lang.String"><![CDATA["  NACIONALIDAD:  "+$F{nacionalidad}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="0" y="125" width="572" height="11"/>
+				<textElement textAlignment="Left" verticalAlignment="Bottom">
+					<font fontName="Arial" size="7"/>
+				</textElement>
+				<textFieldExpression class="java.lang.String"><![CDATA["  DIRECCION DE HABITACION:  "]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="0" y="136" width="572" height="30"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Arial" size="7"/>
+				</textElement>
+				<textFieldExpression class="java.lang.String"><![CDATA["  "+$F{dirCliente1}+" "+$F{dirCliente2}+" "+$F{dirCliente3}+" "+$F{dirCliente4}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="0" y="166" width="572" height="11"/>
+				<textElement textAlignment="Left" verticalAlignment="Bottom">
+					<font fontName="Arial" size="7"/>
+				</textElement>
+				<textFieldExpression class="java.lang.String"><![CDATA["  DIRECCION DE TRABAJO:  "]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="0" y="207" width="572" height="11"/>
+				<textElement textAlignment="Left" verticalAlignment="Bottom">
+					<font fontName="Arial" size="7"/>
+				</textElement>
+				<textFieldExpression class="java.lang.String"><![CDATA["  TELEFONO(S):  "+$F{numTelf1}+"  y "+ $F{numTelf2}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="0" y="218" width="572" height="11"/>
+				<textElement textAlignment="Left" verticalAlignment="Bottom">
+					<font fontName="Arial" size="7"/>
+				</textElement>
+				<textFieldExpression class="java.lang.String"><![CDATA["  DIRECCION DE CORREO ELECTRONICO:  "]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="225" y="103" width="347" height="11"/>
+				<textElement textAlignment="Left" verticalAlignment="Bottom">
+					<font fontName="Arial" size="7"/>
+				</textElement>
+				<textFieldExpression class="java.lang.String"><![CDATA["  RIF Nº:  "]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="0" y="177" width="572" height="30"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Arial" size="7"/>
+				</textElement>
+				<textFieldExpression class="java.lang.String"><![CDATA[""]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="0" y="234" width="572" height="33"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Arial" size="9" isBold="true"/>
+				</textElement>
+				<text><![CDATA[  (2) DIRECCION SELECCIONADA POR EL TARJETAHABIENTE PARA EL ENVIO DEL ESTADO DE CUENTA Y NOTIFICACIONES AL TARJETAHABIENTE]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement x="0" y="267" width="572" height="52"/>
+			</rectangle>
+			<textField>
+				<reportElement x="0" y="272" width="151" height="11"/>
+				<textElement textAlignment="Left" verticalAlignment="Bottom">
+					<font fontName="Arial" size="7"/>
+				</textElement>
+				<textFieldExpression class="java.lang.String"><![CDATA["  DIRECCION DE HABITACION  "]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="0" y="287" width="151" height="11"/>
+				<textElement textAlignment="Left" verticalAlignment="Bottom">
+					<font fontName="Arial" size="7"/>
+				</textElement>
+				<textFieldExpression class="java.lang.String"><![CDATA["  DIRECCION DE TRABAJO  "]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="0" y="302" width="150" height="11"/>
+				<textElement textAlignment="Left" verticalAlignment="Bottom">
+					<font fontName="Arial" size="7"/>
+				</textElement>
+				<textFieldExpression class="java.lang.String"><![CDATA[" DIRECCION DE CORREO ELECTRONICO  "]]></textFieldExpression>
+			</textField>
+			<rectangle>
+				<reportElement x="151" y="272" width="12" height="11"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="151" y="287" width="12" height="11"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="151" y="302" width="12" height="11"/>
+			</rectangle>
+			<textField>
+				<reportElement x="0" y="323" width="572" height="41"/>
+				<textElement textAlignment="Justified">
+					<font size="6" isBold="false"/>
+				</textElement>
+				<textFieldExpression class="java.lang.String"><![CDATA["Entre  el  Banco  Provincial,  S.A.  Banco Universal,  domiciliado en Caracas, República Bolivariana de Venezuela, inscrito en el Registro de Información Fiscal bajo el Número"+
+"J-00002967-9, en lo sucesivo denominado el Banco, representado en este acto por los apoderados que se identifican  al  final  del presente documento en la Casilla (4), por"+
+"una parte y por la otra,  el  Tarjetahabiente  identificado en  la Casilla  (1),  y  que  suscribe  el  presente  documento  como  consta  de  su firma estampada al final del presente"+
+"documento  en la Casilla (3), se ha convenido en celebrar el presente contrato de Tarjeta de Pago Electrónico Provincial, con arreglo a los términos y condiciones contenidas"+
+"en las cláusulas siguientes:                    "]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="0" y="364" width="572" height="15"/>
+				<textElement textAlignment="Center" verticalAlignment="Bottom">
+					<font fontName="Arial" size="7" isBold="true"/>
+				</textElement>
+				<text><![CDATA[OFERTA PUBLICA]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="0" y="377" width="572" height="20"/>
+				<textElement textAlignment="Center">
+					<font size="6" isBold="false"/>
+				</textElement>
+				<textFieldExpression class="java.lang.String"><![CDATA["\"Codiciones Generales de las Tarjetas de Pago Electrónico del\nBanco Provincial, S.A., Banco Universal\""]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="0" y="397" width="572" height="307"/>
+				<textElement textAlignment="Justified">
+					<font size="6" isBold="false"/>
+				</textElement>
+				<textFieldExpression class="java.lang.String"><![CDATA["Primera: Definiciones: A todos los efectos previstos en este documento, las palabras o conjunto de palabras que se señalan a continuación, bien se utilicen en singular o"+
+"plural,  tendrán  el  significado que se les atribuye en esta Cláusula: 1.1) Banco: Es el término que se utilizará para identificar al Banco Provincial, S.A., Banco Universal. 1.2)"+
+"Clave Personal: Es el término que  se utilizará para referirnos a cada una de las distintas claves o contraseñas (Clave de Acceso a Cajeros Automático, Clave de Acceso a"+
+"Línea Provincial, Clave de Acceso a Provinet, Clave de Acceso a Provinet Móvil, Clave Especial Provinet), que deberá crear el Tarjetahabiente, para acceder, ingresar o"+
+"confirmar Operaciones Bancarias, según sea el caso, en los diferentes Medios o dispositivos electrónicos, conforme a lo expresado para cada uno de ellos en este"+
+"documento y lo establecido en la normativa legal vigente. La Clave Personal es creada única y exclusivamente por el propio Tarjetahabiente en forma personalizada, secreta"+
+"y confidencial, solamente a través de los Medios señalados en este documento para cada uno de los Medios.  1.3) Clave de Acceso a Cajeros Automáticos: Es el término que"+
+"se utilizará para referirnos al Factor de Autenticación Categoría 2, compuesto por una serie numérica de cuatro (4) caracteres, que le permitirá el ingreso al Tarjetahabiente a"+
+"los Cajeros Automáticos del propio Banco o de cualquier otro cajero automático perteneciente a la red de instituciones bancarias. 1.4) Clave de Acceso a Línea Provincial: Es el término que se"+
+"utilizará para referirnos al Factor de Autenticación Categoría 2, compuesto por una serie numérica de seis (6) caracteres, que le permitirá al Tarjetahabiente confirmar o"+
+"aprobar  las transacciones realizadas a través de la Banca Telefónica (Línea Provincial). La Clave de Acceso a la Línea Provincial será creada solamente a través de  la"+
+"Línea Provincial. Para la creación de esta Clave Personal el Banco realizará cuestionarios aleatorios por la Línea Provincial al Tarjetahabiente, sobre la información"+
+"suministrada por él y de aquella relativa al uso de productos, servicios u operaciones efectuados por él a través de los diferentes canales, la cual reposa en su Ficha de"+
+"Identificación en los registros del Banco, que permitirán su autenticación y verificación de su identidad. 1.5) Clave de Acceso a Provinet: Es el término que se utilizará para"+
+"referirnos al Factor de Autenticación Categoría 2, compuesto de una serie alfanumérica de ocho (8) caracteres que le permitirá el ingreso al Tarjetahabiente al Servicio de"+
+"Banca por Internet (Provinet). La Clave de Acceso a Provinet será creada solamente en el proceso de registro al servicio de Provinet. Para la creación de esta Clave"+
+"Personal  el  Banco solicitará de la Tarjeta de Pago Electrónico del Tarjetahabiente,  los números  de  identificación  que  aparecen  en  el  anverso  de  la  tarjeta,  el código de"+
+"validación del instrumento (tres dígitos al reverso de la tarjeta de pago electrónico) y la Clave Personal. Para ingresar y realizar las Operaciones Bancarias a través de"+
+"Provinet  el Tarjetahabiente ingresará el Número de Identificación del Tarjetahabiente, la Clave de Provinet y/o la coordenada de la Tarjeta de Coordenadas requerida en cada"+
+"oportunidad. 1.6) Clave de Acceso a Provinet Móvil: Es el término que se utilizará para referirnos al Factor de Autenticación Categoría 2, el cual está compuesto de una serie"+
+"alfanumérica de ocho (8) caracteres, que le permitirá el ingreso al Tarjetahabiente al servicio de Banca Móvil. La clave de Acceso a Provinet M`óvil será la misma para"+
+"ingresar a Provinet, por lo cual para ingresar a Provinet Móvil, debe estar previamente afiliado a Provinet. Para acceder y realizar las Operaciones Bancarias a través de"+
+"Provinet Móvil el Tarjetahabiente ingresará en el equipo móvil su Número de Identificación, la Clave de Provinet Móvil y/o la coordenada de la Tarjeta de Coordenadas"+
+"requerida en cada oportunidad. 1.7) Clave Especial de Provinet: Es el término que se utilizará para  referirnos al Factor de Autenticación Categoría 2, compuesto por una"+
+"serie alfanumérica  de  ocho  (8)  dígitos,  el  cual  será utilizado por el Tarjetahabiente para confirmar  las  Operaciones  Bancarias  realizadas  a través  de  Banca por"+
+"Internet (Provinet), que implican movimiento de fondos, autorizaciones de solicitud o activaciones de servicios de Banca por Internet, la cual permitirá que el Tarjeta habiente"+
+"autorice y confirme  las  operaciones  que  requieran  de  una  segunda  autenticación  o validación.  La Clave Especial de Provinet será creada solamente en  la opción"+
+"disponible desde Provinet, donde se le solicitará al Tarjetahabiente datos de seguridad asociados a productos financieros previamente contratados con el Banco, que son del"+
+"conocimiento único y exclusivo del Tarjetahabiente. 1.8) Clave de Acceso a Terminales Puntos de Venta: Es el término que se utilizará para referirnos al Factor de"+
+"Autenticación Categoría 2,  compuesto por una serie numérica de seis (6) caracteres, que le permitirá al Tarjetahabiente confirmar o aprobar las transacciones realizadas en"+
+"los Terminales Puntos de Venta en los Negocios Afiliados. La Clave de Acceso a Terminales Puntos de Venta  será  creada solamente a través de la Línea Provincial, una"+
+"vez creada el Tarjetahabiente podrá modificarla, o bien a través de los Cajeros Automáticos del propio Banco, por la Línea Provincial, por Provinet, o por Provinet Móvil. Para"+
+"la creación de esta Clave Personal el Banco realizará cuestionarios aleatorios por la Línea Provincial al Tarjetahabiente, sobre la información suministrada por él y de"+
+"aquella relativa al uso de productos, servicios u operaciones efectuados por él a través de los diferentes canales, la cual reposa en su Ficha de Identificación en los registros"+
+"del Banco,  que permitirán su autenticación y verificación de su identidad. 1.9) Código Cuenta Cliente: Se refiere al número que está asociado a la Tarjeta de Pago Electrónico"+
+"del  Tarjetahabiente,  el cual es suministrado por el Banco, con la finalidad de que el tarjetahabiente, cuando así le sea requerido, pueda realizar las Operaciones Bancarias  a"+
+"través  de los Medios o a través de otros bancos de la red interbancaria nacional. 1.10) Comprobantes: Se refiere a los  documentos,  bien  sea en  formato físico o"+
+"electrónico, que se generarán en los Terminales Puntos de Venta, Cajeros Automáticos, Provinet, Provinet Móvil y Línea Provincial, los cuales evidenciarán las Operaciones"+
+"Bancarias que realice el Tarjetahabiente a través de esos Medios. Los Comprobantes que se enviarán al Tarjetahabiente cuando realice Operaciones Bancarias por la Línea"+
+"Provincial, serán enviados vía mensaje de texto (SMS - short message service) al equipo móvil del Tarjetahabiente, con la información de la operación realizada, la cual será"]]></textFieldExpression>
+			</textField>
+			<line>
+				<reportElement x="0" y="707" width="572" height="1"/>
+			</line>
+			<staticText>
+				<reportElement x="-11" y="709" width="11" height="26"/>
+				<textElement textAlignment="Left" verticalAlignment="Bottom" rotation="Left">
+					<font size="6"/>
+				</textElement>
+				<text><![CDATA[MPPR90]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="225" y="740" width="100" height="12"/>
+				<textElement textAlignment="Center">
+					<font fontName="Arial" isBold="true"/>
+				</textElement>
+				<textFieldExpression class="java.lang.String"><![CDATA[$P{P_TEXTO_ORIGINAL}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="0" y="713" width="572" height="26"/>
+				<textElement textAlignment="Center">
+					<font size="6" isBold="false"/>
+				</textElement>
+				<textFieldExpression class="java.lang.String"><![CDATA["Banco Provincial, S.A. Banco Universal - R.I.F.: J-00002967-9\n"+
+"AV. Este D cruce con AV. Volmer. Urb. San Bernardino, Centro Financiero Provincial, C.P. 1010. Caracas, Venezuela.\n"+
+"Telf.:(0212)504 41 11 – Información en la página www.provincial.com y en cualquier oficina de la red comercial."]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+</jasperReport>
