@@ -4,7 +4,7 @@
 	<property name="ireport.x" value="0"/>
 	<property name="ireport.y" value="0"/>
 	<style name="style1"/>
-	<queryString language="XPath">
+	<queryString language="xPath">
 		<![CDATA[/Cuentas/Documento]]>
 	</queryString>
 	<field name="docIdentificacion" class="java.lang.String">

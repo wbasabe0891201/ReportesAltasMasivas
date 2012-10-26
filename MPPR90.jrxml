@@ -7,49 +7,49 @@
 		<defaultValueExpression><![CDATA["ORIGINAL"]]></defaultValueExpression>
 	</parameter>
 	<queryString language="xPath">
-		<![CDATA[/Cuentas/Documento/pagina[codForm = "MPPR9000"]]]>
+		<![CDATA[/Cuentas/Documento]]>
 	</queryString>
 	<field name="numContratoTarj" class="java.lang.String">
-		<fieldDescription><![CDATA[numContratoTarj]]></fieldDescription>
+		<fieldDescription><![CDATA[pagina/numContratoTarj]]></fieldDescription>
 	</field>
 	<field name="codOficina" class="java.lang.String">
-		<fieldDescription><![CDATA[codOficina]]></fieldDescription>
+		<fieldDescription><![CDATA[pagina/codOficina]]></fieldDescription>
 	</field>
 	<field name="numCtaTarjPopular" class="java.lang.String">
-		<fieldDescription><![CDATA[numCtaTarjPopular]]></fieldDescription>
+		<fieldDescription><![CDATA[pagina/numCtaTarjPopular]]></fieldDescription>
 	</field>
 	<field name="numTarjElect" class="java.lang.String">
-		<fieldDescription><![CDATA[numTarjElect]]></fieldDescription>
+		<fieldDescription><![CDATA[pagina/numTarjElect]]></fieldDescription>
 	</field>
 	<field name="fechaApertura" class="java.lang.String">
-		<fieldDescription><![CDATA[fechaApertura]]></fieldDescription>
+		<fieldDescription><![CDATA[pagina/fechaApertura]]></fieldDescription>
 	</field>
 	<field name="nombreCliente" class="java.lang.String">
-		<fieldDescription><![CDATA[nombreCliente]]></fieldDescription>
+		<fieldDescription><![CDATA[pagina/nombreCliente]]></fieldDescription>
 	</field>
 	<field name="nacionalidad" class="java.lang.String">
-		<fieldDescription><![CDATA[nacionalidad]]></fieldDescription>
+		<fieldDescription><![CDATA[pagina/nacionalidad]]></fieldDescription>
 	</field>
 	<field name="cedIdentidad" class="java.lang.String">
-		<fieldDescription><![CDATA[cedIdentidad]]></fieldDescription>
+		<fieldDescription><![CDATA[pagina/cedIdentidad]]></fieldDescription>
 	</field>
 	<field name="dirCliente1" class="java.lang.String">
-		<fieldDescription><![CDATA[dirCliente1]]></fieldDescription>
+		<fieldDescription><![CDATA[pagina/dirCliente1]]></fieldDescription>
 	</field>
 	<field name="dirCliente2" class="java.lang.String">
-		<fieldDescription><![CDATA[dirCliente2]]></fieldDescription>
+		<fieldDescription><![CDATA[pagina/dirCliente2]]></fieldDescription>
 	</field>
 	<field name="dirCliente3" class="java.lang.String">
-		<fieldDescription><![CDATA[dirCliente3]]></fieldDescription>
+		<fieldDescription><![CDATA[pagina/dirCliente3]]></fieldDescription>
 	</field>
 	<field name="dirCliente4" class="java.lang.String">
-		<fieldDescription><![CDATA[dirCliente4]]></fieldDescription>
+		<fieldDescription><![CDATA[pagina/dirCliente4]]></fieldDescription>
 	</field>
 	<field name="numTelf1" class="java.lang.String">
-		<fieldDescription><![CDATA[numTelf1]]></fieldDescription>
+		<fieldDescription><![CDATA[pagina/numTelf1]]></fieldDescription>
 	</field>
 	<field name="numTelf2" class="java.lang.String">
-		<fieldDescription><![CDATA[numTelf2]]></fieldDescription>
+		<fieldDescription><![CDATA[pagina/numTelf2]]></fieldDescription>
 	</field>
 	<detail>
 		<band height="752" splitType="Stretch">

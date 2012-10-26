@@ -9,8 +9,14 @@
 	<parameter name="P_TEXTO_ORIGINAL" class="java.lang.String" isForPrompting="false">
 		<defaultValueExpression><![CDATA["ORIGINAL"]]></defaultValueExpression>
 	</parameter>
-	<parameter name="SUBREPORT_DIR1" class="java.lang.String">
+	<parameter name="SUBREPORT_DIR2" class="java.lang.String" isForPrompting="false">
 		<defaultValueExpression><![CDATA["C:\\Users\\wbasabe\\TRABAJO\\BASABE CONSULTORES\\JMC\\solicitudes\\02_PROYECTO NOMINA PROVINCIAL\\reporte\\ReportesAltasMasivas\\MPPR90.jasper"]]></defaultValueExpression>
+	</parameter>
+	<parameter name="SUBREPORT_DIR3" class="java.lang.String" isForPrompting="false">
+		<defaultValueExpression><![CDATA["C:\\Users\\wbasabe\\TRABAJO\\BASABE CONSULTORES\\JMC\\solicitudes\\02_PROYECTO NOMINA PROVINCIAL\\reporte\\ReportesAltasMasivas\\PEPR1300.jasper"]]></defaultValueExpression>
+	</parameter>
+	<parameter name="SUBREPORT_DIR1" class="java.lang.String" isForPrompting="false">
+		<defaultValueExpression><![CDATA["C:\\Users\\wbasabe\\TRABAJO\\BASABE CONSULTORES\\JMC\\solicitudes\\02_PROYECTO NOMINA PROVINCIAL\\reporte\\ReportesAltasMasivas\\ReportePaginas.jasper"]]></defaultValueExpression>
 	</parameter>
 	<queryString language="xPath">
 		<![CDATA[/Cuentas/Documento]]>
@@ -23,7 +29,20 @@
 	</background>
 	<detail>
 		<band height="50">
-			<printWhenExpression><![CDATA["MPPR9000".equals($F{codForm})]]></printWhenExpression>
+			<subreport>
+				<reportElement x="0" y="0" width="200" height="50"/>
+				<subreportParameter name="SUBREPORT_DIR2">
+					<subreportParameterExpression><![CDATA[$P{SUBREPORT_DIR3}]]></subreportParameterExpression>
+				</subreportParameter>
+				<subreportParameter name="SUBREPORT_DIR1">
+					<subreportParameterExpression><![CDATA[$P{SUBREPORT_DIR2}]]></subreportParameterExpression>
+				</subreportParameter>
+				<subreportParameter name="P_TEXTO_ORIGINAL">
+					<subreportParameterExpression><![CDATA[$P{P_TEXTO_ORIGINAL}]]></subreportParameterExpression>
+				</subreportParameter>
+				<dataSourceExpression><![CDATA[((net.sf.jasperreports.engine.data.JRXmlDataSource)$P{REPORT_DATA_SOURCE}).subDataSource("/Documento/pagina")]]></dataSourceExpression>
+				<subreportExpression class="java.lang.String"><![CDATA[$P{SUBREPORT_DIR1}]]></subreportExpression>
+			</subreport>
 		</band>
 	</detail>
 </jasperReport>

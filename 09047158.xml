@@ -255,7 +255,7 @@
 			<canal>0</canal>
 			<longitudReg>04379</longitudReg>
 			<destinatario>40621</destinatario>
-			<codForm>PEPR1400</codForm>
+			<codForm>PEPR1300</codForm>
 			<codEmpresa>40621</codEmpresa>
 			<codProducto>15</codProducto>
 			<codSubProducto>3011</codSubProducto>
@@ -2020,56 +2020,6 @@
 			<logitudReg>01472</logitudReg>
 			<destinatario>40621</destinatario>
 			<codForm>MPPR9900</codForm>
-			<codEmpresa>40621</codEmpresa>
-			<codProducto>15</codProducto>
-			<codSubProducto>3011</codSubProducto>
-			<canal>1</canal>
-			<codEmpresa>40621</codEmpresa>
-			<nombreEmpresa>NERA TELECOMUNICACIO</nombreEmpresa>
-			<nacionalidad>V</nacionalidad>
-			<cedIdentidad>0018308374</cedIdentidad>
-			<nombreCliente>BALZA CONTRERAS ANDREYNA YOSELYNE</nombreCliente>
-			<filler>00</filler>
-			<dirCliente1>AV. AV VOLMER</dirCliente1>
-			<dirCliente2>TRR AV ESTE CERO CANDELARIA</dirCliente2>
-			<dirCliente3>SAN BERNARDINO LIBERTADOR CARACAS</dirCliente3>
-			<dirCliente4>DISTRITO FEDERAL 01080 000</dirCliente4>
-			<numContratoTarj>01080027765020216823</numContratoTarj>
-			<codOficina>0027</codOficina>
-			<numCtaTarjPopular>0108-0027-79-1500003719</numCtaTarjPopular>
-			<numTarjElect>5895240203774253668</numTarjElect>
-			<fechaApertura>13-09-2012</fechaApertura>
-			<numCliente>09047158</numCliente>
-			<nombreCliente>ANDREYNA BALZA CONTRERAS</nombreCliente>
-			<codIdentificacion>V</codIdentificacion>
-			<docIdentidad>0018308374</docIdentidad>
-			<codIdentificacion>V</codIdentificacion>
-			<codigoIdentificacion>0018308374</codigoIdentificacion>
-			<nacionalidadAbrev>VEN</nacionalidadAbrev>
-			<dirOficina>AV.AV VOLMER TRRAV ESTE CERO CANDELARIA SAN BERNARDINO</dirOficina>
-			<zonaPostal>01080</zonaPostal>
-			<nombreEstado>DISTRITO FEDERAL</nombreEstado>
-			<nombreCiudad>CARACAS</nombreCiudad>
-			<filler>O</filler>
-			<numTelf1>02125041111</numTelf1>
-			<filler>0000H</filler>
-			<numTelf2>02125041111</numTelf2>
-			<filler>0000 000000000000000 X</filler>
-			<nombreCliente>ANDREYNA BALZA CONTRERAS</nombreCliente>
-			<codIdentificacion>V</codIdentificacion>
-			<docIdentidad>0018308374</docIdentidad>
-			<ciudadFecha>CARACAS</ciudadFecha>
-			<diasFecha>13</diasFecha>
-			<nombreMes>SEPTIEMBRE</nombreMes>
-			<anioFecha>2012</anioFecha>
-			<nombreFamiliar>BLANCA ELENA BERMUDEZ ALVAREZ</nombreFamiliar>
-			<numTelef>-</numTelef>
-		</pagina>
-		<pagina>
-			<canal>0</canal>
-			<logitudReg>01472</logitudReg>
-			<destinatario>40621</destinatario>
-			<codForm>MPPR9000</codForm>
 			<codEmpresa>40621</codEmpresa>
 			<codProducto>15</codProducto>
 			<codSubProducto>3011</codSubProducto>
