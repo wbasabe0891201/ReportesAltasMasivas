@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="MPPR93" language="groovy" pageWidth="612" pageHeight="792" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20">
+	<property name="ireport.zoom" value="1.5"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="888"/>
+	<parameter name="P_TEXTO_ORIGINAL" class="java.lang.String"/>
+	<queryString language="xPath">
+		<![CDATA[/Cuentas/Documento]]>
+	</queryString>
+	<detail>
+		<band height="752" splitType="Stretch">
+			<staticText>
+				<reportElement x="500" y="0" width="72" height="10"/>
+				<textElement textAlignment="Right">
+					<font fontName="Arial" size="6"/>
+				</textElement>
+				<text><![CDATA[Página 4 de 5]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="0" y="10" width="572" height="644"/>
+				<textElement textAlignment="Justified">
+					<font size="6" isBold="false"/>
+				</textElement>
+				<textFieldExpression class="java.lang.String"><![CDATA["reclamado por escrito su respectivo Estado de Cuenta, se entenderá que el Tarjetahabiente recibió del Banco, el correspondiente Estado de Cuenta, y se presumirá como"+
+"cierto, salvo prueba en contrario, que el Estado de Cuenta que el Banco le exhiba o le oponga como correspondiente a un determinado mes, es el mismo que el Banco le"+
+"envió como correspondiente a ese mismo mes. 12.4) Si el Tarjetahabiente tiene observaciones que formular al Estado de Cuenta, deberá hacerlas llegar al Banco por"+
+"escrito  por vía electrónica, en forma detallada y razonada, dentro de los seis (6) meses siguientes a la fecha de recepción del respectivo Estado de Cuenta. Dentro del"+
+"referido plazo de seis (6) meses siguientes a la fecha de terminación del respectivo mes, tanto el Tarjetahabiente como el Banco, podrán bajo pena de caducidad, impugnar el"+
+"respectivo estado de cuenta, por errores de escritura, por omisiones o duplicaciones y, por falsificaciones. 12.5) Si el referido plazo de seis (6) meses transcurriere sin que el"+
+"Banco haya recibido, ni las observaciones ni la conformidad del Tarjetahabiente o, sin que se haya impugnado el Estado de Cuenta, se tendrá por reconocido en la forma"+
+"presentada y sus saldos presentados serán definitivos en la fecha del Estado de Cuenta de la Tarjeta de Pago Electrónico Provincial. Décima Tercera: De los Medios de"+
+"Prueba.  13.1)  De  toda  Operación  Bancaria  realizada  por  el  Tarjetahabiente  a  través  de  los  Medios, quedará constancia en el Sistema de Computación del Banco. Los"+
+"registros  contenidos en el Sistema del Banco, constituirán plena prueba de las transacciones realizadas por el Tarjetahabiente a través de los Medios. En consecuencia, toda"+
+"operación realizada a través de los Medios, en la cual aparezca registrado en el sistema de computación del Banco, el número de la Tarjeta de Pago Electrónico, se"+
+"entenderá  realizada por el Tarjetahabiente. El Tarjetahabiente autoriza al Banco a conservar en registros magnéticos el soporte de las transacciones realizadas a través de"+
+"los Medios previstos en este documento, todo ello con la finalidad de garantizar la seguridad de las transacciones realizadas, pudiendo exhibir frente a terceros tales registros"+
+"como medio de prueba. 13.2) En caso de reclamo del Tarjetahabiente, por Operaciones no reconocidas por él, efectuadas a través de los Terminales Puntos de Ventas, el"+
+"Tarjetahabiente procederá a formular su reclamo mediante comunicación por escrito, conforme a lo establecido en el numeral 16.8 de la Cláusula Décima Sexta. En este"+
+"caso, el Banco revisará su solicitud y dará respuesta al Tarjetahabiente en un lapso que no excederá de quince (15) días hábiles bancarios. Si el Banco llegare a comprobar"+
+"que tales cargos fueron efectuados por parte de terceras personas distintas al Tarjetahabiente, sin que éste tenga culpabilidad o responsabilidad en la utilización de la Tarjeta"+
+"de  Pago  Electrónico  y/o  de  la  Clave de Identificación Personal, procederá a revertir dichas Operaciones. 13.3) En caso de retiro de efectivo por cajeros Automáticos con la"+
+"Tarjeta de Pago Electrónico y este no se haya consumado, el Tarjetahabiente se dirigirá al Banco informando la identificación del cajero, fecha y hora de la transacción. El"+
+"Banco procederá a recibir la denuncia, le dará una constancia por escrito y responderá de manera expresa en un lapso máximo de quince (15) días hábiles, sobre la"+
+"procedencia de su reclamo. Efectuado el reclamo, el Banco depositará en la Tarjeta de Pago Electrónico del Tarjetahabiente, el monto debitado, colocándolo en diferido. Al"+
+"concluir  el  lapso  de  quince (15) días hábiles el dinero pasará como efectivo en la Tarjeta de Pago Electrónico del Tarjetahabiente con los respectivos intereses"+
+"devengados. Si el reclamo no procede, el emisor debitará de la Tarjeta de Pago Electrónico del Tarjetahabiente el monto diferido. Décima Cuarta: Atención y Resolución de"+
+"Reclamos.  En  caso  de  requerirse  aclaratorias  sobre  los  Servicios prestados con ocasión del uso de los Medios y la Tarjeta de Pago Electrónico, el Tarjetahabiente podrá"+
+"dirigirse  a  una  de  las  oficinas  de  la  red  comercial  del  Banco,  donde  el  personal  estará  a disposición del Tarjetahabiente para cualquier aclaratoria sobre los Servicios"+
+"prestados,  con  ocasión  del  presente  Condicionado General. Asimismo, a través de Provinet podrá conocer más detalle de los Servicios que son prestados por el Banco en"+
+"razón de esta Oferta Pública. En caso de reclamos del Tarjetahabiente derivados de la utilización de los Servicios contenidos en el presente Condicionado, el Tarjetahabiente"+
+"deberá  formalizar  su  solicitud  de  reclamo  por  escrito,  ante  cualquiera  de  las  oficinas  de  la  red  comercial del  Banco,  mediante Carta debidamente suscrita en"+
+"original, contentiva  de la exposición de motivos y detalle de las operaciones objetadas. El Banco dependiendo de la naturaleza del reclamo y su complejidad, requerirá"+
+"documentos adicionales al Tarjetahabiente para complementar la evaluación sobre dicho reclamo. El Tarjetahabiente se obliga, en caso de serle requerido, a presentar ante"+
+"las autoridades competentes, la denuncia correspondiente y consignar evidencias de la misma, ante el Banco. El banco en señal de recepción del reclamo, procederá a"+
+"entregarle  al  Tarjetahabiente  un  Formulario  numerado,  contentivo  de  toda  la información vinculada a los datos del Tarjetahabiente, su tarjeta, operación(es)"+
+"rechazada(s),  exposición  de  motivos  realizada  por  el  Tarjetahabiente,  entre otros aspectos, como constancia de que su reclamo fue recibido y será atendido por el"+
+"Banco,  para dar respuesta al mismo en el tiempo estipulado por la normativa vigente que protege y defiende los derechos de las personas en el acceso a los bienes y"+
+"servicios. Décima Quinta: De las Comisiones. 15.1) CON SUJECION A LAS DISPOSICIONES LEGALES VIGENTES, Y CON MOTIVO DE LA EJECUCION DE LAS"+
+"OPERACIONES REALIZADAS CON LA TARJETA DE PAGO ELECTRONICO PROVINCIAL EL TARJETAHABIENTE ACEPTA QUE LA TARJETA DE PAGO"+
+"ELECTRONICO ESTA SUJETA AL PAGO DE LAS COMISIONES ESTIPULADAS POR EL BANCO CENTRAL DE VENEZUELA PARA LAS TARJETAS DE DEBITO, EN"+
+"PARTICULAR A LAS \"OPERACIONES EN CAJEROS AUTOMATICOS DE OTROS BANCOS\". En consecuencia, el Tarjetahabiente pagará las comisiones permitidas por el "+
+"Banco Central de Venezuela por los siguientes conceptos: (I) por reposición, por deterioro, robo o extravío; (ii) por consultas, rechazo por causas atribuibles al"+
+"Tarjetahabiente  y  por  retiro  de  fondos  procesados  en Cajeros Automáticos de otras instituciones financieras afiliados a las redes interbancarias conocida como Suiche"+
+"7B, y/o Conexus, o a cualquier otra red que el Banco pusiere a disposición del Tarjetahabiente. 15.2) El monto de las comisiones, cuotas y tarifas referidas en esta Cláusula"+
+"están expresamente señaladas en el Tarifario del Banco, las cuales conforme a la normativa legal vigente, son anunciadas por el Banco diariamente en toda su red de"+
+"oficinas  en lugar visible al público, así como, en su página Web (www.provincial.com). 15.3) El Tarjetahabiente autoriza al Banco para debitar de los montos abonados en la"+
+"Tarjeta de Pago Electrónico Provincial, el monto correspondiente al cobro de las comisiones que legalmente le está permitido realizar, en razón de este Contrato. 15.4)"+
+"Quedan  expresamente  exceptuados  del  cobro  de  comisiones  las  operaciones  realizadas en Cajeros Automáticos del Banco. Décima Sexta: Deberes del"+
+"Tarjetahabiente. Serán deberes del Tarjetahabiente los siguientes: 16.1) Resguardar la Tarjeta de Pago Electrónico con la debida diligencia. 16.2) Identificarse y usar en"+
+"forma personal la Tarjeta de Pago Electrónico y no mostrar o confiar a nadie su Clave de Identificación Personal. 16.3) Antes de firmar los Comprobantes de pago verificar el"+
+"importe y la veracidad de la información. 16.4) Solicitar y guardar los Comprobantes de pago y demás documentos de compra de bienes y utilización de servicios, hasta"+
+"recibir el Estado de Cuenta y estar conforme con el mismo. 16.5) Indicar al Banco cualquier cambio en su domicilio a efectos de remitir el Estado de Cuenta y cualquier otra"+
+"información  pertinente.  16.6)  Reportar  al  Banco  cuando  no  reciba  el  Estado de Cuenta en el plazo señalado en la Cláusula Décima Segunda de este Condicionado"+
+"16.7) Efectuar al Banco los reclamos relacionados con el uso de la Tarjeta de Pago Electrónico Provincial en los plazos señalados en este Condicionado. 16.8) Reportar de"+
+"manera inmediata al Banco, el robo, hurto o pérdida de la Tarjeta de Pago Electrónico Provincial, o se sospeche su utilización por terceras personas; el Tarjetahabiente se"+
+"obliga a notificarlo de Inmediato al Banco a través de una llamada a la Línea Provincial, con ocasión a la cual se le suministrará por ese mismo medio, un número de reporte"+
+"de su llamada, el número de identificación del operador, y la fecha y hora de su llamada. Una vez notificado el Banco por ese medio, procederá a suspender la Tarjeta de"+
+"Pago Electrónico,  la cual no podrá volver a ser usada, por el Tarjetahabiente, aún en caso de recuperarla. En este caso, el Banco procederá a colocar el monto reclamado en"+
+"diferido,  revisará su solicitud y dará respuesta al Tarjetahabiente en un lapso que no excederá de quince (15) días hábiles bancarios, transcurrido dicho plazo se liberará el"+
+"monto colocado en diferido y pasará a estar disponible en su Tarjeta de Pago Electrónico Provincial. Si el Banco llegare a comprobar que tales cargos fueron efectuados por"+
+"parte de terceras personas distintas al Tarjetahabiente, sin que éste tenga culpabilidad o responsabilidad en la utilización de la Tarjeta de Pago Electrónico Provincial y/o de la"+
+"Clave de Identificación Personal, procederá a revertir dichas Operaciones. Si el reclamo resultara no procedente, el Banco debitará de los fondos disponibles de la Tarjeta de"+
+"Pago  Electrónico  Provincial  el monto colocado en diferido. Asimismo, el Tarjetahabiente se obliga, en caso de serle requerido, a presentar ante las autoridades"+
+"competentes, la denuncia correspondiente y consignar evidencia de la misma, ante el Banco. El Tarjetahabiente autoriza al Banco para que éste realice las investigaciones"+
+"que sean necesarias, en todo lo referente a usos ilegítimos, indebidos o fraudulentos de la Tarjeta de Pago Electrónico, comprometiéndose a brindar al Banco, toda la"+
+"colaboración  que éste pueda requerir a esos fines. Décima Séptima: De la Terminación de la Relación Contractual. Se consideran causas de terminación de la relación"+
+"contractual entre el Banco y el Tarjetahabiente, además de las previstas por el derecho común, las siguientes: 17.1) La voluntad de cualquiera de las partes, de terminar la"+
+"relación contractual mediante notificación escrita, hecha por cualquiera de las partes a la otra, con por lo menos treinta (30) días de anticipación a la fecha efectiva de la"+
+"cancelación, y sin que deban informarse recíprocamente las razones que justifiquen su determinación. 17.2) Si durante tres (3) meses calendarios consecutivos, la Empresa"+
+"no ordena realizar abonos en la Tarjeta de Pago Electrónico Provincial. 17.3) El retiro del Tarjetahabiente del Servicio de Convenio de Procesamiento de Pagos de la"+
+"Empresa. 17.4) el suministro de información falsa o insuficiente al Banco por parte del Tarjetahabiente. 17.5) La muerte del Tarjetahabiente. 17.6) El incumplimiento por parte"+
+"del Tarjetahabiente de cualquiera de las obligaciones previstas en este documento. Décima Octava: De las Notificaciones. 18.1) Salvo lo previsto en el numeral 16.8 de la"+
+"Cláusula  Décima  Sexta  para  el  supuesto  de  que  la  Tarjeta  de Pago Electrónico sea extraviada, sustraída o se sospeche su utilización por terceras personas, toda"+
+"orden, notificación, aviso o comunicación que el Tarjetahabiente haya de dirigir al Banco, en relación con este documento, deberá hacerlo por escrito, dirigido a la siguiente"+
+"dirección: Centro Financiero Provincial, Avenida Este 0, cruce con Avenida Vollmer, Urbanización San Bernardino, Municipio Libertador, Distirto Capital. 18.2) Cualquier"+
+"notificación,  aviso  o  comunicación  que  el banco tenga que hacer al Tarjetahabiente, la enviará a la dirección seleccionada por éste, sea en su domicilio o correo"+
+"electrónico, en la fecha de suscripción del presente Contrato o en la dirección que haya suministrado posteriormente, en caso de modificación de la misma, y que el Banco"+
+"tenga registrada en su Sistema, a los fines del envío del Estado de Cuenta, y tal notificación, aviso o comunicación se considerará válida, por el hecho comprobado de"+
+"haberse remitido a dicha dirección,  sin que sea necesario que el Tarjetahabiente acuse recibo. 18.3) Si el Tarjetahabiente, durante la vigencia del presente contrato, cambia"+
+"la dirección antes señalada, se obliga a notificar de ello inmediatamente al Banco y, en tanto dicha notificación no conste como recibida por el Banco, se tendrá como válida la"+
+"dirección reflejada en el último Estado de Cuenta, conformado por el Tarjetahabiente, según lo estipulado en la Cláusula Décima Segunda. Décima Novena: Legislación"+
+"Aplicable. Las operaciones que se realicen bajo el amparo del presente Condicionado, quedan sujetas en cuanto le resulten aplicables, a las disposiciones contenidas en el"+
+"Código de Comercio; Ley General de Bancos y Otras Instituciones Financieras; Ley sobre Mensajes de Datos y Firmas Electrónicas; Ley Especial contra los Delitos"+
+"Informáticos; Ley de Tarjetas de Crédito, Débito, Prepagadas y Demás Tarjetas de Financiamiento o Pago Electrónico; Las Normas que Regulan los Procesos Administrativos"+
+"Relacionados a la Emisión y Uso de las Tarjetas de Crédito, Débito, Prepagadas y demás Tarjetas de Financiamiento o Pago Electrónico, las Normas que Regulan el Uso de"+
+"los  Servicios de la Banca Electrónica y los usos y prácticas bancarias. Vigésima: De las Modificaciones al presente Condicionado. El Banco se reserva el derecho de"+
+"introducir  las  modificaciones  que  considere  pertinentes  al  presente  documento,  lo  cual  hará  por  medio  de  una  Oferta Pública, registrada ante una Oficina de"+
+"Registro,  y posteriormente publicada en un Diario de circulación nacional. Tales modificaciones entrarán en vigencia a los treinta (30) días siguientes de la fecha de su"+
+"publicación en un Diario de circulación nacional, con arreglo a lo establecido en las disposiciones legales que sobre la materia se encuentren vigentes para esa"+
+"fecha. Vigésima Primera: Disposiciones Finales. Entrada en vigencia de esta Oferta Pública: La presente Oferta Pública será inscrita en una Oficina de Registro y publicada"+
+"en un (1) Diario de circulación nacional, entrando en vigencia la misma, en la fecha de su publicación.                                                                                                                            "
+]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="-11" y="699" width="11" height="26"/>
+				<textElement textAlignment="Left" verticalAlignment="Bottom" rotation="Left">
+					<font size="6"/>
+				</textElement>
+				<text><![CDATA[MPPR93]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="241" y="740" width="100" height="12"/>
+				<textElement textAlignment="Center">
+					<font fontName="Arial" isBold="true"/>
+				</textElement>
+				<textFieldExpression class="java.lang.String"><![CDATA[$P{P_TEXTO_ORIGINAL}]]></textFieldExpression>
+			</textField>
+			<rectangle>
+				<reportElement x="0" y="654" width="572" height="71"/>
+			</rectangle>
+			<textField>
+				<reportElement x="0" y="654" width="572" height="10"/>
+				<textElement textAlignment="Center" verticalAlignment="Bottom">
+					<font size="6" isBold="true"/>
+				</textElement>
+				<textFieldExpression class="java.lang.String"><![CDATA["FORMALIZACION          DEL           CONTRATO"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="5" y="664" width="562" height="61"/>
+				<textElement textAlignment="Justified" verticalAlignment="Top">
+					<font size="6" isBold="false"/>
+				</textElement>
+				<textFieldExpression class="java.lang.String"><![CDATA["El tarjetahabiente identificado en la casilla (1) de la primera parte de este documento, declara que, con cinco (5) días de anticipación a la suscripción de este contrato,"+
+"El Banco Provincial S.A., Banco Universal, le hizo entrega de un ejemplar del documento inmediatamente antes trascrito, correspondiente al contrato de \"Oferta Pública\""+
+"que regula las Condiciones Generales de las Tarjetas de pago Electrónico del Banco Provincial, S.A., Banco Universal, el cual se encuentra registrado por"+
+"ante _______________________, en fecha __________________, bajo el Nro _____, Tomo__________ y publicado en el Diario _____________ en su "+
+"edición de fecha __________ y que por haberlo leído y estar de acuerdo en un todo, con los términos y condiciones de dicho documento, estampa su firma a"+
+"continuación, como constancia de aceptación del mismo. Asimismo declara el Tarjetahabiente que en la misma fecha el Banco le ha entregado un folleto explicativo del "+
+"funcionamiento y operatoria de la Tarjeta de Pago Electrónico Provincial; dicho folleto ha sido entregado por documento separado."
+]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+</jasperReport>
