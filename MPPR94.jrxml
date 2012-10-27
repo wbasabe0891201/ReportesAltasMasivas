@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="MPPR94" language="groovy" pageWidth="612" pageHeight="792" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20">
+	<property name="ireport.zoom" value="0.6209213230591585"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="157"/>
+	<parameter name="parameter1" class="java.lang.String"/>
+	<queryString language="xPath">
+		<![CDATA[/Cuentas/Documento]]>
+	</queryString>
+	<field name="nombreCliente" class="java.lang.String">
+		<fieldDescription><![CDATA[pagina/nombreCliente]]></fieldDescription>
+	</field>
+	<field name="cedIdentidad" class="java.lang.String">
+		<fieldDescription><![CDATA[pagiina/cedIdentidad]]></fieldDescription>
+	</field>
+	<detail>
+		<band height="752" splitType="Stretch">
+			<staticText>
+				<reportElement x="500" y="0" width="72" height="10"/>
+				<textElement textAlignment="Right">
+					<font fontName="Arial" size="6"/>
+				</textElement>
+				<text><![CDATA[Página 5 de 5]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement x="0" y="11" width="572" height="25"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="0" y="177" width="572" height="25"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="0" y="202" width="572" height="129"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="0" y="348" width="572" height="25"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="0" y="373" width="572" height="210"/>
+			</rectangle>
+			<staticText>
+				<reportElement x="0" y="11" width="572" height="25"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Arial" size="9" isBold="true"/>
+				</textElement>
+				<text><![CDATA[(3)                             EL                             TARJETAHABIENTE          ]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement x="0" y="36" width="572" height="129"/>
+			</rectangle>
+			<textField>
+				<reportElement x="0" y="36" width="572" height="11"/>
+				<textElement textAlignment="Left" verticalAlignment="Bottom">
+					<font fontName="Arial" size="7"/>
+				</textElement>
+				<textFieldExpression class="java.lang.String"><![CDATA["  Nombre y Apellido:  "+$F{nombreCliente}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="0" y="51" width="572" height="11"/>
+				<textElement textAlignment="Left" verticalAlignment="Bottom">
+					<font fontName="Arial" size="7"/>
+				</textElement>
+				<textFieldExpression class="java.lang.String"><![CDATA["  Cédula de Identidad:  "+$F{cedIdentidad}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="0" y="66" width="572" height="11"/>
+				<textElement textAlignment="Left" verticalAlignment="Bottom">
+					<font fontName="Arial" size="7"/>
+				</textElement>
+				<textFieldExpression class="java.lang.String"><![CDATA["  Cargo:  "]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="0" y="154" width="572" height="11"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Arial" size="7"/>
+				</textElement>
+				<textFieldExpression class="java.lang.String"><![CDATA["  Firma del Tarjetahabiente en señal de aceptación  de la Formalizacion del Contrato"]]></textFieldExpression>
+			</textField>
+			<line>
+				<reportElement x="0" y="153" width="177" height="1"/>
+			</line>
+			<textField>
+				<reportElement x="0" y="320" width="572" height="11"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Arial" size="7"/>
+				</textElement>
+				<textFieldExpression class="java.lang.String"><![CDATA["  Firma del Tarjetahabiente autorizando el envío del Estado de Cuenta"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="6" y="202" width="566" height="24"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Arial" size="7"/>
+				</textElement>
+				<textFieldExpression class="java.lang.String"><![CDATA["El Tarjetahabiente por este medio autoriza al Banco a enviar el Estado de Cuenta conforme a los términos señalados en la Cláusula Décima Segunda de las Condiciones Generales de las Tarjetas de Pago Electrónico del Banco Provincial, S.A., a la dirección señalada en la Casilla (2) de este documento."]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="0" y="177" width="572" height="25"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Arial" size="9" isBold="true"/>
+				</textElement>
+				<text><![CDATA[AUTORIZACION     PARA      EL      ENVIO      DEL      ESTADO      DE       CUENTA]]></text>
+			</staticText>
+			<line>
+				<reportElement x="0" y="319" width="177" height="1"/>
+			</line>
+			<textField>
+				<reportElement x="2" y="230" width="572" height="11"/>
+				<textElement textAlignment="Left" verticalAlignment="Bottom">
+					<font fontName="Arial" size="7"/>
+				</textElement>
+				<textFieldExpression class="java.lang.String"><![CDATA["  En la ciudad de ________________________ a los ______ días del mes de __________ del año ___________"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="0" y="438" width="177" height="11"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Arial" size="7"/>
+				</textElement>
+				<textFieldExpression class="java.lang.String"><![CDATA["  Firma"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="0" y="373" width="572" height="11"/>
+				<textElement textAlignment="Left" verticalAlignment="Bottom">
+					<font fontName="Arial" size="7"/>
+				</textElement>
+				<textFieldExpression class="java.lang.String"><![CDATA["  Nombre y Apellido:  "]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="0" y="403" width="572" height="11"/>
+				<textElement textAlignment="Left" verticalAlignment="Bottom">
+					<font fontName="Arial" size="7"/>
+				</textElement>
+				<textFieldExpression class="java.lang.String"><![CDATA["  Cargo:  "]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="0" y="348" width="572" height="25"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Arial" size="9" isBold="true"/>
+				</textElement>
+				<text><![CDATA[(4)                             REPRESENTANTE                             DEL                             BANCO]]></text>
+			</staticText>
+			<line>
+				<reportElement x="0" y="437" width="177" height="1"/>
+			</line>
+			<textField>
+				<reportElement x="0" y="388" width="572" height="11"/>
+				<textElement textAlignment="Left" verticalAlignment="Bottom">
+					<font fontName="Arial" size="7"/>
+				</textElement>
+				<textFieldExpression class="java.lang.String"><![CDATA["  Cédula de Identidad:  "]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="0" y="572" width="177" height="11"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Arial" size="7"/>
+				</textElement>
+				<textFieldExpression class="java.lang.String"><![CDATA["  Firma"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="0" y="507" width="572" height="11"/>
+				<textElement textAlignment="Left" verticalAlignment="Bottom">
+					<font fontName="Arial" size="7"/>
+				</textElement>
+				<textFieldExpression class="java.lang.String"><![CDATA["  Nombre y Apellido:  "]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="0" y="537" width="572" height="11"/>
+				<textElement textAlignment="Left" verticalAlignment="Bottom">
+					<font fontName="Arial" size="7"/>
+				</textElement>
+				<textFieldExpression class="java.lang.String"><![CDATA["  Cargo:  "]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="0" y="522" width="572" height="11"/>
+				<textElement textAlignment="Left" verticalAlignment="Bottom">
+					<font fontName="Arial" size="7"/>
+				</textElement>
+				<textFieldExpression class="java.lang.String"><![CDATA["  Cédula de Identidad:  "]]></textFieldExpression>
+			</textField>
+			<line>
+				<reportElement x="0" y="571" width="175" height="1"/>
+			</line>
+			<textField>
+				<reportElement x="220" y="740" width="100" height="12"/>
+				<textElement textAlignment="Center">
+					<font fontName="Arial" isBold="true"/>
+				</textElement>
+				<textFieldExpression class="java.lang.String"><![CDATA[$P{P_TEXTO_ORIGINAL}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="-11" y="714" width="11" height="26"/>
+				<textElement textAlignment="Left" verticalAlignment="Bottom" rotation="Left">
+					<font size="6"/>
+				</textElement>
+				<text><![CDATA[MPPR94]]></text>
+			</staticText>
+		</band>
+	</detail>
+</jasperReport>
