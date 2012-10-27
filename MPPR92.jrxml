@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="MPPR92" language="groovy" pageWidth="612" pageHeight="792" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20">
+	<property name="ireport.zoom" value="1.9487171000000014"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="0"/>
+	<parameter name="P_TEXTO_ORIGINAL" class="java.lang.String"/>
+	<queryString language="xPath">
+		<![CDATA[/Cuentas/Documento]]>
+	</queryString>
+	<detail>
+		<band height="752" splitType="Stretch">
+			<staticText>
+				<reportElement x="-11" y="715" width="11" height="26"/>
+				<textElement textAlignment="Left" verticalAlignment="Bottom" rotation="Left">
+					<font size="6"/>
+				</textElement>
+				<text><![CDATA[MPPR92]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="500" y="0" width="72" height="10"/>
+				<textElement textAlignment="Right">
+					<font fontName="Arial" size="6"/>
+				</textElement>
+				<text><![CDATA[Página 3 de 5]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="234" y="740" width="100" height="12"/>
+				<textElement textAlignment="Center">
+					<font fontName="Arial" isBold="true"/>
+				</textElement>
+				<textFieldExpression class="java.lang.String"><![CDATA[$P{P_TEXTO_ORIGINAL}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="0" y="10" width="572" height="730"/>
+				<textElement textAlignment="Justified">
+					<font size="6" isBold="false"/>
+				</textElement>
+				<textFieldExpression class="java.lang.String"><![CDATA["Personal NO se encuentren a sus alrededores personas que puedan visualizarla; (ii) NO aceptar colaboración o ayuda de terceros, incluidas personas que pudieran"+
+"identificarse como trabajadores o empleados del Banco; (iii) Al término de cualquier transacción procesada en los dispositivos electrónicos pulsar la opción \"CANCELAR\""+
+"contenida en ellos; (iv) NO realizar transacciones en Cajeros Automáticos cuyas pantallas presenten dificultades para su visualización o en aquellos que pueda observar"+
+"objetos  extraños  en  sus  dispositivos;  (v)  Verificar  el  monto  de cada transacción antes de proceder a procesarla; (vi) Impedir que en los Negocios Afiliados comerciales,"+
+"la Tarjeta de Pago Electrónica Provincial sea trasladada a un lugar que no pueda ser claramente visualizado por él; (vii) Verificar, al finalizar toda transacción en los  Negocios"+
+"Afiliados que la Tarjeta de Pago Electrónica que le es devuelta, se corresponde efectivamente con su Tarjeta de Pago Electrónica Provincial; (viii) De toda transacción"+
+"procesada en un Negocio Afiliado comercial que resulte fallida, el Tarjetahabiente deberá solicitar al Negocio Afiliado que le entregue, en forma impresa, la última"+
+"transacción procesada en el Terminal Punto de Venta y, adicionalmente le solicitará el nombre de la institución financiera propietaria del dispositivo Terminal Punto de Venta,"+
+"a  través del cual se procesó la transacción. 5.8) En caso de robo, pérdida o extravío de la Tarjeta de Pago Electrónico Provincial, el Tarjetahabiente podrá solicitar la"+
+"suspensación de la misma, a través de la red de Oficinas del Banco o a través de la Línea Provincial, siguiendo el procedimiento señalado en el numeral 16.8 de la Cláusula"+
+"Décina  Sexta  de  este  Condicionado.  El  Banco  repondrá  la Tarjeta de Pago Electrónico Provincial al Tarjetahabiente, en un lapso que no excederá de dos (2) días hábiles"+
+"bancarios. Mientras el Banco repone la Tarjeta de Pago Electrónico, el Tarjetahabiente podrá disponer de los fondos acreditados en su Tarjeta de Pago Electrónico, a través"+
+"de la red de oficinas del Banco. 5.9) El Banco no se responsabiliza por los bienes y servicios adquiridos a través del uso de la Tarjeta de Pago Electrónico Provincial, o bien"+
+"cualquier defecto o deficiencia de los bienes y servicios adquiridos, y cualquier disputa será mantenida entre el Negocio Afiliado y el Tarjetahabiente, sin vincular las"+
+"obligaciones con el Banco, las cuales serán independientes y autónomas, no pudiéndoles oponer compensación o reclamo por dichas disputas. Sexta: De la Tarjeta de"+
+"Coordenadas del Medio denominado Provinet. La Tarjeta de Coordenadas es un medio complementario de seguridad que el Banco suministra al Tarjetahabiente para que"+
+"éste pueda acceder a Provinet, y cuya finalidad es la de prevenir las acciones derivadas del fraude electrónico. Dicha Tarjeta de Coordenadas contiene una serie de números"+
+"como matriz de doble entrada que forma múltiples combinaciones de valores, denominadas Coordenadas, la cual deberá ser previamente activada por el Tarjetahabiente, a"+
+"través de Provinet, una vez activada, cada vez que el Tarjetahabiente ingrese a Provinet deberá asignar la Coordenada combinada que en forma aleatoria le será exigida"+
+"para  acceder  a  Provinet.  La  Tarjeta de Coordenadas se emitirá y entregará por el Banco al Tarjetahabiente, único y legitimado para su utilización, conforme a lo señalado a"+
+"continuación: Solicitud, activación y utilización de la Tarjeta de Coordenadas a) Solicitud: En cualquiera de las oficinas del Banco y en el futuro podrá realizarse también por"+
+"Provinet. b) Activación: Una vez que el Tarjetahabiente reciba la Tarjeta de Coordenadas, para su utilización deberá activarla a través de Provinet. c) Utilización: Tras activar"+
+"la  Tarjeta de Coordenadas, en los posteriores accesos a Provinet y Provinet Móvil, además de los datos de la Tarjeta de Débito o Tarjeta de Pago Electrónico y la Clave de"+
+"Acceso a Provinet y la Clave de Acceso a Provinet Móvil, según sea el caso, se solicitará que se introduzca una de las coordenadas que aparecen impresas en la Tarjeta de"+
+"Coordenadas.  Sólo podrá acceder a Provinet si la coordenada y el resto de datos y clave personal introducidos son correctos. En el futuro, el Banco se reserva el derecho de"+
+"incluir el uso de la Tarjeta de Coordenadas para complementar la seguridad en la tramitación de operaciones tramitadas a través de Provinet, en las cuales, además de los"+
+"datos  habituales,  se  solicitará  que  se  introduzca  una  de  las  coordenadas.  d)  Entrega: La entrega de la Tarjeta de Coordenadas se realizará o bien, en cualquiera de las"+
+"oficinas del Banco o a la dirección de correspondencia suministrada por el Tarjetahabiente al Banco. e) Bloqueo o Desbloqueo: El uso incorrecto de la Tarjeta de Coordenada"+
+"origina su bloqueo temporal, la cual podrá ser desbloqueada a través de la Línea Provincial. f) Suspensión: El Tarjetahabiente podrá suspender el cualquier momento su"+
+"Tarjeta  de  Coordenadas  por  robo,  extravío o cese de la relación contractual. En caso de suspensión, si el Tarjetahabiente desea ingresar nuevamente a Provinet o"+
+"Provinet  Móvil, deberá  solicitar  una  nueva  Tarjeta de Coordenada en cualquiera de las oficinas de la red comercial del Banco. Séptima: De los Cajeros Automáticos. 7.1) El"+
+"Tarjetahabiente  para  acceder  a  un  Cajero  Automático  deberá  utilizar  la  Tarjeta  de  Pago  Electrónico   e  ingresar  su  Clave  de  Acceso  a  Cajeros Automáticos. 7.2) El"+
+"Tarjetahabiente, haciendo uso de los Cajeros Automáticos, podrá realizar retiro de efectivo de la Tarjeta de Pago Electrónico, dentro de las limitaciones técnicas de"+
+"disposición y disponibilidad establecidas para estos dispositivos electrónicos, por el Banco y por las redes interbancarias; consultas de saldos y últimos 20 movimientos de la"+
+"Tarjeta de Pago Electrónico; consultas de fideicomiso; consultas de tarjetas de crédito del Tarjetahabiente emitidas por el Banco; transferencias entre la Tarjeta de Pago"+
+"Electrónico  y  cuentas  de  depósito  del  Tarjetahabiente,  pagos  a  tarjetas  de  crédito  del Tarjetahabiente emitidas por el Banco; cambio de la Clave Personal; depósitos en"+
+"efectivo en cuentas del Tarjetahabiente y en cuentas de terceros abiertas en el Banco; pago de servicios de electricidad, telefonía fija, recarga de tel`éfonos móviles; y, realizar"+
+"cualesquiera otras Operaciones que el Banco incorpore a dicho Medio en un futuro, sujetas a las limitaciones, términos y modalidades establecidos por el Banco, las cuales"+
+"serán  anunciadas  a  través  de  los  medios  de que disponga a tal efecto. Octava: De la Línea Provincial. 8.1) El Tarjetahabiente que desee utilizar la Línea Provincial, tendrá"+
+"acceso  a  éste  en  forma  automática,  a  través  de  los  números telefónicos anunciados en los medios que disponga a tal efecto. El Tarjetahabiente, para acceder a la Línea"+
+"Provincial deberá ingresar el número de la Tarjeta de Pago Electrónico Provincial y su Clave de Acceso a Línea Provincial. 8.2) El Tarjetahabiente, haciendo uso de la Línea"+
+"Provincial, podrá realizar consultas de saldos, solicitud de estados de cuenta y de movimientos de la Tarjeta de Pago Electrónico; consultas de fideicomiso; transferencias de"+
+"sumas  de  dinero  entre la Tarjeta  de Pago Electrónico y cuentas de depósito abiertas en el Banco propias del Tarjetahabiente; consultas de movimientos, estados de"+
+"cuenta, avance de efectivo y pago de saldos de tarjetas de crédito emitidas por  el  Banco,  cambio  de  clave  personal  de  la  Tarjeta de Pago Electrónico del"+
+"Tarjetahabiente, emitida por el Banco; inactivación temporal de la Tarjeta de Pago Electrónico; reactivación de su Clave Personal; pago de servicios de electricidad, telefonía"+
+"fija,  móvil  e internet; formulación y consulta de reclamos. Novena: De Provinet y Provinet Móvil. El Tarjetahabiente podrá a través de Provinet y Provinet Móvil, realizar"+
+"pagos,  transferencias,  domiciliaciones  y consultas de saldos y abonos efectuados a su Tarjeta de Pago Electrónico Provincial; la afiliación a este servicio la realizará con los"+
+"números  que indentifican su Tarjeta de Pago Electrónico Provincial y su Clave de Acceso a Provinet, a través del sitio en Internet del Banco, por el cual éste presta el servicio"+
+"de  banca  electrónica,  siguiendo  las  instrucciones  que  el  sistema  le indique, y, realizar cualesquiera otras Operaciones que el Banco incorpore a dicho Medio en un"+
+"futuro,  sujetas  a  las  limitaciones,  términos  y  modalidades  establecidos  por  el Banco,  las  cuales  serán  anunciadas  a  través de los medios de que disponga a tal"+
+"efecto. Décima: De Provitexto: 10.1) El Tarjetahabiente que desee afiliarse a Provitexto deberá llenar el formulario provisto a tales fines por el Banco a través de su red de"+
+"oficinas o agencias, presentando su Tarjeta de Pago Electrónico y su cédula de identidad. En dicho formulario, el Tarjetahabiente deberá indicar el número de la Tarjeta de"+
+"Pago Electrónico para enviar la información requerida por Provitexto, e igualmente, deberá señalar el número de telefóno celular en cuyo equipo desea recibir los mensajes"+
+"de  texto digitales (SMS - Short message service), de las Operaciones Bancarias realizadas con la Tarjeta de Pago Electrónico afiliada a Provitexto. 10.2) A través de"+
+"Provitexto el Tarjetahabiente recibirá en su equipo de telefóno celular, mediante mensajes de texto digitales (SMS - short message service), la notificación del abono en su "+
+"Tarjeta  de  Pago  Electrónico ordenado por la Empresa. 10.3) La información contenida en los mensjaes de texto (SMS - Short message service) será generada por el"+
+"Banco, en la fecha que efectivamente se realice el abono en su Tarjeta de Pago Electrónico, dentro del horario comprendido entre las 5:00 a.m. y las 6:30 a.m., y la misma"+
+"será  transmitida  en forma electrónica por el Banco, al proveedor del servicio de telefonía celular indicado por el Tarjetahabiente, dentro del horario comprendido entre las"+
+"6:31 a.m. y las 7:29 a.m. El Banco, por razones de orden técnico o por razones de carácter administrativo vinculadas y/o relacionadas con el procesamiento general de su"+
+"data, podrá en cualquer tiempo, modificar los horarios de generación y transmisión de la información contenida en los SMS. El proveedor del servicio de telefonía celular"+
+"transmitirá al Tarjetahabente, la información contenida en los SMS generados por el Banco, a través del número telefónico señalado por el Tarjetahabiente en el formulario"+
+"de afiliación indicado en el numeral 10.1 de este documento, dentro del horario comprendido entre las 7:30 a.m. y las 9:00 a.m. Dicho horario podrá ser modificado en atención"+
+"a lo indicado en este mismo numeral. 10.4) El Banco indicará en cada uno de los SMS, la hora exacta en que fue generada la data o información contenida en cada uno de"+
+"ellos.  10.5)  Para  la  recepción  de  los  SMS,  el  Tarjetahabiente  debe disponer de un equipo de telefonía móvil digital, el cual para el momento de la transmisión de los"+
+"SMS, por parte  del  proveedor  del  servicio  de  telefonía  celular,  debe  encontrarse  encendido  y dentro del área de cobertura del proveedor del servicio de telefonía"+
+"celular.  Adicionalmente,  el  equipo  móvil  celular  debe tener disponible una capacidad de memoria suficiente que le permita recibir los SMS. Si para el momento en el cual el"+
+"proveedor  del  servicio  de  telefonía celular efectúe la primera transmisión de los SMS, el equipo telefónico no cumple con todos los condicionantes previstos en esta"+
+"sección, el proveedor del servicio de telefonía celular efectuará retransmisiones de los SMS en forma automática, hasta las 3:00 p.m. de cada día. El número de"+
+"retransmisiones  automáticas  de  los  SMS,  así  como,  el  horario  y  periodicidad  con que serán efectuadas las mismas, serán convenidos entre el Banco y el proveedor del"+
+"servicio  de  telefonía  celular.  Una  vez  concluido  el  horario  para  efectuar  las  retransmisiones  de  los  SMS, aún cuando no hubieren sido recibidos por el"+
+"Tarjetahabiente, los mismos serán desactivados por el proveedor del servicio de telefonía celular y eliminados de sus archivos electrónicos, por tanto, a partir de ese"+
+"momento,  ni  el  Banco  ni  el  proveedor  del  servicio  de  telefonía  celular,  estarán  obligados  a  efectuar  nuevas  transmisiones  o  retransmisiones  de tales SMS. 10.6) El"+
+"Tarjetahabiente  autoriza  al  proveedor  del  servicio  de  telefonía  celular  a  almacenar  la  información  contenida en los SMS en archivos electrónicos. 10.7) Los cambios de"+
+"horarios para la transmisión y retransmisión de los SMS que no tengan su origen en razones de orden técnico, administrativo, de mantenimiento a los sistemas"+
+"computarizados, de seguridad, por algún hecho fortuito o fuerza mayor, por fallas de cualquier naturaleza, o por cualquier otra causa justificada, el Banco los hará del"+
+"conocimiento del Tarjetahabiente, a través de anuncios que el Banco publicará en su red de oficinas o agencias o de avisos y/o encartes enviados al Tarjetahabiente a la"+
+"dirección de correo registrada en el Banco o de avisos publicados en un diario de circulación nacional oa través de cualquier de cualquier otro medio de comunicación que"+
+"considere conveniente. 10.8) El Tarjetahabiente releva al Banco de toda responsabilidad si los SMS transmitidos al número telefónico indicado en el formulario de afiliación"+
+"llegan al conocimiento de cualquier tercero, como consecuencia de la negligencia, el descuido y/o la imprudencia del Tarjetahabiente en la guarda y custodia de los equipos"+
+"receptres de los SMS, o si los mismos se le extravían, le son robados o hurtados, casos estos últimos en los cuales el proveedor del servicio de telefonía celular suspenderá"+
+"el envío de los SMS a partir del momento en el cual reciba notificación escrita por parte del suscriptor o propietario de la línea de teléfono, solicitando la suspensión del"+
+"servicio de telefonía celular del número telefónico indicado en el formulario de afiliación. Décima Primera: De los Terminales Puntos de Venta. 11.1) A través de los"+
+"Terminales  Puntos de Venta, el Tarjetahabiente podrá efectuar los pagos de los bienes y/o servicios adquiridos en los Negocios Afiliados donde se encuentren instalados"+
+"estos  dispositivos,  mediante  el  uso  de  la  Tarjeta de Pago Electrónico Provincial. 11.2) Para procesar un pago con la Tarjeta de Pago Electrónico Provincial a través de los"+
+"Terminales Puntos de Venta, el Tarjetahabiente deberá  identificarse en el Negocio Afiliado con la Tarjeta de Pago Electrónico Provincial y su Cédula de Identidad. El Negocio"+
+"Afiliado  mediante  el  uso de la Tarjeta de Pago Electrónico suministrada por el Tarjetahabiente, se comunicará con el Banco en forma electrónica a través del Terminal Punto"+
+"de Venta, establecida dicha comunicación, el Negocio Afiliado le indicará al Banco, en foma electrónica, (i) el monto que le pagará el Tarjetahabiente, (ii) el Tarjetahabiente"+
+"deberá  insertar  su  Clave  de  Acceso  a Terminales Puntos de Venta, y (iii) cualquier otra información que le fuere requerida por el Sistema al cual se encuentre conectado"+
+"al Terminal Punto de Venta. 11.3) Procesado como fuere el pago ordenado por el Tarjetahabiente, se generará electrónicamente a través del Terminal Punto de Venta, un"+
+"comprobante para el Tarjetahabiente quien deberá verificar que la información contenida en el mismo se corresponde con la autorizada por él.  En caso de discrepancia entre"+
+"el monto autorizado por el Tarjetahbiente y el señalado en el comprobante, se tomará siempre como válido el indicado en el comprobante. 11.4) El uso de la Tarjeta de Pago"+
+"Electrónico  Provincial  en  los  Terminales  Puntos  de  Venta,  se  limita  únicamente  al  pago  de  bienes  y/o servicios propios del Negocio Afiliado donde esté instalado este"+
+"dispositivo,  y en ningún caso podrá servir para cancelar servicios y/o mercancías extrañas a la actividad comercial de éste. Décima Segunda: Del Estado de Cuenta. 12.1) El"+
+"Banco llevará los movimientos de la Tarjeta de Pago Electrónico Provincial al día, y mensualmente, dentro de los cinco (5) días continuos siguientes a la terminación de cada"+
+"mes,  enviará al Tarjetahabiente a la dirección de correo seleccionada por éste (domicilio o correo electrónico), en la oportunidad en la cual  solicitó la contratación de la"+
+"Tarjeta de Pago Electrónico, un estado de los movimientos de la Tarjeta de Pago Electrónico Provincial, correspondientes al período de culminación de cada mes calendario"+
+"de que se trate. 12.2) Cuando el Tarjetahabiente no hubiere recibido el respectivo Estado de Cuenta dentro de los cinco (5) días continuos siguientes al vencimiento del Plazo"+
+"anteriormente señalado, está obligado a reclamar por escrito el respectivo Estado de Cuenta, dentro de los quince (15) días siguientes al vencimiento del plazo dentro del"+
+"cual debió recibirlo, y el Banco estará obligado a entregárselo de inmediato. 12.3) Vencido este último plazo de quince (15) días continuos sin que el Tarjetahabiente haya"
+]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+</jasperReport>
