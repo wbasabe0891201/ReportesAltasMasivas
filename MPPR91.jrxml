@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="MPPR91" language="groovy" pageWidth="612" pageHeight="792" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20">
+	<property name="ireport.zoom" value="1.331000000000002"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="739"/>
+	<parameter name="P_TEXTO_ORIGINAL" class="java.lang.String"/>
+	<queryString language="xPath">
+		<![CDATA[/Cuentas/Documento]]>
+	</queryString>
+	<field name="codOficina" class="java.lang.String">
+		<fieldDescription><![CDATA[pagina/codOficina]]></fieldDescription>
+	</field>
+	<detail>
+		<band height="752" splitType="Stretch">
+			<staticText>
+				<reportElement x="500" y="0" width="72" height="10"/>
+				<textElement textAlignment="Right">
+					<font fontName="Arial" size="6"/>
+				</textElement>
+				<text><![CDATA[Página 2 de 5]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="0" y="10" width="572" height="730"/>
+				<textElement textAlignment="Justified">
+					<font size="6" isBold="false"/>
+				</textElement>
+				<textFieldExpression class="java.lang.String"><![CDATA["certificable con la registrada en los sistemas del Banco. Los Comprobantes que se generarán para Provinet y Provinet Móvil será un mensaje electrónico con la información"+
+"de  la operación realizada, con el fin de ser utilizado como soporte y control del Tarjetahabiente al momento de imprimirlo o almacenarlo en medios electrónicos, y será"+
+"certificable con la información registrada en los sistemas del Banco. 1.11) Empresa: La persona natural o jurídica que ha celebrado con el Banco un Convenio para el"+
+"Procesamiento de Pagos a favor del Tarjetahabiente, entre otros medios, a través de la Tarjeta de Pago Electrónico Provincial. En virtud del referido Convenio el Banco"+
+"procederá en las fechas señaladas por la Empresa, a acreditar las sumas de dinero ordenadas en la Tarjeta de Pago Electrónico. 1.12) Estado de Cuenta: Documento"+
+"elaborado  por  el  Banco  mensualmente, contentivo  de  la descripción de las distintas Operaciones  realizadas  por  el  Tarjetahabiente  con  la  Tarjeta  de Pago Electrónico,"+
+"conforme a lo señalado en este Condicionado. Dicho documento contendrá, entre otras, la siguiente información: (i) la denominación del Banco Provincial, S.A.,"+
+"Banco Universal: (ii) nombre, apellido y dirección del Tarjetahabiente; (iii) número de la Tarjeta de Pago Electrónico Provincial de la cual se trate; (iv) el Código de Cuenta del"+
+"Cliente; (v) fecha de emisión del Estado de Cuenta; (vi) fecha de corte del Estado de Cuenta, correspondiente al mes; (vii) relación explícita de los abonos ordenados por la"+
+"Empresa; (viii) relación de las Operaciones o transacciones realizadas por el tarjetahabiente con la Tarjeta de Pago Electrónico; (iv) relación de las comisiones generadas por"+
+" el uso de la Tarjeta de Pago Electrónico, conforme a los señalado en la Cláusula Décima Quinta de este contrato; (x) números telefónicos de servicio al Tarjetahabiente para"+
+"consultas en general, reporte de extravío, fraudes, clonación, robos, o hurtos y otras denuncias; (xi) cualquier otro dato de interés para el tarjetahabiente que el Banco desee"+
+"hacer de  su  conocimiento;  y,  (xii)  los  demás  que  considere  pertinente  o exija la normativa bancaria. 1.13) Medios: Es el término que se utilizará para identificar, en forma"+
+"conjunta,  a  los  sistemas de comunicación y/o dispositivos que se definen a continuación: 1.13.1)  Cajeros  Automáticos:  Son  equipos  o  dispositivos  de  banca  electrónica"+
+"propiedad del Banco o de otras Instituciones Financieras, situados dentro y/o fuera del territorio de la República, los cuales se encuentran conectados, electrónicamente, con"+
+"el Sistema de computación del Banco y con las Redes Interbancarias Suiche 7B, y/o  Cirrus,  o  con  cualquier  otra  Red  a  la  cual  el  Banco  decida  afiliarse.  1.13.2)  Línea"+
+"Provincial: Es el centro de atención telefónica del Banco, a través de la cual pueden acceder los Tarjetahabientes para realizar las Operaciones Bancarias vía telefóncia. Este"+
+"sistema presenta dos (2) opciones: La primera que permite a los Tarjetahabientes, a través del sistema automático de voz - interactive voice response - (IVR - Robot de voz"+
+"Interactivo), interactuar directamente con el Sistema de Computación del Banco para realizar sus Operaciones Bancarias y la segunda permite a los Tarjetahabientes  ser"+
+"atendidos  en  forma  personalizada  por un operador. 1.13.3) Provinet: Es un canal electrónico propiedad del Banco, mediante el cual, a través de Internet en el sitio web"+
+"www.provincial.com, el Tarjetahabiente podrá realizar las distintas Operaciones Bancarias Habilitadas por el Banco, para la banca electrónica, y en general, todas las"+
+"transacciones financieras que se desarrollen en el comercio electrónico y que el Banco ponga a la disposición del Tarjetahabiente. Para acceder a Provinet y realizar las"+
+"Operaciones Bancarias habilitadas por el Banco se requerirá del uso de la Tarjeta de Pago Electrónico, indicará su Número de Identificación Personal, la Clave de Acceso a"+
+"Provinet y la coordenada de la Tarjeta de Coordenadas que se le infdique en cada oportunidad. 1.13.4) Provinet Móvil: Es un canal electrónico propiedad del Banco, mediante"+
+"el cual el Tarjetahabiente, a través de un equipo telefónico móvil, podrá realizar las distintas Operaciones Bancarias habilitadas por el Banco, para la banca móvil. Para"+
+"acceder  a  Provinet  Móvil  y  realizar  las  Operaciones  Bancarias  habilitadas  por  el  Banco,  se  requerirá del uso de la Tarjeta de Pago Electrónico, indicará su Número de"+
+"Identificación  Personal, la Clave de Acceso a Provinet Móvil y la coordenada de la Tarjeta de Coordenadas que se le indique en cada oportunidad. 1.13.5) Terminales Puntos"+
+"de Venta: Son equipos o dispositivos propiedad del Banco o de otras Instituciones Financieras, situados dentro y/o fuera del territorio de la República de Venezuela, los"+
+"cuales  están conectados,  electrónicamente,  con  el  Sistema  de  computación  del  Banco  y  con  las  Redes  Interbancarias SUICHE 7B, y/o CIRRUS y/o MAESTRO o con"+
+"cualquier otra Red a la cual el Banco decida afiliarse. 1.14.) Negocio Afiliado: Es el término que se utilizará, en lo sucesivo, para identificar, al establecimiento comercial, sea"+
+"persona natural o jurídica, expendedor de bienes o prestador de servicio autorizado por el Banco, para procesar los consumos del Tarjetahabiente en los Terminales Puntos"+
+"de Venta que se encuentren instalados en dichos establecimientos. 1.15) Número de Identificación del Tarjetahabiente: Es el término que se utlizará, en lo sucesivo, para"+
+"referirnos  al Factor de Autenticación Categoría 1, el cual está compuesto por los números de la Tarjeta de Pago de Electrónico, asignada al Tarjetahabiente por el Banco, con"+
+"los cuales el Tarjetahabiente, conjuntamente con la respectiva Clave Personal creada para cada Medio, se identificará para ingresar o confirmar las Operaciones Bancarias"+
+"realizadas por  Banc a Electrónica,  el  cual  autenticará  y  validará  la  identificación  del Tarjetahabiente frente al Banco. 1.16) Provitexto: Este término se utilizará para hacer"+
+"referencia al servicio, mediante el cual el Banco le transmitirá al teléfono celular del Tarjetahabiente que éste le haya señalado para este fin, por intermedio de las empresas"+
+"proveedoras de telefonía celular, mensajes digitales de texto (SMS), contentivo de la información relativa al abono del monto ordenado por la Empresa en la Tarjeta de Pago"+
+"Electrónico. 1.17) Servicios u Operaciones  Bancarias:  Este  término  se  utilizará  para  hacer  referencia,  a  cualquier  operación de compra de bienes y/o pago de servicios,"+
+"solicitud de efectivo,  transferencias,  consultas  de  saldos  o  movimientos  efectuados  por  el  Tarjetahabiente, mediante el uso de la Tarjeta de Pago Electrónico Provincial a"+
+"través  de  los  Medios, conforme  a  lo estipulado en este Condicionado. 1.18) Sistema: Es el término que se utilizará en lo sucesivo para referirse a la plataforma tecnológica"+
+"informática utilizada por el Banco para la prestación de los Servicios. 1.19) Tarjeta de Coordenadas: Se refiere a la tarjeta física de plástico, que presenta en su reverso una"+
+"serie  de  columnas  y  filas  con  distintas  numeraciones,  las  cuales formarán las múltiples combinaciones de valores, denominadas coordenadas, para acceder o ingresar a"+
+"Provinet, cuya activación y utilización se describe en la Cláusula Sexta de este Condicionado. 1.20) Tarjeta de Pago Electrónico: Se refiere al instrumento magnético,"+
+"electrónico  u  otra  tecnolog``ía,  emitido  por  el  Banco  que  permite  al  Tarjetahabiente,  con  el  uso  de  su Clave  Personal,  acceder a través de los Medios para realizar las"+
+"Operaciones  o Servicios Bancarios señalados en este Condicionado. Dicha Tarjeta de Pago Electrónico le permitirá al Tarjetahabiente acceder a los Servicios u"+
+"Operaciones Bancarias señaladas en este Condicionado. 1.21) Tarjetahabiente: Es toda persona natural que, previo contrato con el Banco, es habilitado por el uso de una"+
+"Tarjeta  de  Pago  Electrónica  Provincial,  mediante  la  cual  recibirá  los pagos ordenados por la Empresa, para ser movilizados con la Tarjeta de Pago Electrónico"+
+"Provincial. Segunda: Del Contrato. Por el presente Contrato el Banco pone a disposición del Tarjetahabiente, un instrumento denominado \"Tarjeta de Pago Electrónico"+
+"Provincial\", emitido bajo la marca Maestro, que le permitirá al Tarjetahabiente, utilizar dicha tarjeta como medio de pago para disponer libre e íntegramente de los fondos"+
+"acreditados en la misma, a través de la realización de las siguientes operaciones: 2.1. Retiros de cantidades de dinero en las taquillas de la red de oficinas del Banco, durante"+
+"las horas de caja, en los días hábiles bancarios. 2.2. Retiros de sumas de dinero en efectivo en los Cajeros Automáticos, dentro de las limitaciones técnicas de disposición y"+
+"disponibilidad, establecidas para estos dispositivos electrónicos por el Banco y por las redes interbancarias. 2.3. Adquisición de bienes y/o pago de servicios en los Negocios"+
+"Afiliados a la red, a través de los Terminales Puntos de Venta. 2.4. Realizar transferencias entre cuentas propias y a terceros a través de Cajeros Automáticos, Provinet,"+
+"Línea Provincial  y  Provinet Móvil. 2.5. Domiciliar y realizar pagos de servicios y sus Tarjetas de Crédito a través de Cajeros Automáticos, Provinet, Línea Provincial y"+
+"Provinet Móvil. 2.6. Recibir de terceros cantidades de dinero o depósitos, pagos o transferencias en su Tarjeta de Pago Electrónico a través de las taquillas de la red de"+
+"oficinas del Banco, o de Cajeros Automáticos, o a través de Provinet, o a través de otros bancos de la red interbancaria nacional. 2.7. Adicionalmente el Tarjetahabiente podrá"+
+"realizar  consultas de los saldos y/o movimientos de la Tarjeta de Pago Electrónico (Montos abonados, pagos realizados y saldo disponible), a través de Cajeros Automáticos,"+
+"Provinet, Línea Provincial y Provinet Móvil. 2.8. El Banco podrá incorporar cualquier operación para ser realizada mediante el uso de la Tarjeta de Pago Electrónico Provincial. "+
+"Tercera: De la Solicitud de la Tarjeta de Pago Electrónico Provincial. 3.1) El particular interesado en contratar una Tarjeta de Pago Electrónico Provincial, deberá"+
+"previamente  realizar  una solicitud  al  Banco,  requeriendo  la  contratación   de  este  medio  de  pago.  Una  vez  realizada  la  solicitud,  procederá  a  llenar  los formularios"+
+"correspondientes, con su nombre completo y dirección y deberá entregarlos en las oficinas  o  agencias del  Banco,  junto  con  las  copias fotostáticas de sus  documentos de"+
+"identificación  y demás recaudos que le solicite el Banco para la formalización de este Contrato. 3.2) El Banco prestará los Servicios que se describen en estas Condiciones"+
+"Generales, en los términos que aquí se estipulan, a aquellas personas naturales que así lo hayan solicitado, dando cumplimiento a los requisitos exigidos por el Banco a tal"+
+"efecto. La aceptación de estas Condiciones Generales por parte del Tarjetahabiente, tendrá lugar cuando el Tarjetahabiente suscriba el presente Contrato en señal de"+
+"aceptación,  a  partir  de  la  aceptación de estas Condiciones Generales, el Tarjetahabiente se obliga a cumplir con los términos y condiciones establecidos para los Servicios"+
+"que  le prestará el Banco, conforme se expresa en este Contrato. 3.3) El Banco entregará la Tarjeta de Pago Electrónico Provincial al Tarjetahabiente, en la oficina gestora del"+
+"Banco seleccionada por el Tarjetahabiente, en la oportunidad de suscripción del presente Condicionado, para la respectiva entrega. 3.4) El Tarjetahabiente para la"+
+"comprensión de este Condicionado, se compromete a leer y analizar detenidamente la presente Oferta Pública, la cual es recibida por el Tarjetahabiente con cinco (5) días"+
+"previos a la fecha de suscripción del presente contrato; por su parte, el Banco se compromete a dar al Tarjetahabiente, a través de funcionarios calificados, las explicaciones"+
+"que sean requeridas en relación con la Tarjeta de Pago Electrónico Provincial. El presente condicionado se encuentra a la disposición del Tarjetahabiente en la red de"+
+"oficinas del Banco. 3.5) En caso de modificación de la información suministrada por el Tarjetahabiente en la fecha de suscripción de este contrato, éste se obliga a notificar y"+
+"presentar inmediatamente al Banco, los documentos donde se evidencie tal modificación. Cuarta: Del Abono a la Tarjeta de Pago Electrónico. El Banco, conforme a lo"+
+"previsto en el Convenio de Procesamiento de Pagos que tiene celebrado con la Empresa para el pago de los servicios y conceptos expresados en dicho Convenio,"+
+"procederá, actuando siempre, por orden y cuenta de la Empresa, a abonar en las fechas indicadas por ésta, las cantidades de dinero, expresamente ordenadas por la"+
+"Empresa,  para  ser  acreditas  a  la  Tarjeta  de  Pago  Electrónico.  Quinta:  De  la  Tarjeta de Pago Electrónico Provincial y la Clave Personal. 5.1) El Tarjetahabiente declara"+
+"conocer y aceptar que el plástico, representado en la Tarjeta de Pago Electrónico  Provincial, pertenece al Banco, quien la emite para el uso personal, exclusivo e"+
+"intransferible del Tarjetahabiente, para la movilización de los fondos abonados por el Banco, por cuenta y orden de la Empresa. En consecuencia, el Tarjetahabiente no podrá"+
+"ceder su uso ni hacerse sustituir por terceros, en el ejercicio de sus derechos o en el cumplimiento de las obligaciones derivadas del uso de la Tarjeta de Pago Electrónico"+
+"Provincial,  haciéndose  responsable  por  cualquier  consecuencia  derivada  del  incumplimiento  de  esta  obligación.  5.2)  En  la  Tarjeta  de  Pago Electrónico Provincial se"+
+"encuentra impreso la siguiente información: (i) la denominación comercial Banco Provincial, S.A., Banco Universal, como emisor de la Tarjeta; (ii) logotipo del Banco; (iii)"+
+"numeración específicamente asignada por el Banco al Tarjetahabiente; (iv) todas o algunas de las marcas y/o franquicias siguientes: Suiche 7B y/o Maestro y/o CIrrus y/o"+
+"cualquier  otra  marca  y/o  franquicia que el Banco, en el futuro, acuerde incorporar a los fines de ampliar su aceptación nacional o internacional; (v) fecha de vencimiento; (vi)"+
+"dígitos validadores; y, (vii) panel destinado para estampar la firma del Tarjetahabiente. El Banco se reserva el derecho de incorporar a la Tarjeta de Pago Electrónico nuevas"+
+"adiciones  o  referencias  que  estime  conveniente,  en  particular  aquellas  que  fortalezcan  la  seguridad  de  la  Tarjeta  de  Pago Electrónico para su respectivo uso. 5.3) El"+
+"Tarjetahabiente  para  movilizar los fondos acreditados en la Tarjeta de Pago Electrónico Provincial, deberá hacer uso de la misma y de la correspondiente Clave Personal, en"+
+"los  términos  expresados  en  las  Definiciones y en esta Cláusula. 5.4) Tan pronto como el Tarjetahabiente reciba su Tarjeta de Pago Electrónico por parte del Banco, deberá"+
+"estampar  su  firma  autógrafa  en  el  panel  dispuesto  en  el  reverso  del  plástico, y asimismo, deberá seleccionar su propia Clave Personal, para lo cual el Banco pone a su"+
+"disposición la Línea Provincial, para ello deberá seguir las instrucciones que tal Medio le indique. Queda expresamente entendido que el Tarjetahabiente está obligado a no"+
+"divulgar la Clave de Identificación Personal bajo ningún concepto o forma alguna, observando la mayor diligencia al momento de introducirla o suministrarla en los Medios y"+
+"no permitiendo que la misma pueda ser observada o llegar al conocimiento de terceras personas. La Clave de Identificación Personal podrá ser cambiada por el"+
+"Tarjetahabiente cuantas veces así lo requiera, a través de la Línea Provincial, los Cajeros Automáticos, o a través de los dispositivos que el Banco ponga a su disposición a"+
+"esos fines.  5.5) El Tarjetahabiente es responsable del uso de la Tarjeta de Pago Electrónico y de la Clave Personal, siendo de su exclusiva competencia la guardia y custodia"+
+"de la misma. En consecuencia, el Tarjetahabiente a partir del momento en que reciba del Banco la Tarjeta de Pago Electrónico y  seleccione su correspondiente Clave"+
+"Personal, será responsable frente al Banco y frente a cualquier tercero, de todas las operaciones y transacciones que se realicen o ejecuten mediante el uso de su Tarjeta de"+
+"Pago Electrónico. Sin embargo, en los casos de cargos realizados con la Tarjeta de Pago Electrónico por personas ajenas o distintas al Tarjetahabiente, no se cobrarán a"+
+"éste, por ser indebidos, a menos que se compruebe su culpabilidad en el hecho. 5.6) El Banco al hacerle entrega al Tarjetahabiente de la Tarjeta de Pago Electrónico"+
+"Provincial, ha tomado como elementos fundamentales, las condiciones, cualidades y demás particularidades del Tarjetahabiente; en tal sentido, el contrato se entiende"+
+"celebrado intuitu personae respecto al Tarjetahabiente, quien en ningún caso podrá cederlo a traspasarlo en forma alguna. 5.7) El Tarjetahabiente al hacer uso de la Clave"+
+"Personal  y de la Tarjeta de Pago Electrónico Provincial, se obliga a adoptar como mínimo las siguientes medidas de seguridad: (i) Verificar que al hacer uso de la Clave"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="234" y="740" width="100" height="12"/>
+				<textElement textAlignment="Center">
+					<font fontName="Arial" isBold="true"/>
+				</textElement>
+				<textFieldExpression class="java.lang.String"><![CDATA[$P{P_TEXTO_ORIGINAL}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="-11" y="714" width="11" height="26"/>
+				<textElement textAlignment="Left" verticalAlignment="Bottom" rotation="Left">
+					<font size="6"/>
+				</textElement>
+				<text><![CDATA[MPPR91]]></text>
+			</staticText>
+		</band>
+	</detail>
+</jasperReport>
